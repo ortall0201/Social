@@ -1,0 +1,228 @@
+{
+  "week_number": 3,
+  "generated_at": "2025-12-16T18:07:17.998Z",
+  "qa_count": 22,
+  "version": "v1",
+  "chatbot": "Devi",
+  "qa_pairs": [
+    {
+      "keywords": [
+        "trending",
+        "trends",
+        "hot",
+        "popular",
+        "whats new"
+      ],
+      "question": "What's trending this week?",
+      "answer": "Hey loves! This week, oversized blazers are the must-have item. They're effortlessly chic and perfect for any occasion 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "latest",
+        "this week"
+      ],
+      "question": "What are the latest fashion trends?",
+      "answer": "Gorgeous! Mini velvet shorts are making a playful comeback this week, layered under cozy knits or flowing coats. So fun! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "now"
+      ],
+      "question": "What's hot in fashion right now?",
+      "answer": "Right now, cozy sweatpants paired with cute crop tops are a huge hit. Comfort meets style beautifully, loves! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "latest"
+      ],
+      "question": "What are the latest styles to try?",
+      "answer": "Flowing dresses layered with tailored jackets and knee-high boots are trending. It's the perfect balance of relaxed and polished! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "popular"
+      ],
+      "question": "What styles are popular this week?",
+      "answer": "This week, soft pastel colors are in! Think blush pinks and mint greens for a dreamy winter look, gorgeous! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "this week",
+        "whats new"
+      ],
+      "question": "What's new in the fashion scene?",
+      "answer": "Loves, oversized blazers and mini velvet shorts are making waves! Get ready to refresh your wardrobe! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "buy",
+        "shop",
+        "product",
+        "recommend"
+      ],
+      "question": "Where can I buy an oversized blazer?",
+      "answer": "You can shop an oversized blazer at a great price this week for just $89. Such a versatile piece, gorgeous! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "buy",
+        "product",
+        "recommend"
+      ],
+      "question": "What’s a good product for winter wear?",
+      "answer": "I recommend checking out mini velvet shorts! They’re chic and playful for winter layering. Perfect with knits! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "buy",
+        "shop",
+        "product"
+      ],
+      "question": "Where can I find cozy sweatpants?",
+      "answer": "Cozy sweatpants are everywhere, loves! Pair them with cute crop tops for a stylish look. Perfect for lounging! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "buy",
+        "product",
+        "shop"
+      ],
+      "question": "What can you recommend for accessories?",
+      "answer": "Don't forget a leather crossbody! At $69, it’s a stylish addition to any outfit and super functional! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "buy",
+        "shop",
+        "product"
+      ],
+      "question": "Where can I shop for metallic boots?",
+      "answer": "You can find fabulous metallic boots for $129. They’ll elevate any outfit this winter, gorgeous! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "buy",
+        "product",
+        "recommend"
+      ],
+      "question": "Can you suggest a good layering piece?",
+      "answer": "Layering with a tailored jacket is key! It adds structure over flowing dresses, loves. So chic! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "color",
+        "style",
+        "wear"
+      ],
+      "question": "What colors are trending this week?",
+      "answer": "Blush pinks and mint greens are capturing hearts this week! These pastels are perfect for winter styling, gorgeous! 💜",
+      "category": "colors and styling"
+    },
+    {
+      "keywords": [
+        "color",
+        "style",
+        "match"
+      ],
+      "question": "How can I style pastel colors?",
+      "answer": "Try pairing pastels with neutrals for a balanced look! Soft blush pinks work beautifully with jet black, loves! 💜",
+      "category": "colors and styling"
+    },
+    {
+      "keywords": [
+        "color",
+        "style",
+        "coordinate"
+      ],
+      "question": "What colors can I coordinate with black?",
+      "answer": "Jet black is classic, loves! Coordinate it with soft pastels like mint green for a fresh, modern look! 💜",
+      "category": "colors and styling"
+    },
+    {
+      "keywords": [
+        "color",
+        "style",
+        "wear"
+      ],
+      "question": "What is a good winter color palette?",
+      "answer": "Embrace deeper hues like jet black paired with soft pastels. It’s a chic way to brighten up winter outfits! 💜",
+      "category": "colors and styling"
+    },
+    {
+      "keywords": [
+        "color",
+        "wear",
+        "style"
+      ],
+      "question": "What’s a stylish way to wear pastels in winter?",
+      "answer": "Layer pastel accessories over darker outfits! A mint green scarf over a black coat adds a lovely touch, gorgeous! 💜",
+      "category": "colors and styling"
+    },
+    {
+      "keywords": [
+        "budget",
+        "affordable",
+        "worth"
+      ],
+      "question": "What’s a good affordable fashion item?",
+      "answer": "Oversized blazers are totally worth the $89! They’re versatile and perfect for dressing up or down, loves! 💜",
+      "category": "price and value"
+    },
+    {
+      "keywords": [
+        "budget",
+        "cheap",
+        "affordable"
+      ],
+      "question": "What’s an affordable winter outfit idea?",
+      "answer": "Try pairing cozy sweatpants with a crop top! It’s budget-friendly and super stylish for lounging this winter! 💜",
+      "category": "price and value"
+    },
+    {
+      "keywords": [
+        "expensive",
+        "worth"
+      ],
+      "question": "Are metallic boots worth the price?",
+      "answer": "At $129, metallic boots are an investment! They’ll elevate your style and can be worn with many outfits, gorgeous! 💜",
+      "category": "price and value"
+    },
+    {
+      "keywords": [
+        "budget",
+        "price",
+        "worth"
+      ],
+      "question": "What’s a stylish item for under $100?",
+      "answer": "You can grab a leather crossbody for just $69! It’s stylish and practical—a total win for your budget! 💜",
+      "category": "price and value"
+    },
+    {
+      "keywords": [
+        "budget",
+        "expensive",
+        "cheap"
+      ],
+      "question": "What’s a cheap way to stay stylish this winter?",
+      "answer": "Layering is key! Grab items from your wardrobe and mix them with affordable pieces for a fresh look, loves! 💜",
+      "category": "price and value"
+    }
+  ]
+}

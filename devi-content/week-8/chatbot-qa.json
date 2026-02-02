@@ -1,0 +1,203 @@
+{
+  "week_number": 8,
+  "generated_at": "2026-01-20T15:03:00.959Z",
+  "qa_count": 21,
+  "version": "v1",
+  "chatbot": "Devi",
+  "qa_pairs": [
+    {
+      "keywords": [
+        "trending",
+        "trends",
+        "hot",
+        "popular",
+        "whats new"
+      ],
+      "question": "What's trending this week?",
+      "answer": "Hey loves! This week, oversized blazers layered over fitted turtlenecks are all the rage for that effortlessly chic vibe. Don't miss out! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "latest",
+        "this week"
+      ],
+      "question": "What are the latest trends I should know about?",
+      "answer": "Gorgeous! Flowy midi dresses with chunky ankle boots are a captivating contrast this week. Perfect for that spring-like feel! 🌸",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "now"
+      ],
+      "question": "What styles are popular now?",
+      "answer": "Right now, high-waisted wide-leg trousers paired with crop tops are a must-try. They really elongate the legs beautifully! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "hot",
+        "popular"
+      ],
+      "question": "What are the hot styles this week?",
+      "answer": "This week, cozy knit cardigans over slip dresses are super popular, merging warmth and elegance effortlessly. Perfect for chilly days! 💕",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "latest"
+      ],
+      "question": "What are the latest fashion trends?",
+      "answer": "Loves, structured leather jackets over floral prints are trending, adding an edgy touch to romantic outfits. So chic! 🌼",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "hot"
+      ],
+      "question": "What fashion pieces are hot this week?",
+      "answer": "Oversized blazers and fitted turtlenecks are definitely hot this week. Effortless chic at its finest, gorgeous! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "buy",
+        "shop",
+        "product"
+      ],
+      "question": "Where can I buy a stylish oversized blazer?",
+      "answer": "You can grab an oversized blazer from a popular retailer for around $89. It's a perfect addition to your wardrobe! 💕",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "shop",
+        "recommend"
+      ],
+      "question": "Can you recommend a product for this season?",
+      "answer": "Absolutely, darling! Metallic boots are a stylish choice this season, priced at $129. They add a fabulous touch to any outfit! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "buy",
+        "where"
+      ],
+      "question": "Where can I find a cozy knit cardigan?",
+      "answer": "Look for cozy knit cardigans at various retailers. They’ll keep you warm and stylish this season, loves! 💕",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "product",
+        "link"
+      ],
+      "question": "What’s a good product to shop right now?",
+      "answer": "A structured leather jacket over floral prints is a great choice! It’s edgy yet romantic, perfect for transitioning seasons. 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "buy",
+        "shop"
+      ],
+      "question": "What should I buy for spring?",
+      "answer": "Consider adding flowy midi dresses paired with chunky ankle boots to your wardrobe. They’re a fabulous choice for spring! 🌸",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "color",
+        "style"
+      ],
+      "question": "What colors are popular this week?",
+      "answer": "This week, burgundy, cream, and sage are the leading colors, creating a perfect blend of warmth and freshness in your outfits! 💜",
+      "category": "colors and styling"
+    },
+    {
+      "keywords": [
+        "wear",
+        "pair"
+      ],
+      "question": "How can I style burgundy this season?",
+      "answer": "Pair burgundy with cream and soft knits for a chic look. It's a perfect combo that radiates elegance! 💕",
+      "category": "colors and styling"
+    },
+    {
+      "keywords": [
+        "match",
+        "coordinate"
+      ],
+      "question": "How can I coordinate sage with other colors?",
+      "answer": "Sage pairs beautifully with cream and burgundy, creating a harmonious and stylish palette. Try it out, gorgeous! 💜",
+      "category": "colors and styling"
+    },
+    {
+      "keywords": [
+        "color",
+        "wear"
+      ],
+      "question": "What color should I wear for a cozy look?",
+      "answer": "Consider wearing cream this week! It's perfect for a cozy vibe when paired with soft knits or layered textures. 💕",
+      "category": "colors and styling"
+    },
+    {
+      "keywords": [
+        "style",
+        "coordinate"
+      ],
+      "question": "How can I style my outfits this week?",
+      "answer": "Mix textures this week! Layer a structured leather jacket over a floral print to add some edge to your outfits, loves! 💜",
+      "category": "colors and styling"
+    },
+    {
+      "keywords": [
+        "budget",
+        "affordable"
+      ],
+      "question": "What are some affordable fashion options?",
+      "answer": "You can find cozy knit cardigans that are both stylish and budget-friendly. Check your favorite retailers, gorgeous! 💕",
+      "category": "price and value"
+    },
+    {
+      "keywords": [
+        "cheap",
+        "worth"
+      ],
+      "question": "Are there any cheap fashion finds this week?",
+      "answer": "Absolutely! A classic oversized blazer for around $89 is totally worth it for an effortlessly chic look. 💜",
+      "category": "price and value"
+    },
+    {
+      "keywords": [
+        "expensive",
+        "worth"
+      ],
+      "question": "Is it worth investing in higher-priced items?",
+      "answer": "Consider investing in high-quality structured leather jackets. They add versatility and last through seasons, making it worth it! 💕",
+      "category": "price and value"
+    },
+    {
+      "keywords": [
+        "affordable",
+        "price"
+      ],
+      "question": "What’s a good affordable product I should get?",
+      "answer": "Look for flowy midi dresses! They are stylish and often available at affordable prices, perfect for this season! 💜",
+      "category": "price and value"
+    },
+    {
+      "keywords": [
+        "budget",
+        "shopping"
+      ],
+      "question": "What pieces are budget-friendly this week?",
+      "answer": "High-waisted wide-leg trousers can be a budget-friendly pick. Pair them with crop tops for a chic silhouette! 💕",
+      "category": "price and value"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+# robots.txt for Devi Fashion
+# Website: https://design-link-luxe.lovable.app/
+
+User-agent: *
+Allow: /
+
+# Allow all search engines to crawl everything
+Disallow:
+
+# Sitemap location
+Sitemap: https://design-link-luxe.lovable.app/sitemap.xml
+
+# Crawl-delay (optional - prevents aggressive crawling)
+Crawl-delay: 10
+
+# Specific bot instructions
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /

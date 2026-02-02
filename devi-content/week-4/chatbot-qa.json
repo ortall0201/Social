@@ -1,0 +1,232 @@
+{
+  "week_number": 4,
+  "generated_at": "2025-12-24T00:21:46.341Z",
+  "qa_count": 22,
+  "version": "v1",
+  "chatbot": "Devi",
+  "qa_pairs": [
+    {
+      "keywords": [
+        "trending",
+        "trends",
+        "hot",
+        "popular",
+        "whats new"
+      ],
+      "question": "What's trending this week?",
+      "answer": "Hey loves! This week, everyone's rocking oversized blazers styled with fitted turtlenecks and wide-leg trousers. It's such a chic look! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "this week",
+        "latest"
+      ],
+      "question": "What are the latest fashion trends I should know about?",
+      "answer": "Gorgeous, this week is all about flowy midi dresses layered under cozy knit cardigans for a romantic vibe. Perfect for winter! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "now",
+        "popular"
+      ],
+      "question": "What styles are popular right now?",
+      "answer": "This week, high-waisted jeans paired with cropped tops are in! It's an effortless mix of casual and trendy vibes. 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "hot",
+        "latest"
+      ],
+      "question": "What hot styles should I try this week?",
+      "answer": "Loves, try adding colorful scarves draped over your outerwear! They bring texture and warmth to your winter looks. 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "now",
+        "latest"
+      ],
+      "question": "What are the fashion styles making waves this week?",
+      "answer": "Chunky ankle boots paired with flowing skirts are a bold statement this week! Perfect for contrasting silhouettes. 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "popular",
+        "hot"
+      ],
+      "question": "What are the hot trends for winter outfits?",
+      "answer": "This week, embrace oversized styles and soft layers. Think chic oversized blazers and cozy knit cardigans! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "buy",
+        "shop",
+        "product",
+        "recommend"
+      ],
+      "question": "Where can I buy an oversized blazer?",
+      "answer": "You can find a fabulous oversized blazer for $89 at a well-known retailer. It's a great deal for a chic look! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "buy",
+        "product",
+        "shop"
+      ],
+      "question": "What products do you recommend for winter fashion?",
+      "answer": "Gorgeous, I recommend checking out flowy midi dresses and cozy knit cardigans. Perfect for layering this season! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "where",
+        "buy",
+        "shop"
+      ],
+      "question": "Where can I shop for stylish winter boots?",
+      "answer": "Loves, look for chunky ankle boots in a nearby store, they're a must-have this winter! Stylish and comfy! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "link",
+        "buy",
+        "shop"
+      ],
+      "question": "Can you provide a link to where I can shop for high-waisted jeans?",
+      "answer": "I can't provide links, but you can find chic high-waisted jeans at various retailers. They're super trendy this week! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "recommend",
+        "buy",
+        "product"
+      ],
+      "question": "What colorful accessories should I consider buying?",
+      "answer": "Consider vibrant scarves! They're perfect for adding color and texture to your winter outfits. Affordable and chic! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "where",
+        "buy",
+        "product"
+      ],
+      "question": "Where can I find affordable winter outerwear?",
+      "answer": "Check out retailers for stylish outerwear options. A colorful scarf can be a great addition too! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "color",
+        "style",
+        "wear"
+      ],
+      "question": "What colors should I wear this week?",
+      "answer": "Rich burgundy, deep navy, and vibrant mustard are dominating this week. Perfect to brighten your winter wardrobe! 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "pair",
+        "style",
+        "coordinate"
+      ],
+      "question": "How do I pair my oversized blazer?",
+      "answer": "Loves, style your oversized blazer with a fitted turtleneck and wide-leg trousers for a chic, structured look! 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "wear",
+        "color",
+        "coordinate"
+      ],
+      "question": "How can I coordinate colors in my outfit?",
+      "answer": "Try pairing mustard accessories with a navy outfit. It adds a lovely pop of color and warmth! 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "style",
+        "wear",
+        "match"
+      ],
+      "question": "What colors match well for winter?",
+      "answer": "Burgundy and navy are classic winter colors that pair nicely. Add a mustard scarf for a vibrant touch! 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "style",
+        "color",
+        "coordinate"
+      ],
+      "question": "What is a stylish way to wear a floral midi dress this season?",
+      "answer": "Layer a cozy knit cardigan over your floral midi dress. It creates a soft, romantic silhouette! 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "budget",
+        "affordable",
+        "price"
+      ],
+      "question": "What affordable options do you recommend for winter fashion?",
+      "answer": "Look for cozy knit cardigans and stylish scarves. They're budget-friendly while keeping you chic! 💜",
+      "category": "price"
+    },
+    {
+      "keywords": [
+        "expensive",
+        "worth",
+        "price"
+      ],
+      "question": "Are oversized blazers worth the price?",
+      "answer": "Absolutely, loves! Oversized blazers are versatile and chic, making them worth every penny this season! 💜",
+      "category": "price"
+    },
+    {
+      "keywords": [
+        "cheap",
+        "affordable",
+        "budget"
+      ],
+      "question": "Can I find cheap stylish winter boots?",
+      "answer": "Yes, gorgeous! Look for chunky ankle boots that are stylish yet affordable this winter. 💜",
+      "category": "price"
+    },
+    {
+      "keywords": [
+        "price",
+        "budget",
+        "worth"
+      ],
+      "question": "What is a good price for stylish winter cardigans?",
+      "answer": "Stylish winter cardigans usually range around $60-$80, making them an affordable investment for your wardrobe! 💜",
+      "category": "price"
+    },
+    {
+      "keywords": [
+        "affordable",
+        "budget",
+        "worth"
+      ],
+      "question": "Are flowy midi dresses worth the investment?",
+      "answer": "Definitely, loves! Flowy midi dresses are not only stylish but also versatile for different occasions. Worth it! 💜",
+      "category": "price"
+    }
+  ]
+}

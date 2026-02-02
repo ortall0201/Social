@@ -1,0 +1,206 @@
+{
+  "week_number": 9,
+  "generated_at": "2026-01-28T10:14:16.339Z",
+  "qa_count": 21,
+  "version": "v1",
+  "chatbot": "Devi",
+  "qa_pairs": [
+    {
+      "keywords": [
+        "trending",
+        "hot",
+        "this week"
+      ],
+      "question": "What's trending this week?",
+      "answer": "Hey loves! This week, oversized blazers are taking center stage! They're styled with fitted turtlenecks and high-waisted denim for a chic look 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "popular",
+        "latest",
+        "now"
+      ],
+      "question": "What are the latest fashion trends?",
+      "answer": "Gorgeous, this week is all about flowy maxi dresses layered with structured coats. It's a playful mix of feminine and tailored vibes! 🌟",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "hot"
+      ],
+      "question": "What's hot in fashion right now?",
+      "answer": "Loves, chunky knit sweaters are trending! They're perfect for pairing with wide-leg trousers or belting them for a cozy-chic vibe 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "popular",
+        "this week",
+        "latest"
+      ],
+      "question": "What are the popular styles this week?",
+      "answer": "This week, athleisure is shining with matching sets of cropped sweatshirts and joggers in vibrant colors. Perfect for casual outings! 🌈",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "latest"
+      ],
+      "question": "What should I wear this week?",
+      "answer": "Gorgeous, statement boots are a must! Knee-high and combat styles are being paired with everything, adding bold flair to any outfit 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "popular",
+        "this week"
+      ],
+      "question": "What are the most popular clothing items right now?",
+      "answer": "Loves, oversized blazers and flowy maxi dresses are leading the charts! They effortlessly blend style and comfort this season 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "buy",
+        "recommend",
+        "product"
+      ],
+      "question": "Where can I buy an oversized blazer?",
+      "answer": "You can find a chic oversized blazer for $89 from a popular retailer! It’s a great investment for your wardrobe 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "shop",
+        "buy",
+        "product"
+      ],
+      "question": "What do you recommend for stylish boots?",
+      "answer": "Gorgeous, I recommend checking out knee-high or combat styles! They’re a bold choice for $129 from a known brand 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "where",
+        "product",
+        "buy"
+      ],
+      "question": "Where can I find stylish crossbody bags?",
+      "answer": "Loves, a stylish leather crossbody is available for $69! It’s perfect for adding a chic touch to any outfit 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "buy",
+        "product"
+      ],
+      "question": "What chunky knit sweaters can I shop for?",
+      "answer": "You’ll love the cozy-chic chunky knit sweaters trending right now! Perfect for pairing with wide-leg trousers, check popular stores 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "buy",
+        "shop"
+      ],
+      "question": "Where can I find vibrant jogger sets?",
+      "answer": "Gorgeous, vibrant jogger sets are in! Look for matching cropped sweatshirts and joggers at your favorite casual retailers 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "color",
+        "style",
+        "wear"
+      ],
+      "question": "What colors are trending this season?",
+      "answer": "This season, rich colors like burgundy and navy are dominating! Pair them with textured fabrics for a stylish look 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "match",
+        "coordinate",
+        "style"
+      ],
+      "question": "How can I coordinate my outfits this week?",
+      "answer": "Loves, try layering a flowy maxi dress with a structured coat! It creates a playful yet polished look 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "wear",
+        "color"
+      ],
+      "question": "What colors should I wear for a chic look?",
+      "answer": "For a chic vibe, go for emerald and navy! They pair beautifully with tailored pieces and relaxed silhouettes 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "pair",
+        "style"
+      ],
+      "question": "How do I style oversized blazers?",
+      "answer": "Gorgeous, style oversized blazers with fitted turtlenecks and high-waisted denim for a chic silhouette this week! 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "coordinate",
+        "wear"
+      ],
+      "question": "How do I wear chunky knit sweaters?",
+      "answer": "Loves, pair chunky knit sweaters with wide-leg trousers or belt them at the waist for that cozy-chic look! 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "affordable",
+        "budget"
+      ],
+      "question": "What affordable options do you recommend?",
+      "answer": "You can grab a chic oversized blazer for $89! It's a stylish yet budget-friendly choice this season 💜",
+      "category": "price"
+    },
+    {
+      "keywords": [
+        "worth",
+        "price"
+      ],
+      "question": "Are statement boots worth the investment?",
+      "answer": "Absolutely, gorgeous! Investing in statement boots for $129 will elevate your outfits and add bold flair to any look 💜",
+      "category": "price"
+    },
+    {
+      "keywords": [
+        "cheap",
+        "affordable"
+      ],
+      "question": "What are some cheap fashion finds?",
+      "answer": "Loves, you can snag a stylish leather crossbody for $69! It’s affordable and chic for daily use 💜",
+      "category": "price"
+    },
+    {
+      "keywords": [
+        "expensive",
+        "worth"
+      ],
+      "question": "Are flowy maxi dresses worth the price?",
+      "answer": "Gorgeous, flowy maxi dresses are worth every penny! They’re versatile and perfect for layering this season 💜",
+      "category": "price"
+    },
+    {
+      "keywords": [
+        "budget",
+        "price"
+      ],
+      "question": "What's the budget for this season's trends?",
+      "answer": "You can keep your budget friendly by opting for stylish pieces around $69 to $129. Look for versatile options! 💜",
+      "category": "price"
+    }
+  ]
+}

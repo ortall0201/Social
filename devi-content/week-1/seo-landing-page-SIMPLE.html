@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Meta Tags -->
+  <title>Devi - Your Weekly Fashion Trends & Style Inspiration</title>
+  <meta name="description" content="Discover the latest fashion trends with Devi. Get weekly style insights, curated looks, and shopping recommendations delivered to your inbox. Follow @devinee.me for daily fashion inspiration.">
+  <meta name="keywords" content="fashion trends, style inspiration, fashion blogger, weekly fashion, outfit ideas, fashion tips, style guide, fashion influencer">
+  <meta name="robots" content="index, follow">
+
+  <!-- Google Search Console Verification -->
+  <!-- REPLACE THIS: Go to search.google.com/search-console, add your site, get verification code, paste it here -->
+  <!-- <meta name="google-site-verification" content="YOUR_CODE_HERE"> -->
+
+  <!-- Hidden Geo-Targeting Meta Tags (Backend SEO - Users Never See This) -->
+  <meta name="geo.region" content="US-CA">
+  <meta name="geo.placename" content="Los Angeles">
+  <meta name="geo.position" content="34.0522;-118.2437">
+  <meta name="ICBM" content="34.0522, -118.2437">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Devi - Your Weekly Fashion Trends">
+  <meta property="og:description" content="Discover the latest fashion trends with Devi. Weekly style insights and curated looks.">
+  <meta property="og:url" content="https://design-link-luxe.lovable.app/">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Devi - Fashion Trends">
+  <meta name="twitter:description" content="Weekly fashion trends and style inspiration. Follow @devinee.me">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://design-link-luxe.lovable.app/">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --color-soft-lilac: hsl(280, 40%, 75%);
+      --color-blush-pink: hsl(350, 50%, 95%);
+      --color-lavender: hsl(260, 50%, 92%);
+      --color-rose: hsl(340, 50%, 80%);
+      --color-cream: hsl(40, 30%, 96%);
+      --color-dusty-pink: hsl(350, 40%, 85%);
+      --color-soft-purple: hsl(280, 35%, 70%);
+      --gradient-purple: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      --shadow-soft: 0 4px 20px -2px rgba(0, 0, 0, 0.06);
+      --shadow-soft-lg: 0 10px 40px -10px rgba(0, 0, 0, 0.08);
+      --shadow-glow: 0 0 30px rgba(200, 150, 200, 0.15);
+      --radius-default: 1rem;
+      --radius-lg: 1.5rem;
+      --radius-xl: 2rem;
+      --font-display: 'Playfair Display', serif;
+      --font-body: 'DM Sans', sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: var(--font-body);
+      line-height: 1.7;
+      color: #333;
+      background: linear-gradient(to bottom, var(--color-blush-pink) 0%, hsl(0, 0%, 99%) 30%, var(--color-lavender) 100%);
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    header {
+      text-align: center;
+      padding: 80px 20px 60px;
+    }
+
+    h1 {
+      font-family: var(--font-display);
+      font-size: 4.5rem;
+      font-weight: 700;
+      margin: 20px 0;
+      background: var(--gradient-purple);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      line-height: 1.2;
+    }
+
+    .tagline {
+      font-size: 1.5rem;
+      color: var(--color-soft-purple);
+      margin: 20px 0 40px;
+      font-weight: 500;
+    }
+
+    .hero-cta {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 18px 45px;
+      background: var(--gradient-purple);
+      color: white;
+      text-decoration: none;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 1.1rem;
+      transition: all 0.3s ease;
+      box-shadow: var(--shadow-soft-lg);
+    }
+
+    .btn:hover {
+      transform: translateY(-3px) scale(1.05);
+      box-shadow: var(--shadow-glow);
+    }
+
+    .btn-secondary {
+      background: white;
+      color: var(--color-soft-purple);
+      border: 2px solid var(--color-soft-lilac);
+    }
+
+    .btn-secondary:hover {
+      background: var(--color-blush-pink);
+    }
+
+    section {
+      background: white;
+      margin-bottom: 50px;
+      padding: 60px 50px;
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow-soft-lg);
+      animation: fadeIn 0.6s ease-out;
+    }
+
+    h2 {
+      font-family: var(--font-display);
+      font-size: 3rem;
+      margin-bottom: 20px;
+      color: var(--color-soft-purple);
+      text-align: center;
+    }
+
+    .section-intro {
+      text-align: center;
+      font-size: 1.2rem;
+      color: #666;
+      margin-bottom: 50px;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .trend-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 40px;
+      margin-top: 50px;
+    }
+
+    .trend-card {
+      padding: 40px;
+      background: linear-gradient(135deg, var(--color-cream) 0%, var(--color-blush-pink) 100%);
+      border-radius: var(--radius-lg);
+      border-left: 6px solid var(--color-soft-lilac);
+      transition: all 0.3s ease;
+    }
+
+    .trend-card:hover {
+      transform: translateY(-8px);
+      box-shadow: var(--shadow-soft-lg);
+    }
+
+    .trend-number {
+      display: inline-block;
+      background: var(--gradient-purple);
+      color: white;
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      margin-bottom: 20px;
+    }
+
+    .trend-card h3 {
+      font-family: var(--font-display);
+      font-size: 1.8rem;
+      color: var(--color-rose);
+      margin-bottom: 15px;
+    }
+
+    .trend-card p {
+      line-height: 1.8;
+      margin-bottom: 15px;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      margin-top: 50px;
+    }
+
+    .product-card {
+      background: linear-gradient(135deg, var(--color-lavender) 0%, var(--color-dusty-pink) 100%);
+      padding: 40px 35px;
+      border-radius: var(--radius-lg);
+      text-align: center;
+      box-shadow: var(--shadow-soft-lg);
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .product-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: radial-gradient(circle at top right, rgba(255,255,255,0.3) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .product-card:hover {
+      transform: translateY(-10px) scale(1.02);
+      box-shadow: var(--shadow-glow);
+    }
+
+    .product-card h3 {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      color: var(--color-soft-purple);
+      margin-bottom: 10px;
+    }
+
+    .product-brand {
+      font-size: 1rem;
+      opacity: 0.8;
+      margin: 10px 0;
+    }
+
+    .product-price {
+      font-family: var(--font-display);
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: var(--color-rose);
+      margin: 20px 0;
+    }
+
+    .cta-section {
+      text-align: center;
+      background: var(--gradient-purple);
+      color: white;
+      padding: 80px 50px;
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow-glow);
+    }
+
+    .cta-section h2 {
+      color: white;
+      margin-bottom: 25px;
+    }
+
+    .cta-section p {
+      font-size: 1.3rem;
+      margin: 25px 0;
+      opacity: 0.95;
+    }
+
+    .btn-primary {
+      display: inline-block;
+      padding: 22px 55px;
+      background: white;
+      color: var(--color-soft-purple);
+      text-decoration: none;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 1.3rem;
+      margin-top: 30px;
+      box-shadow: var(--shadow-soft-lg);
+      transition: all 0.3s ease;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-5px) scale(1.05);
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    }
+
+    footer {
+      text-align: center;
+      padding: 50px 20px;
+      background: linear-gradient(135deg, var(--color-soft-lilac) 0%, var(--color-soft-purple) 100%);
+      color: white;
+      margin-top: 60px;
+      border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+    }
+
+    footer a {
+      color: var(--color-blush-pink);
+      text-decoration: none;
+      margin: 0 15px;
+      transition: all 0.3s ease;
+    }
+
+    footer a:hover {
+      color: white;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      h1 { font-size: 2.5rem; }
+      h2 { font-size: 2rem; }
+      .trend-grid { grid-template-columns: 1fr; }
+      .product-grid { grid-template-columns: 1fr; }
+      section { padding: 40px 30px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Devi</h1>
+    <p class="tagline">Your Weekly Fashion Trends & Style Inspiration ✨</p>
+    <p style="font-size: 1.1rem; color: #666; max-width: 600px; margin: 20px auto;">
+      Discover what's trending in fashion right now. Get weekly style insights and curated looks delivered straight to you.
+    </p>
+    <div class="hero-cta">
+      <a href="https://www.instagram.com/devinee.me/" class="btn" target="_blank" rel="noopener">Follow on Instagram</a>
+      <a href="https://design-link-luxe.lovable.app/" class="btn btn-secondary" target="_blank" rel="noopener">Get Weekly Newsletter</a>
+    </div>
+  </header>
+
+  <div class="container">
+    <section id="trends">
+      <h2>This Week's Top Trends</h2>
+      <p class="section-intro">
+        The fashion looks everyone's loving right now. Here's what you need to know this week.
+      </p>
+
+      <div class="trend-grid">
+        <div class="trend-card">
+          <span class="trend-number">Trend #1</span>
+          <h3>Oversized Blazers</h3>
+          <p>
+            The effortlessly chic essential taking center stage. Perfect for adding elegance and comfort to any outfit.
+          </p>
+          <p style="margin-top: 20px;"><strong>How to wear it:</strong> Pair with neutral basics for a sophisticated minimalist look.</p>
+        </div>
+
+        <div class="trend-card">
+          <span class="trend-number">Trend #2</span>
+          <h3>Layered Textures</h3>
+          <p>
+            Cozy knits, silky fabrics, and structured materials coming together for the perfect winter mix.
+          </p>
+          <p style="margin-top: 20px;"><strong>How to wear it:</strong> Keep accessories minimal to let the textures shine.</p>
+        </div>
+
+        <div class="trend-card">
+          <span class="trend-number">Trend #3</span>
+          <h3>Statement Accessories</h3>
+          <p>
+            Ear cuffs and long earrings adding that playful twist that catches the eye.
+          </p>
+          <p style="margin-top: 20px;"><strong>How to wear it:</strong> Mix textures for depth - metals with leather.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="shop">
+      <h2>Shop The Looks</h2>
+      <p class="section-intro">
+        Curated picks to help you nail these trends without breaking the bank.
+      </p>
+
+      <div class="product-grid">
+        <div class="product-card">
+          <h3>Oversized Blazer</h3>
+          <p class="product-brand">Zara</p>
+          <p class="product-price">$89</p>
+          <a href="https://www.instagram.com/p/DRvSpeDkjuv" class="btn" target="_blank" rel="noopener">Shop Now</a>
+        </div>
+
+        <div class="product-card">
+          <h3>Metallic Boots</h3>
+          <p class="product-brand">Mango</p>
+          <p class="product-price">$129</p>
+          <a href="https://www.instagram.com/reel/DRu0PqMgEt3" class="btn" target="_blank" rel="noopener">Shop Now</a>
+        </div>
+
+        <div class="product-card">
+          <h3>Leather Crossbody</h3>
+          <p class="product-brand">H&M</p>
+          <p class="product-price">$69</p>
+          <a href="https://www.instagram.com/reel/DRxR8kfjsQp" class="btn" target="_blank" rel="noopener">Shop Now</a>
+        </div>
+
+        <div class="product-card">
+          <h3>Cashmere Sweater</h3>
+          <p class="product-brand">& Other Stories</p>
+          <p class="product-price">$149</p>
+          <a href="https://www.instagram.com/reel/DR4-QeiAINw" class="btn" target="_blank" rel="noopener">Shop Now</a>
+        </div>
+
+        <div class="product-card">
+          <h3>Statement Belt</h3>
+          <p class="product-brand">COS</p>
+          <p class="product-price">$45</p>
+          <a href="https://www.instagram.com/reel/DR5OxxxEW0l" class="btn" target="_blank" rel="noopener">Shop Now</a>
+        </div>
+      </div>
+
+      <p style="margin-top: 50px; text-align: center; font-style: italic; color: #999;">
+        Contains affiliate links. I may earn a small commission at no extra cost to you.
+      </p>
+    </section>
+
+    <section class="cta-section">
+      <h2>Never Miss a Trend</h2>
+      <p>
+        Join 630+ fashion lovers getting weekly style insights every Monday morning.
+      </p>
+      <a href="https://design-link-luxe.lovable.app/" class="btn-primary" target="_blank" rel="noopener">Get Weekly Fashion Trends</a>
+      <p style="margin-top: 30px; font-size: 1.05rem;">
+        Weekly trends • Styling tips • Shopping guides • Free forever ✨
+      </p>
+    </section>
+  </div>
+
+  <footer>
+    <p style="font-size: 1.2rem; margin-bottom: 20px; font-weight: 600;">
+      Devi — Your Fashion Trend Guide
+    </p>
+    <p style="opacity: 0.9; margin-bottom: 25px;">
+      Weekly fashion trends and style inspiration
+    </p>
+    <p>
+      <a href="https://www.instagram.com/devinee.me/">Instagram @devinee.me</a>
+      <a href="https://design-link-luxe.lovable.app/">Newsletter</a>
+    </p>
+    <p style="margin-top: 30px; font-size: 0.9rem; opacity: 0.8;">
+      © 2025 Devi. All rights reserved.
+    </p>
+  </footer>
+</body>
+</html>

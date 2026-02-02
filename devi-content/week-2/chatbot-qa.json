@@ -1,0 +1,219 @@
+{
+  "week_number": 2,
+  "generated_at": "2025-12-09T15:26:29.940Z",
+  "qa_count": 21,
+  "version": "v1",
+  "chatbot": "Devi",
+  "qa_pairs": [
+    {
+      "keywords": [
+        "trending",
+        "this week",
+        "hot"
+      ],
+      "question": "What's trending this week?",
+      "answer": "Hey loves! Cozy oversized blazers are making waves, blending structure with comfort for chilly days. Fashion is all about that cozy vibe! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "latest",
+        "popular",
+        "now"
+      ],
+      "question": "What are the latest fashion trends?",
+      "answer": "This week, playful accessories like ear cuffs and long earrings are adding whimsy to everyday outfits. It's all about sparkle, gorgeous! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "hot",
+        "trending",
+        "popular"
+      ],
+      "question": "What styles are popular right now?",
+      "answer": "Layered textures are back in style! Chunky knits paired with sleek fabrics create delightful contrasts. Perfect for a cozy chic look! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "this week",
+        "latest"
+      ],
+      "question": "What colors are trending this week?",
+      "answer": "Warm winter hues, especially chocolate browns and soft pastels, are dominating the color palette. They create a snug ambiance, loves! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "popular",
+        "trends",
+        "this week"
+      ],
+      "question": "What are the most popular accessories this week?",
+      "answer": "Playful accessories like ear cuffs and long earrings are the must-haves! They add a fun twist to any look, gorgeous! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "this week",
+        "latest",
+        "hot"
+      ],
+      "question": "What’s new in fashion this week?",
+      "answer": "Glowing skin is trending, emphasizing skincare routines that enhance natural beauty. Self-care is always in style, loves! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "buy",
+        "shop",
+        "product"
+      ],
+      "question": "Where can I buy an oversized blazer?",
+      "answer": "You can snag a cozy oversized blazer for $89 at a popular store. Perfect for adding structure and comfort to your outfit! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "recommend",
+        "product",
+        "shop"
+      ],
+      "question": "What’s a stylish accessory I should buy?",
+      "answer": "I recommend playful ear cuffs or long earrings. They add a whimsical touch to any look and can elevate your outfit! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "buy",
+        "where",
+        "link"
+      ],
+      "question": "Where can I find metallic boots?",
+      "answer": "Check out a well-known store for metallic boots priced at $129. They’re a chic addition to your winter wardrobe! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "product",
+        "shop",
+        "buy"
+      ],
+      "question": "What about a crossbody bag?",
+      "answer": "You can find a stylish leather crossbody for $69 at a trendy store. It’s perfect for your everyday looks, gorgeous! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "buy",
+        "shop",
+        "product"
+      ],
+      "question": "What should I look for when shopping for winter wear?",
+      "answer": "Look for cozy oversized blazers and layered textures! They’re perfect for blending warmth with chic style this season! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "price",
+        "budget",
+        "affordable"
+      ],
+      "question": "What's an affordable price for a trendy blazer?",
+      "answer": "You can find stylish oversized blazers starting around $89. It's a great investment for both comfort and style, loves! 💜",
+      "category": "price"
+    },
+    {
+      "keywords": [
+        "cheap",
+        "affordable",
+        "price"
+      ],
+      "question": "What’s a cheap way to accessorize?",
+      "answer": "Playful accessories like ear cuffs can often be found at affordable prices! They add fun without breaking the bank! 💜",
+      "category": "price"
+    },
+    {
+      "keywords": [
+        "worth",
+        "price",
+        "expensive"
+      ],
+      "question": "Are metallic boots worth the price?",
+      "answer": "Absolutely! Metallic boots for around $129 can elevate your look and are versatile for different outfits. Worth the splurge, gorgeous! 💜",
+      "category": "price"
+    },
+    {
+      "keywords": [
+        "budget",
+        "cheap",
+        "affordable"
+      ],
+      "question": "How can I style on a budget?",
+      "answer": "Invest in versatile pieces like cozy oversized blazers and accessorize with playful items. Mix high and low for chic looks! 💜",
+      "category": "price"
+    },
+    {
+      "keywords": [
+        "coordinate",
+        "pair",
+        "style"
+      ],
+      "question": "How can I style chocolate brown this winter?",
+      "answer": "Pair chocolate brown with soft pastels for a cozy yet chic look. Layer with textures to enhance your outfit, loves! 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "match",
+        "style",
+        "wear"
+      ],
+      "question": "What colors match with soft pastels?",
+      "answer": "Warm neutrals and chocolate browns work beautifully with soft pastels. It creates a snug and stylish winter palette, gorgeous! 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "color",
+        "wear",
+        "pair"
+      ],
+      "question": "What color should I wear for winter styling?",
+      "answer": "Opt for chocolate brown and soft pastels this winter! They’re trending and create a warm, inviting vibe! 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "coordinate",
+        "style",
+        "pair"
+      ],
+      "question": "How do I coordinate layered textures?",
+      "answer": "Mix chunky knits with sleek fabrics for a delightful contrast. It adds depth to your outfit while keeping it cozy, loves! 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "style",
+        "wear",
+        "color"
+      ],
+      "question": "What’s a stylish way to wear ear cuffs?",
+      "answer": "Pair ear cuffs with a cozy oversized blazer for a chic look. They add whimsy while keeping it stylish and comfy! 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "color",
+        "pair",
+        "style"
+      ],
+      "question": "What’s a good color combo for winter?",
+      "answer": "Combine warm neutrals with chocolate brown and soft pastels. This mix is perfect for creating a cozy winter aesthetic! 💜",
+      "category": "colors"
+    }
+  ]
+}

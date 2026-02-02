@@ -1,0 +1,222 @@
+{
+  "week_number": 5,
+  "generated_at": "2026-01-01T08:16:32.145Z",
+  "qa_count": 21,
+  "version": "v1",
+  "chatbot": "Devi",
+  "qa_pairs": [
+    {
+      "keywords": [
+        "trending",
+        "trends",
+        "hot",
+        "popular",
+        "whats new"
+      ],
+      "question": "What's trending this week?",
+      "answer": "Hey loves! This week, oversized blazers are a must-have, styled effortlessly with relaxed-fit trousers and casual tees. It's a chic vibe! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "current",
+        "this week"
+      ],
+      "question": "What are the latest fashion trends?",
+      "answer": "Gorgeous! Flowing maxi dresses paired with chunky knit cardigans are trending for that cozy yet feminine look. Perfect for the season! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "popular",
+        "hot"
+      ],
+      "question": "What styles are hot right now?",
+      "answer": "Hi gorgeous! High-waisted wide-leg pants with fitted crop tops are super popular, creating a stylish and comfortable silhouette! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "latest",
+        "this week"
+      ],
+      "question": "What's the hot trend in accessories?",
+      "answer": "Hey loves! Statement accessories like oversized hats and layered necklaces are making waves, adding a playful touch to any outfit! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "popular",
+        "now"
+      ],
+      "question": "What should I wear this week?",
+      "answer": "You should definitely try oversized blazers with relaxed-fit trousers for an effortlessly chic look. It's all the rage! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "whats new",
+        "latest"
+      ],
+      "question": "What new styles are emerging?",
+      "answer": "Loves, layered textures are trending! Try pairing leather jackets over soft cotton dresses for an edgy twist on femininity! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "buy",
+        "shop",
+        "product",
+        "where"
+      ],
+      "question": "Where can I buy an oversized blazer?",
+      "answer": "You can shop for an oversized blazer at a popular retailer for around $89. It's a chic essential this season! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "product",
+        "buy",
+        "recommend"
+      ],
+      "question": "What product do you recommend for my wardrobe?",
+      "answer": "Gorgeous! I highly recommend adding flowy maxi dresses to your wardrobe. They're perfect for a cozy yet stylish look! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "buy",
+        "shop",
+        "product"
+      ],
+      "question": "Where can I find statement accessories?",
+      "answer": "You can find oversized hats and layered necklaces at various stores. They’re perfect for enhancing your outfits! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "product",
+        "shop",
+        "where"
+      ],
+      "question": "Where can I buy high-waisted wide-leg pants?",
+      "answer": "Loves, you can find stylish high-waisted wide-leg pants at many popular retailers. They’re a perfect blend of style and comfort! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "buy",
+        "product",
+        "link"
+      ],
+      "question": "Can you provide a link for metallic boots?",
+      "answer": "You can shop metallic boots for around $129. They're a fabulous addition to elevate any look! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "color",
+        "style",
+        "wear"
+      ],
+      "question": "What colors are in style right now?",
+      "answer": "This week, burgundy, sage, and cream are dominating the color palette. Perfect for cozy-chic looks! 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "pair",
+        "match",
+        "coordinate"
+      ],
+      "question": "What color matches with oversized blazers?",
+      "answer": "Gorgeous! Oversized blazers look great paired with soft neutrals like cream or earthy tones like sage for a balanced look. 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "style",
+        "color",
+        "coordinate"
+      ],
+      "question": "How can I style burgundy in my outfit?",
+      "answer": "You can incorporate burgundy through accessories or a top! Pair it with cream for a chic, autumn vibe. 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "wear",
+        "color",
+        "style"
+      ],
+      "question": "Which colors can I wear with sage?",
+      "answer": "Sage pairs beautifully with cream or soft pastels! Mix and match for a fresh, spring-inspired look! 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "style",
+        "pair",
+        "coordinate"
+      ],
+      "question": "How do I style cream with other colors?",
+      "answer": "Cream is versatile! Pair it with burgundy for a rich contrast or sage for a soft, harmonious look. 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "budget",
+        "affordable",
+        "cheap"
+      ],
+      "question": "What stylish pieces are affordable?",
+      "answer": "Gorgeous! Look for high-waisted wide-leg pants and oversized blazers, both offering stylish options without breaking the bank! 💜",
+      "category": "price"
+    },
+    {
+      "keywords": [
+        "price",
+        "worth",
+        "affordable"
+      ],
+      "question": "Are oversized blazers worth the price?",
+      "answer": "Absolutely, loves! Oversized blazers are versatile and can elevate any outfit, making them a worthwhile investment! 💜",
+      "category": "price"
+    },
+    {
+      "keywords": [
+        "cheap",
+        "budget",
+        "expensive"
+      ],
+      "question": "What is a reasonably priced statement accessory?",
+      "answer": "You can find beautiful statement accessories like layered necklaces without spending too much. They add a fabulous touch! 💜",
+      "category": "price"
+    },
+    {
+      "keywords": [
+        "affordable",
+        "worth",
+        "budget"
+      ],
+      "question": "What’s a trendy piece I can get on a budget?",
+      "answer": "Loves, flowy maxi dresses are often available at various price points, making them a stylish yet affordable choice! 💜",
+      "category": "price"
+    },
+    {
+      "keywords": [
+        "price",
+        "expensive",
+        "cheap"
+      ],
+      "question": "Are metallic boots a good investment?",
+      "answer": "Yes, gorgeous! Metallic boots can elevate your outfits and are worth the $129 investment for a statement piece! 💜",
+      "category": "price"
+    }
+  ]
+}

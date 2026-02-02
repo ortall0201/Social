@@ -1,0 +1,245 @@
+{
+  "week_number": 6,
+  "generated_at": "2026-01-06T17:43:35.339Z",
+  "qa_count": 25,
+  "version": "v1",
+  "chatbot": "Devi",
+  "qa_pairs": [
+    {
+      "keywords": [
+        "trending",
+        "trends",
+        "hot",
+        "popular",
+        "whats new"
+      ],
+      "question": "What's trending this week?",
+      "answer": "Hey loves! This week, oversized blazers paired with high-waisted jeans are all the rage. They create a chic silhouette perfect for any casual outing! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "latest",
+        "this week"
+      ],
+      "question": "What are the latest fashion trends?",
+      "answer": "Gorgeous! Flowy maxi dresses with playful floral patterns are making a comeback. Perfect for those sunny days out! 🌸",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "now"
+      ],
+      "question": "What styles are in right now?",
+      "answer": "This week, chunky knit sweaters layered over midi skirts offer a cozy yet stylish vibe. Ideal for transitioning into cooler weather! 💖",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "what's popular"
+      ],
+      "question": "What styles are currently popular?",
+      "answer": "High-waisted trousers styled with cropped tops are super popular right now, balancing structure with a touch of sass! 🌟",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "hot"
+      ],
+      "question": "What’s hot in fashion this week?",
+      "answer": "Loves, leather jackets over soft, flowing dresses are a hot trend right now! They add an edgy contrast that's so fashionable! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "latest"
+      ],
+      "question": "What are the latest trends in outfits?",
+      "answer": "Flowy maxi dresses with vibrant floral prints are stealing the spotlight this week. They're perfect for a breezy day out! 🌼",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "buy",
+        "shop",
+        "product"
+      ],
+      "question": "Where can I buy an oversized blazer?",
+      "answer": "You can find a stylish oversized blazer for $89! It's a perfect addition to your wardrobe this season! 💖",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "buy",
+        "shop",
+        "product"
+      ],
+      "question": "What are some recommended products this week?",
+      "answer": "Loves, metallic boots are a must-have! Priced at $129, they elevate any outfit beautifully! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "buy",
+        "shop",
+        "where"
+      ],
+      "question": "Where can I shop for a leather crossbody bag?",
+      "answer": "You can grab a chic leather crossbody for just $69. It's perfect for adding a stylish touch to any look! 🌟",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "buy",
+        "product",
+        "link"
+      ],
+      "question": "Can you recommend a product to buy this week?",
+      "answer": "Absolutely! A cozy chunky knit sweater is a great choice, layering perfectly with a midi skirt for a chic look! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "buy",
+        "product"
+      ],
+      "question": "What’s a good dress to buy for spring?",
+      "answer": "Flowy maxi dresses with floral patterns are trending! They're perfect for spring outings and super stylish! 🌷",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "color",
+        "style",
+        "wear"
+      ],
+      "question": "What colors should I wear this week?",
+      "answer": "This week, blush, emerald, and charcoal are dominating the palette. They create a dreamy blend for any outfit! 💖",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "color",
+        "coordinate",
+        "pair"
+      ],
+      "question": "How can I coordinate colors in my outfit?",
+      "answer": "Pair blush with charcoal for a chic look, or add emerald for a pop of color! These combinations are super stylish! 🌟",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "color",
+        "match"
+      ],
+      "question": "What colors match well together?",
+      "answer": "Blush pairs beautifully with emerald for a soft yet vibrant look. Perfect for a stylish outfit this week! 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "color",
+        "wear",
+        "style"
+      ],
+      "question": "What’s a good color to wear in fall?",
+      "answer": "Charcoal is a classic fall color! Pair it with warmer shades for a cozy yet chic vibe! 💖",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "style",
+        "wear"
+      ],
+      "question": "How should I style my oversized blazer?",
+      "answer": "Style your oversized blazer over a fitted top and high-waisted jeans for a polished, chic look! 💜",
+      "category": "styling"
+    },
+    {
+      "keywords": [
+        "style",
+        "wear"
+      ],
+      "question": "What’s a chic way to wear a maxi dress?",
+      "answer": "Layer a leather jacket over your flowy maxi dress for an edgy yet feminine vibe! It's perfect for any occasion! 🌸",
+      "category": "styling"
+    },
+    {
+      "keywords": [
+        "style",
+        "wear"
+      ],
+      "question": "How can I style a chunky knit sweater?",
+      "answer": "Layer your chunky knit sweater over a midi skirt for a cozy yet stylish outfit this season! 💜",
+      "category": "styling"
+    },
+    {
+      "keywords": [
+        "style",
+        "wear"
+      ],
+      "question": "What’s a fashionable way to wear high-waisted trousers?",
+      "answer": "Style high-waisted trousers with a cropped top for a balanced look that exudes sass and sophistication! 🌟",
+      "category": "styling"
+    },
+    {
+      "keywords": [
+        "style",
+        "pair"
+      ],
+      "question": "How do I pair floral prints this season?",
+      "answer": "Pair floral prints with neutral colors to let the patterns stand out! It's a stylish approach! 💖",
+      "category": "styling"
+    },
+    {
+      "keywords": [
+        "budget",
+        "affordable"
+      ],
+      "question": "What’s an affordable trend I can follow?",
+      "answer": "Chunky knit sweaters are affordable and trendy! They provide warmth and style without breaking the bank! 💜",
+      "category": "price"
+    },
+    {
+      "keywords": [
+        "expensive",
+        "worth"
+      ],
+      "question": "Are oversized blazers worth the price?",
+      "answer": "Absolutely! An oversized blazer is versatile and timeless! It's worth the investment for chic outfits! 🌸",
+      "category": "price"
+    },
+    {
+      "keywords": [
+        "cheap",
+        "budget"
+      ],
+      "question": "What’s a cheap option for a stylish look?",
+      "answer": "Look for flowy dresses with floral patterns; they can be found at budget-friendly prices while looking fabulous! 💖",
+      "category": "price"
+    },
+    {
+      "keywords": [
+        "price",
+        "affordable"
+      ],
+      "question": "What’s a stylish yet affordable bag option?",
+      "answer": "A leather crossbody for $69 is stylish and functional! Perfect for any outfit without overspending! 💜",
+      "category": "price"
+    },
+    {
+      "keywords": [
+        "budget",
+        "worth"
+      ],
+      "question": "Is it worth investing in quality knitwear?",
+      "answer": "Yes, investing in quality knitwear is worth it! They keep you cozy and stylish through the colder months! 🌟",
+      "category": "price"
+    }
+  ]
+}

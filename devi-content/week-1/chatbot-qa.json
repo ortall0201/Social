@@ -1,0 +1,302 @@
+{
+  "week_number": 2,
+  "generated_at": "2025-12-07T21:07:07.205Z",
+  "qa_count": 23,
+  "version": "v1",
+  "chatbot": "Devi",
+  "qa_pairs": [
+    {
+      "keywords": [
+        "trending",
+        "trends",
+        "hot",
+        "popular",
+        "whats new"
+      ],
+      "question": "What's trending this week?",
+      "answer": "Hey loves! This week, Oversized blazers are taking center stage, adding elegance and comfort to outfits. They're perfect for an effortlessly chic vibe! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "trends",
+        "hot",
+        "popular",
+        "whats new"
+      ],
+      "question": "What are the hot fashion trends right now?",
+      "answer": "Gorgeous, layered textures are still a hit! Think cozy knits paired with silky fabrics for a warm, chic look that feels like a hug. 🤗",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "trends",
+        "hot",
+        "popular",
+        "whats new"
+      ],
+      "question": "What’s the latest fashion trend?",
+      "answer": "This week, statement accessories are making waves! Ear cuffs and long earrings are adding playful twists to outfits, catching everyone's eye. 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "trends",
+        "hot",
+        "popular",
+        "whats new"
+      ],
+      "question": "What’s popular in fashion this week?",
+      "answer": "Loves, winter hair trends are embracing warm, rich tones! Think luxurious chocolate hues that feel inviting and cozy—just like a warm drink. ☕",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "trends",
+        "hot",
+        "popular",
+        "whats new"
+      ],
+      "question": "What are the current fashion trends?",
+      "answer": "Cozy vibes are in! The shift towards community-oriented fashion is evident, with a focus on support and connection among creators. 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "trends",
+        "hot",
+        "popular",
+        "whats new"
+      ],
+      "question": "What’s trending in accessories this week?",
+      "answer": "Hey gorgeous! Statement accessories like ear cuffs and bold earrings are trending, adding flair and personality to every outfit. ✨",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "buy",
+        "shop",
+        "product",
+        "where",
+        "link",
+        "recommend"
+      ],
+      "question": "Where can I buy an oversized blazer?",
+      "answer": "Loves, you can snag an oversized blazer from your favorite online store for around $89! It's a chic staple worth adding to your wardrobe. 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "buy",
+        "shop",
+        "product",
+        "where",
+        "link",
+        "recommend"
+      ],
+      "question": "Can you recommend a stylish crossbody bag?",
+      "answer": "Absolutely! A leather crossbody bag from a popular retailer is available for $69. It's perfect for adding a touch of elegance to any outfit! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "buy",
+        "shop",
+        "product",
+        "where",
+        "link",
+        "recommend"
+      ],
+      "question": "What’s a trendy footwear option I can purchase?",
+      "answer": "Check out some metallic boots for $129! They’re super stylish and perfect for elevating your look this winter, gorgeous! ✨",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "buy",
+        "shop",
+        "product",
+        "where",
+        "link",
+        "recommend"
+      ],
+      "question": "Where's the best place to shop for statement accessories?",
+      "answer": "Look for statement accessories like ear cuffs and bold earrings at popular retailers. They’re a must-have for adding flair to your outfits! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "buy",
+        "shop",
+        "product",
+        "where",
+        "link",
+        "recommend"
+      ],
+      "question": "What’s a good place to find layered texture pieces?",
+      "answer": "You can find layered textures at various stores! Look for cozy knits and silky fabrics to create that warm aesthetic we love! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "buy",
+        "shop",
+        "product",
+        "where",
+        "link",
+        "recommend"
+      ],
+      "question": "Where can I shop for winter hair products?",
+      "answer": "Gorgeous, find winter hair products focusing on warm tones at beauty stores or online. They’ll give you that luxurious, chocolatey glow! ☕",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "color",
+        "style",
+        "wear",
+        "pair",
+        "match",
+        "coordinate"
+      ],
+      "question": "What colors are in style this week?",
+      "answer": "This week, warm chocolate brown, soft pastels, and deep earthy tones are in vogue! They’re perfect for creating that cozy winter palette. 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "color",
+        "style",
+        "wear",
+        "pair",
+        "match",
+        "coordinate"
+      ],
+      "question": "How can I coordinate colors for winter outfits?",
+      "answer": "Try pairing deep earthy tones with warm chocolate brown for a stunning contrast! Add pastels for a refreshing touch, loves! ✨",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "color",
+        "style",
+        "wear",
+        "pair",
+        "match",
+        "coordinate"
+      ],
+      "question": "What colors should I wear this winter?",
+      "answer": "Embrace warm tones like chocolate brown and deep earthy shades this winter! They’re so inviting and perfect for chilly days. 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "color",
+        "style",
+        "wear",
+        "pair",
+        "match",
+        "coordinate"
+      ],
+      "question": "What’s a good color combination for outfits?",
+      "answer": "Loves, try combining soft pastels with darker shades for depth! It’s a chic way to stay stylish while keeping your look warm and cozy. 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "color",
+        "style",
+        "wear",
+        "pair",
+        "match",
+        "coordinate"
+      ],
+      "question": "What’s the best way to style oversized blazers?",
+      "answer": "Layer an oversized blazer over cozy knits or silky tops! Pair it with tailored trousers or jeans for that chic, effortless vibe! 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "color",
+        "style",
+        "wear",
+        "pair",
+        "match",
+        "coordinate"
+      ],
+      "question": "How can I style statement accessories?",
+      "answer": "Gorgeous, pair statement accessories like ear cuffs with simple outfits to let them shine! They add that perfect playful twist! ✨",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "budget",
+        "cheap",
+        "affordable",
+        "expensive",
+        "worth",
+        "price"
+      ],
+      "question": "What’s a budget-friendly way to stay trendy?",
+      "answer": "Loves, layer textures with affordable pieces! Look for cozy knits and stylish blazers at reasonable prices—comfort and style combined! 💜",
+      "category": "price"
+    },
+    {
+      "keywords": [
+        "budget",
+        "cheap",
+        "affordable",
+        "expensive",
+        "worth",
+        "price"
+      ],
+      "question": "Are oversized blazers worth the price?",
+      "answer": "Definitely! An oversized blazer is a versatile staple that can elevate any outfit, making it worth the investment for your wardrobe! 💜",
+      "category": "price"
+    },
+    {
+      "keywords": [
+        "budget",
+        "cheap",
+        "affordable",
+        "expensive",
+        "worth",
+        "price"
+      ],
+      "question": "What’s the price range for statement accessories?",
+      "answer": "Statement accessories can vary but are often very affordable! Look for trendy pieces that don’t break the bank while elevating your style. 💜",
+      "category": "price"
+    },
+    {
+      "keywords": [
+        "budget",
+        "cheap",
+        "affordable",
+        "expensive",
+        "worth",
+        "price"
+      ],
+      "question": "Is it possible to find stylish items on a budget?",
+      "answer": "Absolutely, gorgeous! Look for trendy pieces like oversized blazers or statement accessories that are both stylish and affordable! 💜",
+      "category": "price"
+    },
+    {
+      "keywords": [
+        "budget",
+        "cheap",
+        "affordable",
+        "expensive",
+        "worth",
+        "price"
+      ],
+      "question": "How do I know if a fashion item is worth the price?",
+      "answer": "Loves, consider versatility and quality! If it can be styled multiple ways and complements your style, it’s definitely worth it! 💜",
+      "category": "price"
+    }
+  ]
+}

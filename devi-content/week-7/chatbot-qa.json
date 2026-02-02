@@ -1,0 +1,217 @@
+{
+  "week_number": 7,
+  "generated_at": "2026-01-13T20:39:40.843Z",
+  "qa_count": 21,
+  "version": "v1",
+  "chatbot": "Devi",
+  "qa_pairs": [
+    {
+      "keywords": [
+        "trending",
+        "trends",
+        "hot",
+        "popular",
+        "whats new"
+      ],
+      "question": "What's trending this week?",
+      "answer": "Hey loves! This week, oversized blazers are making waves, often styled with fitted turtlenecks and high-waisted trousers for that chic look. 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "latest",
+        "now"
+      ],
+      "question": "What are the latest fashion trends?",
+      "answer": "Gorgeous! Flowy midi dresses paired with chunky knit cardigans are super popular. It's all about cozy and chic layers! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "hot"
+      ],
+      "question": "What styles are hot right now?",
+      "answer": "Wide-leg trousers are trending this week! Pair them with crop tops or tucked-in blouses for a playful vibe. 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "popular"
+      ],
+      "question": "What’s popular in fashion this week?",
+      "answer": "Structured coats are in, loves! Layer them over casual outfits for a relaxed yet sophisticated look. 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "current"
+      ],
+      "question": "What’s the current fashion vibe?",
+      "answer": "This week is all about mixing cozy elements with polished pieces. Think relaxed yet put-together styles! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "now"
+      ],
+      "question": "What’s happening in fashion right now?",
+      "answer": "Chunky boots are dominating! They go perfectly with skirts and wide-leg pants, making a bold statement. 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "buy",
+        "shop",
+        "product"
+      ],
+      "question": "Where can I buy an oversized blazer?",
+      "answer": "You can shop for an oversized blazer at popular retailers. They’re perfect layered over fitted turtlenecks! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "recommend",
+        "product",
+        "shop"
+      ],
+      "question": "Can you recommend a good flowy midi dress?",
+      "answer": "Absolutely, gorgeous! Look for flowy midi dresses that pair beautifully with chunky knit cardigans this season. 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "buy",
+        "product",
+        "link"
+      ],
+      "question": "Where can I find wide-leg trousers?",
+      "answer": "You can find wide-leg trousers at many stores. They’re super versatile with crop tops or tucked-in blouses! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "where",
+        "buy",
+        "product"
+      ],
+      "question": "Where can I shop for a structured coat?",
+      "answer": "Look for structured coats at fashion retailers. They really elevate casual outfits this season! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "where",
+        "shop",
+        "buy"
+      ],
+      "question": "Where can I shop for chunky boots?",
+      "answer": "You can find chunky boots at various fashion retailers. They’re perfect for making a bold footwear statement! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "color",
+        "style",
+        "wear"
+      ],
+      "question": "What colors are trending this week?",
+      "answer": "This week, warm camel, soft sage, and gentle blush are dominating the color palette. So soothing and stylish! 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "color",
+        "style",
+        "pair"
+      ],
+      "question": "How do I style my oversized blazer?",
+      "answer": "Style your oversized blazer with a fitted turtleneck and high-waisted trousers for a chic layered look, loves! 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "color",
+        "wear",
+        "match"
+      ],
+      "question": "What should I wear with sage?",
+      "answer": "Pair sage with neutral tones or soft blush for a beautiful, harmonious look. It’s all about balance! 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "style",
+        "wear",
+        "coordinate"
+      ],
+      "question": "What’s a good color combination for chunky boots?",
+      "answer": "Chunky boots look fabulous with warm camel or deep hues. Try them with skirts or wide-leg pants for impact! 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "color",
+        "style",
+        "coordinate"
+      ],
+      "question": "What colors coordinate well with blush?",
+      "answer": "Blush pairs beautifully with warm camel and soft sage. It creates a lovely, cohesive look! 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "affordable",
+        "price",
+        "worth"
+      ],
+      "question": "Are oversized blazers worth the price?",
+      "answer": "Absolutely, gorgeous! An oversized blazer is a versatile piece that elevates any outfit. Totally worth it! 💜",
+      "category": "value"
+    },
+    {
+      "keywords": [
+        "budget",
+        "cheap",
+        "value"
+      ],
+      "question": "What’s the price range for flowy midi dresses?",
+      "answer": "Flowy midi dresses can be affordable and stylish! Look for options that suit your budget while keeping it chic! 💜",
+      "category": "value"
+    },
+    {
+      "keywords": [
+        "affordable",
+        "worth",
+        "price"
+      ],
+      "question": "Are chunky boots a good investment?",
+      "answer": "Yes, loves! Chunky boots are a bold choice and can elevate many outfits, making them worth the investment! 💜",
+      "category": "value"
+    },
+    {
+      "keywords": [
+        "affordable",
+        "cheap",
+        "budget"
+      ],
+      "question": "What’s the price of a structured coat?",
+      "answer": "Structured coats vary in price, but you can find great options that are affordable and stylish! 💜",
+      "category": "value"
+    },
+    {
+      "keywords": [
+        "price",
+        "value",
+        "worth"
+      ],
+      "question": "Is it worth buying wide-leg trousers?",
+      "answer": "Definitely, gorgeous! Wide-leg trousers are versatile and can be styled in many ways, making them a great addition! 💜",
+      "category": "value"
+    }
+  ]
+}
