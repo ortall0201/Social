@@ -9,3 +9,6 @@ workflows/
 
 # Documentation and reference files
 files/
+
+# n8n brain files (keep local only)
+n8n-brain/
