@@ -1,0 +1,36 @@
+{
+  "name": "devi-remotion",
+  "version": "1.0.0",
+  "description": "Deterministic video rendering for Devi reels using Remotion",
+  "type": "module",
+  "scripts": {
+    "dev": "remotion studio",
+    "render:reel": "node scripts/render-reel.mjs",
+    "render:folder": "node scripts/render-folder.mjs",
+    "render:sheer": "node scripts/render-sheer-viral.mjs",
+    "render:affiliate": "node scripts/render-sunglasses-affiliate.mjs",
+    "render:affiliate-pro": "node scripts/render-affiliate-reels.mjs",
+    "render:viral-combo": "node scripts/render-viral-combo.mjs",
+    "render:breaking-reality": "node scripts/render-breaking-reality.mjs",
+    "render:true-story": "node scripts/render-true-story.mjs",
+    "render:makeup-influencer": "node scripts/render-makeup-influencer.mjs",
+    "render:makeup-blend": "node scripts/render-makeup-blend.mjs",
+    "render:carousel": "node scripts/render-mindvalley-carousel.mjs",
+    "render:viral": "node scripts/render-viral-blend.mjs",
+    "render:simple": "node scripts/render-simple-viral.mjs",
+    "render:beauty": "node scripts/render-satisfying-beauty-blend.mjs"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.409",
+    "@remotion/cli": "^4.0.409",
+    "@remotion/renderer": "^4.0.409",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "remotion": "^4.0.409"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.2.45",
+    "typescript": "^5.3.3"
+  }
+}

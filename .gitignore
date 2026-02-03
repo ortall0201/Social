@@ -1,0 +1,11 @@
+# Local workflow archives
+old_workflows/
+
+# Local video storage
+local_videos/
+
+# n8n workflows (keep local only)
+workflows/
+
+# Documentation and reference files
+files/

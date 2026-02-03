@@ -1,0 +1,39 @@
+{
+  "reel_id": "reel-YYYY01Jan 24, 2026165612",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "scenes": [
+    {
+      "image": "https://github.com/ortall0201/n8n/raw/master/devi-videos/images/reel-YYYY01Jan 24, 2026165612.webp",
+      "durationFrames": 60,
+      "text": "Devi stands center-frame in an elegant nightshirt, soft glowing skin illuminated by studio lighting. She gazes toward her reflection, a subtle flirty smile gracing her lips.",
+      "textPosition": "bottom"
+    },
+    {
+      "image": "https://github.com/ortall0201/n8n/raw/master/devi-videos/images/reel-YYYY01Jan 24, 2026165612.webp",
+      "durationFrames": 60,
+      "text": "With a quick jump cut, Devi's outfit transforms into a stunning high-fashion ensemble, showcasing a different mood while maintaining her elegance.",
+      "textPosition": "bottom"
+    },
+    {
+      "image": "https://github.com/ortall0201/n8n/raw/master/devi-videos/images/reel-YYYY01Jan 24, 2026165612.webp",
+      "durationFrames": 60,
+      "text": "She slowly turns once, her confidence radiating as she poses gracefully, embodying the luxury fashion editorial style.",
+      "textPosition": "bottom"
+    },
+    {
+      "image": "https://github.com/ortall0201/n8n/raw/master/devi-videos/images/reel-YYYY01Jan 24, 2026165612.webp",
+      "durationFrames": 90,
+      "text": "Finally, Devi walks calmly out of the frame, leaving a lasting impression of sophistication and allure.",
+      "textPosition": "center"
+    }
+  ],
+  "style": {
+    "font": "Inter, sans-serif",
+    "textPosition": "bottom",
+    "safeMargin": 120,
+    "textColor": "#ffffff",
+    "textShadow": true
+  }
+}
