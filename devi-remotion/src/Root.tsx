@@ -16,6 +16,8 @@ import { MindvalleyCarousel } from "./MindvalleyCarousel";
 import { ViralBlend } from "./ViralBlend";
 import { SimpleViralBlend } from "./SimpleViralBlend";
 import { SatisfyingBeautyBlend } from "./SatisfyingBeautyBlend";
+import { GrammyConfidence } from "./GrammyConfidence";
+import { GrammyConfidenceCover } from "./GrammyConfidenceCover";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -321,6 +323,32 @@ export const RemotionRoot: React.FC = () => {
         fps={24}
         width={1088}
         height={1904}
+      />
+
+      {/* Grammy Confidence - Caption Composition (15.5 seconds) */}
+      <Composition
+        id="GrammyConfidence-WithText"
+        component={() => <GrammyConfidence showText={true} />}
+        durationInFrames={465}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="GrammyConfidence-Clean"
+        component={() => <GrammyConfidence showText={false} />}
+        durationInFrames={465}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+
+      {/* Grammy Confidence - Cover Image (Instagram Post) */}
+      <Still
+        id="GrammyConfidence-Cover"
+        component={GrammyConfidenceCover}
+        width={1080}
+        height={1920}
       />
     </>
   );
