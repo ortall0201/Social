@@ -1,0 +1,213 @@
+{
+  "week_number": 11,
+  "generated_at": "2026-02-10T21:11:19.404Z",
+  "qa_count": 22,
+  "version": "v1",
+  "chatbot": "Devi",
+  "qa_pairs": [
+    {
+      "keywords": [
+        "trending",
+        "trends",
+        "hot",
+        "popular",
+        "whats new"
+      ],
+      "question": "What's trending this week?",
+      "answer": "Hey loves! This week, oversized blazers layered over soft knit turtlenecks are a hit! Perfect for those cooler days! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "latest"
+      ],
+      "question": "What are the latest fashion trends?",
+      "answer": "Gorgeous! Flowing midi dresses paired with chunky combat boots are making waves! It's a playful twist on classic femininity. 🌟",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "this week"
+      ],
+      "question": "What are the hot styles this week?",
+      "answer": "This week, high-waisted wide-leg trousers with fitted crop tops are all the rage! Such a flattering silhouette! 💕",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "popular"
+      ],
+      "question": "What styles are popular right now?",
+      "answer": "Hey gorgeous! Leather jackets over floral print dresses are adding a bold edge to romantic looks. Perfect for day-to-night! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "hot",
+        "now"
+      ],
+      "question": "What’s hot in fashion this week?",
+      "answer": "Cozy knit sweaters tucked into tailored trousers are trending! They give a polished yet effortless vibe for any occasion. 🌟",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "latest"
+      ],
+      "question": "What’s the latest in the fashion scene?",
+      "answer": "Loves, the trend of mixing playful and polished styles is everywhere! It’s all about comfort and chic aesthetics! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "buy",
+        "shop",
+        "product"
+      ],
+      "question": "Where can I buy an oversized blazer?",
+      "answer": "You can shop an Oversized Blazer for just $89 at a popular retailer! Perfect for layering this season! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "product",
+        "recommend"
+      ],
+      "question": "What do you recommend for shoes this season?",
+      "answer": "Gorgeous! I recommend metallic boots priced at $129. They add a chic touch to any outfit! 💕",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "buy",
+        "shop",
+        "where"
+      ],
+      "question": "Where can I find a leather crossbody?",
+      "answer": "You can find a lovely leather crossbody for $69 at a well-known store! Such a great accessory! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "shop",
+        "link"
+      ],
+      "question": "Can you share the link to buy chunky combat boots?",
+      "answer": "While I can't provide a link, look for chunky combat boots at your favorite stores! They’re perfect for pairing with dresses! 🌟",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "buy",
+        "recommend"
+      ],
+      "question": "Can you recommend affordable knit sweaters?",
+      "answer": "Absolutely, loves! Look for cozy knit sweaters that complement tailored trousers. They offer great style without breaking the bank! 💕",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "where",
+        "buy"
+      ],
+      "question": "Where can I buy high-waisted wide-leg trousers?",
+      "answer": "You can find trendy high-waisted wide-leg trousers at many retailers! They’re worth the investment for that flattering fit! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "color",
+        "wear"
+      ],
+      "question": "What colors are in style this week?",
+      "answer": "This week, burgundy, sage, and cream are dominating the palette! Perfect for creating cozy fall looks! 🌟",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "style",
+        "pair"
+      ],
+      "question": "How can I style a cream sweater?",
+      "answer": "Pair a cream sweater with tailored trousers for a chic, polished look. Add a statement accessory to elevate the vibe! 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "color",
+        "match"
+      ],
+      "question": "What colors match well with burgundy?",
+      "answer": "Burgundy pairs beautifully with sage and cream! These combinations create a warm, stylish look for the season! 🌟",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "coordinate",
+        "wear"
+      ],
+      "question": "How can I coordinate sage pieces?",
+      "answer": "Sage works beautifully with cream and rich earth tones! Try pairing it with beige trousers for a fresh look! 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "style",
+        "wear"
+      ],
+      "question": "What should I wear to look chic this fall?",
+      "answer": "Try layering an oversized blazer over a soft knit turtleneck. It’s perfect for a chic fall look! 💕",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "budget",
+        "cheap"
+      ],
+      "question": "What’s an affordable way to stay stylish?",
+      "answer": "Focus on versatile pieces like tailored trousers and stylish sweaters! They’re affordable and can be dressed up or down! 💜",
+      "category": "price"
+    },
+    {
+      "keywords": [
+        "expensive",
+        "price"
+      ],
+      "question": "What makes a product worth the price?",
+      "answer": "Quality materials and timeless styles make pieces worth the investment! Always choose what resonates with your style! 💕",
+      "category": "price"
+    },
+    {
+      "keywords": [
+        "affordable",
+        "worth"
+      ],
+      "question": "Are oversized blazers worth the price?",
+      "answer": "Absolutely, loves! An oversized blazer is versatile and can elevate many outfits, making it well worth the investment! 🌟",
+      "category": "price"
+    },
+    {
+      "keywords": [
+        "cheap",
+        "budget"
+      ],
+      "question": "How can I shop on a budget?",
+      "answer": "Focus on mixing high and low pieces! Invest in key items like tailored trousers and pair them with affordable tops! 💜",
+      "category": "price"
+    },
+    {
+      "keywords": [
+        "expensive",
+        "worth"
+      ],
+      "question": "Is it worth buying leather jackets?",
+      "answer": "Oh yes, gorgeous! A quality leather jacket is timeless and can be styled in countless ways, making it a worthwhile purchase! 💕",
+      "category": "price"
+    }
+  ]
+}
