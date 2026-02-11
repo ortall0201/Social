@@ -1,0 +1,10 @@
+=== SEGMENT 2 PROMPTS - Copy these into your workflow ===
+
+IMAGE PROMPT (for Nano Banana):
+Devi in mid-motion gracefully jumping/falling from car into crowd, wearing oversized Zara cream blazer flowing, pink lipstick visible in raised hand, crowd reaching up with excitement, dynamic angle, motion blur effect, super bowl stadium atmosphere, fashion photography style
+
+VIDEO PROMPT (for Kling):
+Devi gracefully falls forward from car into excited crowd below, Zara blazer flowing dramatically, arms spread with lipstick in hand, crowd catching, slow-motion effect, cinematic lighting, smooth fluid motion
+
+NEGATIVE PROMPT (keep same):
+blurry, distorted, low quality, extra limbs, sudden movement, jerky motion, fake looking, bad CGI, pixelated
