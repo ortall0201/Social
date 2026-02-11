@@ -18,6 +18,13 @@ import { SimpleViralBlend } from "./SimpleViralBlend";
 import { SatisfyingBeautyBlend } from "./SatisfyingBeautyBlend";
 import { GrammyConfidence } from "./GrammyConfidence";
 import { GrammyConfidenceCover } from "./GrammyConfidenceCover";
+import { GrammyConfidenceCoverV2 } from "./GrammyConfidenceCoverV2";
+import { BeautyTipsOverlay } from "./BeautyTipsOverlay";
+import { BeautyViralTipsOverlay } from "./BeautyViralTipsOverlay";
+import { BeautyViralTipsMinimal } from "./BeautyViralTipsMinimal";
+import { DeviCaptionMinimalReel, DeviCaptionMinimalReelProps } from "./DeviCaptionMinimalReel";
+import { DeviCaptionStaticMinimal, DeviCaptionStaticMinimalProps } from "./DeviCaptionStaticMinimal";
+import { DeviViralCaptionMinimal, DeviViralCaptionMinimalProps } from "./DeviViralCaptionMinimal";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -343,6 +350,32 @@ export const RemotionRoot: React.FC = () => {
         height={1920}
       />
 
+      <Composition<DeviCaptionMinimalReelProps>
+        id="DeviCaptionMinimalReel"
+        component={DeviCaptionMinimalReel}
+        durationInFrames={120}
+        fps={30}
+        width={1080}
+        height={1350}
+        defaultProps={{
+          videoSrc: "videos/beauty-reel-1.mp4",
+          onScreenText: "At ease.",
+          textPosition: "upper",
+        }}
+      />
+      <Composition<DeviCaptionStaticMinimalProps>
+        id="DeviCaptionStaticMinimal"
+        component={DeviCaptionStaticMinimal}
+        durationInFrames={1}
+        fps={30}
+        width={1080}
+        height={1350}
+        defaultProps={{
+          onScreenText: "At ease.",
+          textPosition: "upper",
+        }}
+      />
+
       {/* Grammy Confidence - Cover Image (Instagram Post) */}
       <Still
         id="GrammyConfidence-Cover"
@@ -350,6 +383,43 @@ export const RemotionRoot: React.FC = () => {
         width={1080}
         height={1920}
       />
+      <Still
+        id="GrammyConfidence-Cover-V2"
+        component={GrammyConfidenceCoverV2}
+        width={1080}
+        height={1920}
+      />
+      <Still
+        id="BeautyTips-Overlay"
+        component={BeautyTipsOverlay}
+        width={1080}
+        height={1920}
+      />
+      <Still
+        id="BeautyViralTips-Overlay"
+        component={BeautyViralTipsOverlay}
+        width={1080}
+        height={1350}
+      />
+      <Still
+        id="BeautyViralTips-Minimal"
+        component={BeautyViralTipsMinimal}
+        width={1080}
+        height={1350}
+      />
+
+      {/* Viral Caption Minimal - Community Building (4:5 Instagram ratio) */}
+      <Still<DeviViralCaptionMinimalProps>
+        id="DeviViralCaptionMinimal"
+        component={DeviViralCaptionMinimal}
+        width={1080}
+        height={1350}
+        defaultProps={{
+          caption: "The version of you that once felt impossible? You're becoming her.",
+          theme: "dark",
+        }}
+      />
     </>
   );
 };
+
