@@ -15,3 +15,7 @@ n8n-brain/
 
 # Brain files (keep local only)
 brain/
+
+# Devi content guides (keep local only)
+devi-content/README.md
+devi-content/DEVI-VIRAL-CAPTION-GUIDE.md
