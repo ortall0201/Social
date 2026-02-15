@@ -25,6 +25,7 @@ import { BeautyViralTipsMinimal } from "./BeautyViralTipsMinimal";
 import { DeviCaptionMinimalReel, DeviCaptionMinimalReelProps } from "./DeviCaptionMinimalReel";
 import { DeviCaptionStaticMinimal, DeviCaptionStaticMinimalProps } from "./DeviCaptionStaticMinimal";
 import { DeviViralCaptionMinimal, DeviViralCaptionMinimalProps } from "./DeviViralCaptionMinimal";
+import { HotContourEdit } from "./HotContourEdit";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -418,6 +419,24 @@ export const RemotionRoot: React.FC = () => {
           caption: "The version of you that once felt impossible? You're becoming her.",
           theme: "dark",
         }}
+      />
+
+      {/* Hot Contour Edit - Car Lean + Second Clip (16 seconds) */}
+      <Composition
+        id="HotContourEdit-WithText"
+        component={() => <HotContourEdit showText={true} />}
+        durationInFrames={460}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="HotContourEdit-Clean"
+        component={() => <HotContourEdit showText={false} />}
+        durationInFrames={460}
+        fps={30}
+        width={1080}
+        height={1920}
       />
     </>
   );
