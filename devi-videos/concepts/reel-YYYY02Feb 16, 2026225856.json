@@ -1,0 +1,43 @@
+{
+  "reel_id": "reel-YYYY02Feb 16, 2026225856",
+  "date": "YYYY-02-Feb 16, 2026",
+  "week_number": 11,
+  "script": {
+    "hook": {
+      "time_range": "0-3s",
+      "content": "This trend is about to blow up—you heard it here first 💜",
+      "visual": "Devi direct to camera, engaging expression"
+    },
+    "body": {
+      "time_range": "4-25s",
+      "content": [
+        "I've been scanning Instagram all week, and the trend is clear: Oversized blazers layered over soft knit turtlenecks create a chic, structured look that's perfect for cooler days.",
+        "Everyone's wearing oversized blazers layered over soft knit turtlenecks create a chic, structured look that's perfect for cooler days.. Also, wearing flowy midi dresses paired with chunky combat boots add a playful twist to classic femininity.",
+        "Here's how to get the look: start with Oversized Blazer from Zara."
+      ],
+      "visual": "Product clips, influencer screenshots, Devi reactions"
+    },
+    "cta": {
+      "time_range": "26-30s",
+      "content": "💌 Link in bio to get weekly fashion insights delivered to your inbox! Plus product links + full trend report. Follow @devine.me for daily inspo 💜",
+      "visual": "Devi smiling, follow/link CTA on screen"
+    }
+  },
+  "mode": "satisfying",
+  "hook": "Oversized blazers layered over soft knit turtlenecks create a chic, structured look that's perfect for cooler days. is 🔥 💌 Newsletter link in bio!",
+  "caption": "Oversized blazers layered over soft knit turtlenecks create a chic, structured look that's perfect for cooler days. is 🔥 💌 Newsletter link in bio!",
+  "hashtags": [
+    "fashiontok",
+    "styletips",
+    "ootd",
+    "fashiontrends",
+    "devinevibes",
+    "weeklyfashion"
+  ],
+  "cta": "Watch until the end",
+  "image_url": "https://github.com/ortall0201/n8n/raw/master/devi-videos/images/reel-YYYY02Feb 16, 2026225856.webp",
+  "video_url": "https://github.com/ortall0201/n8n/raw/master/devi-videos/videos/reel-YYYY02Feb 16, 2026225856.mp4",
+  "trending_insights": "Here are the insights for creating realistic, satisfying makeup application videos that highlight glowing, fresh skin with natural camera angles:\n\n- **Engaging Hand Movements**: Captivating hand movements that are fluid and rhythmical maintain viewer interest. Techniques like gentle blending, soft tapping, and sweeping motions create a hypnotic quality that draws the eye.\n\n- **Natural Angles**: Utilizing 30-45° angles allows for a candid view of the makeup application process. This perspective f",
+  "poll_attempts": 1,
+  "status": "success"
+}
