@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Newsletter Studio — Sponsored</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #f3f2ef;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, Helvetica, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 32px 16px;
+    }
+
+    /* ── LinkedIn card shell ───────────────────────────────────────────────── */
+    .li-card {
+      width: 100%;
+      max-width: 555px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 2px 10px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+
+    /* ── Post header ───────────────────────────────────────────────────────── */
+    .li-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 12px 16px 8px;
+    }
+
+    .li-avatar {
+      width: 48px; height: 48px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #9B32C8 0%, #3C1EA0 100%);
+      display: flex; align-items: center; justify-content: center;
+      color: #fff; font-weight: 700; font-size: 17px;
+      flex-shrink: 0; letter-spacing: 1px;
+    }
+
+    .li-author { flex: 1; }
+    .li-name   { font-size: 14px; font-weight: 600; color: #191919; line-height: 1.3; }
+    .li-title  { font-size: 12px; color: #666; line-height: 1.4; }
+    .li-meta   {
+      font-size: 12px; color: #999; margin-top: 1px;
+      display: flex; align-items: center; gap: 4px;
+    }
+    .li-meta .dot { width: 3px; height: 3px; border-radius: 50%; background: #999; }
+
+    .li-follow {
+      margin-left: auto; flex-shrink: 0;
+      color: #0A66C2; font-size: 14px; font-weight: 600;
+      background: none; border: none; cursor: pointer;
+      padding: 4px 0;
+    }
+    .li-follow:hover { text-decoration: underline; }
+
+    /* ── Post body text ────────────────────────────────────────────────────── */
+    .li-body {
+      padding: 4px 16px 10px;
+      font-size: 14px; color: #191919; line-height: 1.5;
+    }
+    .li-body strong { font-weight: 600; }
+
+    /* ── Media area ────────────────────────────────────────────────────────── */
+    .li-media { position: relative; width: 100%; cursor: pointer; }
+
+    /* Thumbnail */
+    .li-thumb {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background: #070707;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .thumb-bg {
+      position: absolute; inset: 0;
+      background:
+        radial-gradient(ellipse at 40% 40%, rgba(155,50,200,0.35) 0%, transparent 60%),
+        radial-gradient(ellipse at 70% 70%, rgba(60,30,160,0.25) 0%, transparent 55%);
+    }
+
+    .thumb-pill {
+      position: absolute; top: 14px; left: 14px;
+      background: rgba(155,50,200,0.85);
+      color: #fff; font-size: 11px; font-weight: 700;
+      padding: 4px 12px; border-radius: 20px; letter-spacing: 2px;
+      text-transform: uppercase;
+      backdrop-filter: blur(6px);
+    }
+
+    .thumb-content {
+      position: relative; z-index: 1;
+      display: flex; flex-direction: column;
+      align-items: center; gap: 10px;
+      text-align: center; padding: 0 20px;
+    }
+
+    .thumb-title {
+      color: #fff; font-size: 32px; font-weight: 900;
+      font-family: "Arial Black", Arial, sans-serif;
+      letter-spacing: 3px; text-shadow: 0 0 40px rgba(155,50,200,0.6);
+    }
+
+    .thumb-subtitle {
+      color: rgba(255,255,255,0.6); font-size: 12px; letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    .thumb-tags {
+      display: flex; gap: 8px; flex-wrap: wrap; justify-content: center;
+      margin-top: 4px;
+    }
+    .thumb-tag {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      color: rgba(255,255,255,0.75);
+      font-size: 11px; padding: 3px 12px; border-radius: 20px;
+    }
+
+    /* Play button */
+    .play-btn {
+      position: absolute; top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      width: 68px; height: 68px;
+      background: rgba(255,255,255,0.92);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      transition: transform 0.15s ease, background 0.15s ease;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+      z-index: 5;
+    }
+    .play-btn::after {
+      content: "";
+      width: 0; height: 0;
+      border-style: solid;
+      border-width: 15px 0 15px 26px;
+      border-color: transparent transparent transparent #0A66C2;
+      margin-left: 5px;
+    }
+    .li-media:hover .play-btn {
+      background: #fff;
+      transform: translate(-50%, -50%) scale(1.1);
+    }
+
+    /* Duration badge */
+    .duration-badge {
+      position: absolute; bottom: 10px; right: 10px;
+      background: rgba(0,0,0,0.72);
+      color: #fff; font-size: 12px; font-weight: 600;
+      padding: 2px 8px; border-radius: 4px;
+      letter-spacing: 0.5px;
+    }
+
+    /* Video player */
+    .li-video {
+      display: none; width: 100%;
+      aspect-ratio: 16 / 9;
+      background: #000;
+    }
+    .li-video.active { display: block; }
+    .li-video video { width: 100%; height: 100%; display: block; }
+
+    /* ── Ad footer ─────────────────────────────────────────────────────────── */
+    .li-footer {
+      padding: 10px 16px 14px;
+      border-top: 1px solid #e0e0e0;
+      display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    }
+
+    .li-footer-text { flex: 1; min-width: 0; }
+    .li-domain      { font-size: 11px; color: #999; text-transform: uppercase; letter-spacing: 0.5px; }
+    .li-headline    { font-size: 14px; font-weight: 600; color: #191919; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .li-description { font-size: 12px; color: #666; margin-top: 1px; }
+
+    .li-cta {
+      flex-shrink: 0;
+      background: #0A66C2;
+      color: #fff;
+      border: none; border-radius: 16px;
+      padding: 8px 20px;
+      font-size: 14px; font-weight: 600;
+      cursor: pointer; text-decoration: none;
+      display: inline-block; white-space: nowrap;
+      transition: background 0.15s;
+    }
+    .li-cta:hover { background: #004182; }
+
+    /* ── Reaction / engagement bar ─────────────────────────────────────────── */
+    .li-engage {
+      padding: 4px 16px 2px;
+      display: flex; align-items: center; justify-content: space-between;
+      font-size: 12px; color: #666;
+    }
+    .li-reactions { display: flex; align-items: center; gap: 3px; }
+    .li-react-icons { font-size: 14px; }
+    .li-engage-right { display: flex; gap: 12px; }
+
+    .li-actions {
+      padding: 2px 8px 8px;
+      display: flex; border-top: 1px solid #e0e0e0; margin: 0 8px;
+    }
+    .li-action-btn {
+      flex: 1; display: flex; align-items: center; justify-content: center; gap: 5px;
+      padding: 10px 0; border: none; background: none; cursor: pointer;
+      font-size: 13px; font-weight: 600; color: #666; border-radius: 4px;
+      transition: background 0.1s;
+    }
+    .li-action-btn:hover { background: #f3f2ef; color: #191919; }
+    .li-action-icon { font-size: 16px; }
+
+    /* ── Tip box below the card ────────────────────────────────────────────── */
+    .tip-box {
+      max-width: 555px; width: 100%;
+      margin-top: 20px;
+      background: #fff;
+      border-radius: 8px;
+      padding: 16px 20px;
+      box-shadow: 0 0 0 1px rgba(0,0,0,0.07);
+      font-size: 13px; color: #444; line-height: 1.6;
+    }
+    .tip-box h3 { font-size: 14px; font-weight: 700; color: #191919; margin-bottom: 8px; }
+    .tip-box ul { padding-left: 18px; }
+    .tip-box li { margin-bottom: 4px; }
+    .tip-box a  { color: #0A66C2; text-decoration: none; }
+    .tip-box a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+  <!-- LinkedIn-style sponsored post card -->
+  <div style="display:flex; flex-direction:column; align-items:center; width:100%;">
+
+    <div class="li-card">
+
+      <!-- Header -->
+      <div class="li-header">
+        <div class="li-avatar">NS</div>
+        <div class="li-author">
+          <div class="li-name">Newsletter Studio</div>
+          <div class="li-title">AI-Powered Newsletter Automation Platform</div>
+          <div class="li-meta">
+            Promoted
+            <span class="dot"></span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="#999"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+          </div>
+        </div>
+        <button class="li-follow">+ Follow</button>
+      </div>
+
+      <!-- Body text -->
+      <div class="li-body">
+        From raw, ugly plain text to a <strong>stunning AI-crafted newsletter</strong> — in minutes.<br>
+        Design control. Claude Code MCP agent. SEO/GEO/AEO intelligence. All in one platform. 🚀
+      </div>
+
+      <!-- Media -->
+      <div class="li-media" onclick="playVideo(this)">
+
+        <!-- Thumbnail (shown until play) -->
+        <div class="li-thumb" id="thumb">
+          <div class="thumb-bg"></div>
+          <div class="thumb-pill">Before &amp; After</div>
+
+          <div class="thumb-content">
+            <div class="thumb-title">Newsletter Studio</div>
+            <div class="thumb-subtitle">The Complete AI Newsletter System</div>
+            <div class="thumb-tags">
+              <span class="thumb-tag">Design Control</span>
+              <span class="thumb-tag">Claude Code MCP</span>
+              <span class="thumb-tag">SEO / GEO / AEO</span>
+            </div>
+          </div>
+
+          <div class="play-btn"></div>
+          <div class="duration-badge">2:13</div>
+        </div>
+
+        <!-- Video (shown after click) -->
+        <div class="li-video" id="videoWrap">
+          <video id="vid" controls preload="none">
+            <!--
+              Update this path to point to your rendered video.
+              If newsletter-ad.html lives in C:\Users\user\Desktop\Social\
+              and the video is in local_videos\remotion\, use the path below.
+            -->
+            <source src="local_videos/remotion/newsletter-commercial-v2.mp4" type="video/mp4">
+            <p style="color:#fff;padding:20px;text-align:center;">
+              Video not found. Render the commercial first, then place it at:<br>
+              <code>local_videos/remotion/newsletter-commercial-v2.mp4</code>
+            </p>
+          </video>
+        </div>
+
+      </div>
+
+      <!-- Reactions / engagement bar -->
+      <div class="li-engage">
+        <div class="li-reactions">
+          <span class="li-react-icons">👍❤️🔥</span>
+          <span style="margin-left:4px;">Devi Parikh and 248 others</span>
+        </div>
+        <div class="li-engage-right">
+          <span>34 comments</span>
+          <span>12 reposts</span>
+        </div>
+      </div>
+
+      <!-- Action buttons -->
+      <div class="li-actions">
+        <button class="li-action-btn">
+          <span class="li-action-icon">👍</span> Like
+        </button>
+        <button class="li-action-btn">
+          <span class="li-action-icon">💬</span> Comment
+        </button>
+        <button class="li-action-btn">
+          <span class="li-action-icon">🔁</span> Repost
+        </button>
+        <button class="li-action-btn">
+          <span class="li-action-icon">📤</span> Send
+        </button>
+      </div>
+
+      <!-- Ad footer with CTA -->
+      <div class="li-footer">
+        <div class="li-footer-text">
+          <div class="li-domain">newsletter-studio-to-automation.lovable.app</div>
+          <div class="li-headline">Newsletter Studio — AI Newsletter Automation</div>
+          <div class="li-description">Beautiful newsletters, built by Claude Code. Try it free.</div>
+        </div>
+        <a
+          class="li-cta"
+          href="https://newsletter-studio-to-automation.lovable.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          onclick="event.stopPropagation()"
+        >
+          Learn More
+        </a>
+      </div>
+
+    </div><!-- /.li-card -->
+
+    <!-- Organic strategy tips -->
+    <div class="tip-box">
+      <h3>📣 Organic ad strategy (no ad spend)</h3>
+      <ul>
+        <li><strong>LinkedIn native video</strong> — Upload the MP4 directly (not YouTube link). Native video gets 3–5× more reach than external links. Add captions.</li>
+        <li><strong>First comment CTA</strong> — Post without the link, then add the URL in the first comment. LinkedIn suppresses posts with external links in the post body.</li>
+        <li><strong>Instagram Reels + Stories</strong> — The 2m13s is long for Reels. Clip a 30–60s hook (the Before→After reveal) as a separate Reel, link full video in bio.</li>
+        <li><strong>Facebook Groups</strong> — Share in newsletters, marketing automation, and creator groups. Frame as a showcase, not an ad.</li>
+        <li><strong>Dark social</strong> — Send to 10–20 newsletter creator friends privately. Genuine shares outperform boosted posts.</li>
+        <li><strong>This HTML file</strong> — Open it in your browser and screenshot/record the card for a native-looking organic post visual.</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <script>
+    function playVideo(mediaEl) {
+      const thumb    = document.getElementById("thumb");
+      const videoWrap = document.getElementById("videoWrap");
+      const vid      = document.getElementById("vid");
+
+      if (videoWrap.classList.contains("active")) return;
+
+      thumb.style.display = "none";
+      videoWrap.classList.add("active");
+      vid.play().catch(() => {/* autoplay blocked — user sees controls */});
+    }
+  </script>
+
+</body>
+</html>

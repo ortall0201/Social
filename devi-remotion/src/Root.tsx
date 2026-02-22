@@ -26,6 +26,7 @@ import { DeviCaptionMinimalReel, DeviCaptionMinimalReelProps } from "./DeviCapti
 import { DeviCaptionStaticMinimal, DeviCaptionStaticMinimalProps } from "./DeviCaptionStaticMinimal";
 import { DeviViralCaptionMinimal, DeviViralCaptionMinimalProps } from "./DeviViralCaptionMinimal";
 import { HotContourEdit } from "./HotContourEdit";
+import { NewsletterCommercial, NEWSLETTER_COMMERCIAL_DURATION } from "./NewsletterCommercial";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -419,6 +420,16 @@ export const RemotionRoot: React.FC = () => {
           caption: "The version of you that once felt impossible? You're becoming her.",
           theme: "dark",
         }}
+      />
+
+      {/* Newsletter Studio Commercial - Full Before/After/Growth (~1m49s, 1920x1080 YouTube) */}
+      <Composition
+        id="NewsletterCommercial"
+        component={NewsletterCommercial}
+        durationInFrames={NEWSLETTER_COMMERCIAL_DURATION}
+        fps={30}
+        width={1920}
+        height={1080}
       />
 
       {/* Hot Contour Edit - Car Lean + Second Clip (16 seconds) */}
