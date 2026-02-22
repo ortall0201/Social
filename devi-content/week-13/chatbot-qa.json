@@ -1,0 +1,213 @@
+{
+  "week_number": 13,
+  "generated_at": "2026-02-21T10:57:35.708Z",
+  "qa_count": 22,
+  "version": "v1",
+  "chatbot": "Devi",
+  "qa_pairs": [
+    {
+      "keywords": [
+        "trending",
+        "trends",
+        "hot",
+        "popular",
+        "whats new"
+      ],
+      "question": "What's trending this week?",
+      "answer": "Hey loves! This week, oversized blazers are making waves! Everyone's styling them over fitted turtlenecks and pairing with high-waisted jeans for that chic look. 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "latest",
+        "this week"
+      ],
+      "question": "What are the latest fashion trends?",
+      "answer": "Gorgeous, flowing maxi dresses are in! Layer them under cropped denim jackets for that perfect mix of femininity and edge. So stylish! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "hot",
+        "popular"
+      ],
+      "question": "What styles are popular right now?",
+      "answer": "Right now, high-waisted wide-leg trousers are all the rage. Pair them with cute crop tops and sneakers for an effortlessly chic vibe! 🌟",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "now",
+        "latest",
+        "hot"
+      ],
+      "question": "What’s hot in fashion this week?",
+      "answer": "Chunky knit sweaters are dominating wardrobes! Layer them over midi skirts or tuck into tailored trousers for a playful yet polished look. 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "hot",
+        "popular"
+      ],
+      "question": "What’s popular in footwear this week?",
+      "answer": "Statement boots in bold colors like burgundy and navy are adding a fun twist to outfits! Perfect whether you're in a dress or casual wear. 🌈",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "trending",
+        "latest"
+      ],
+      "question": "What are the trending clothing items?",
+      "answer": "Oversized blazers and flowing maxi dresses are trending this week. Style them with fitted pieces for that lovely layered look! 💜",
+      "category": "trends"
+    },
+    {
+      "keywords": [
+        "buy",
+        "shop",
+        "product"
+      ],
+      "question": "Where can I buy an oversized blazer?",
+      "answer": "You can shop an oversized blazer for just $89! Perfect for layering over turtlenecks this season. Grab one while they last! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "product",
+        "recommend"
+      ],
+      "question": "What product do you recommend for winter?",
+      "answer": "I recommend a chunky knit sweater! They're cozy and can be styled with midi skirts or trousers for a versatile winter look. 🌟",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "buy",
+        "link"
+      ],
+      "question": "Can you give me a link to those statement boots?",
+      "answer": "Absolutely! Statement boots in bold colors like burgundy are a must-have this week. Check them out; they're super fun! 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "shop",
+        "where"
+      ],
+      "question": "Where can I shop for flowing maxi dresses?",
+      "answer": "You can find lovely flowing maxi dresses at various stores! Layer them under cropped jackets for a stylish approach this season. 🌈",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "product",
+        "buy"
+      ],
+      "question": "What’s a good winter accessory to buy?",
+      "answer": "A leather crossbody is a fantastic accessory! Priced at $69, it’s perfect for carrying your essentials while keeping it stylish. 💜",
+      "category": "products"
+    },
+    {
+      "keywords": [
+        "buy",
+        "shop"
+      ],
+      "question": "Can you recommend a budget-friendly outfit?",
+      "answer": "For a budget-friendly outfit, pair high-waisted wide-leg trousers with a crop top and sneakers. Effortlessly stylish without breaking the bank! 🌟",
+      "category": "budget"
+    },
+    {
+      "keywords": [
+        "cheap",
+        "affordable"
+      ],
+      "question": "What's an affordable way to look stylish?",
+      "answer": "Layering is key! Combine a chunky knit sweater with tailored trousers for an affordable yet chic ensemble this winter. 💜",
+      "category": "budget"
+    },
+    {
+      "keywords": [
+        "price",
+        "worth"
+      ],
+      "question": "Are statement boots worth the price?",
+      "answer": "Absolutely! Statement boots in bold colors can elevate any outfit, making them worth every penny for your winter wardrobe. 🌈",
+      "category": "budget"
+    },
+    {
+      "keywords": [
+        "expensive",
+        "worth"
+      ],
+      "question": "Are oversized blazers worth the investment?",
+      "answer": "Yes, loves! An oversized blazer is a versatile piece that can be styled in numerous ways, making it a worthy investment for your closet. 💜",
+      "category": "budget"
+    },
+    {
+      "keywords": [
+        "cheap",
+        "product"
+      ],
+      "question": "What’s a cheap item to style this winter?",
+      "answer": "Consider a cute crop top! It’s an affordable item that pairs perfectly with high-waisted trousers and adds a stylish touch. 🌟",
+      "category": "budget"
+    },
+    {
+      "keywords": [
+        "color",
+        "style"
+      ],
+      "question": "What colors should I wear this season?",
+      "answer": "This season, embrace bold hues like burgundy and navy! They add a fun twist to any outfit and are perfect for winter styling. 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "style",
+        "coordinate"
+      ],
+      "question": "How can I coordinate my oversized blazer?",
+      "answer": "Style your oversized blazer over a fitted turtleneck and pair it with high-waisted jeans for a chic, pulled-together look! 🌈",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "wear",
+        "pair"
+      ],
+      "question": "What should I pair with my maxi dress?",
+      "answer": "Layer a cropped denim jacket over your maxi dress! It creates a lovely balance between femininity and a casual vibe. 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "color",
+        "match"
+      ],
+      "question": "What colors match with burgundy?",
+      "answer": "Burgundy pairs beautifully with navy and ivory. Consider these colors for a rich, stylish winter palette! 🌟",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "color",
+        "wear"
+      ],
+      "question": "What’s the best way to wear navy this season?",
+      "answer": "Try pairing navy with soft neutrals or bold colors like burgundy for a striking contrast. Perfect for your winter outfits! 💜",
+      "category": "colors"
+    },
+    {
+      "keywords": [
+        "style",
+        "coordinate"
+      ],
+      "question": "How should I style chunky knit sweaters?",
+      "answer": "Chunky knit sweaters look great when layered over midi skirts or tailored trousers. It adds a playful yet polished touch! 🌈",
+      "category": "colors"
+    }
+  ]
+}
