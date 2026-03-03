@@ -1,0 +1,33 @@
+{
+  "reel_id": "reel-YYYY03Mar 3, 2026113743",
+  "date": "YYYY-03-Mar 3, 2026",
+  "week_number": 13,
+  "script": [
+    {
+      "time": "0-2",
+      "action": "Total darkness with faint wind sound. Overhead spotlight reveals Devi suspended mid-air holding a closed black umbrella."
+    },
+    {
+      "time": "3-5",
+      "action": "Devi descends slowly and smoothly from a solid industrial ladder. Background models stand far back in shadows with minimal movement."
+    },
+    {
+      "time": "6-7",
+      "action": "Devi steps firmly onto a solid runway floor. Camera remains stable and cinematic."
+    },
+    {
+      "time": "8-10",
+      "action": "Devi opens the large black umbrella. Rain begins falling only around her, with realistic physics. Background models remain dry."
+    }
+  ],
+  "mode": "surreal yet realistic",
+  "hook": "What if you could control the atmosphere?",
+  "caption": "Mastering the elements in a world of luxury.",
+  "hashtags": "#HighFashion #WinterRunway #SurrealFashion #Luxury #Cinematic #FashionReel #Devi",
+  "cta": "Witness the power of fashion.",
+  "image_url": "https://github.com/ortall0201/n8n/raw/master/devi-videos/images/reel-YYYY03Mar 3, 2026113743.webp",
+  "video_url": "https://github.com/ortall0201/n8n/raw/master/devi-videos/videos/reel-YYYY03Mar 3, 2026113743.mp4",
+  "trending_insights": "The dominant runway direction features oversized, structured outerwear with pronounced shoulders, embodying a commanding presence. Rich, heavy fabrics like wool and leather dominate the scene, accentuated by deep, moody hues that evoke a sense of winter's embrace. Styling leans towards a dramatic minimalism, where each piece stands out within a stark, cinematic backdrop, creating an atmosphere of elevated sophistication. This aesthetic resonates culturally as a response to contemporary desires f",
+  "poll_attempts": 1,
+  "status": "success"
+}
