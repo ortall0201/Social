@@ -1,5 +1,6 @@
 import React from "react";
-import { Composition, Still, Folder } from "remotion";
+import { Composition, Still, Folder, CalculateMetadataFunction, staticFile } from "remotion";
+import { Input, ALL_FORMATS, UrlSource } from "mediabunny";
 import { DeviReel } from "./DeviReel";
 import { DeviReelProps, Manifest } from "./types";
 import { SheerViralReel } from "./SheerViralReel";
@@ -27,8 +28,33 @@ import { DeviCaptionStaticMinimal, DeviCaptionStaticMinimalProps } from "./DeviC
 import { DeviViralCaptionMinimal, DeviViralCaptionMinimalProps } from "./DeviViralCaptionMinimal";
 import { HotContourEdit } from "./HotContourEdit";
 import { NewsletterCommercial, NEWSLETTER_COMMERCIAL_DURATION } from "./NewsletterCommercial";
+import { Base44RepoLaunchCommercial } from "./Base44RepoLaunchCommercial";
+import { Base44RepoLaunchTikTok } from "./Base44RepoLaunchTikTok";
+import { RepoLaunchAd, REPO_LAUNCH_AD_VIDEO_SRC } from "./RepoLaunchAd";
+import { Base44LinkedInDemo } from "./Base44LinkedInDemo";
+import { Base44GenerateFlowDemo } from "./Base44GenerateFlowDemo";
+import { Base44NarratorDemo } from "./Base44NarratorDemo";
 
 export const RemotionRoot: React.FC = () => {
+  const calculateRepoLaunchAdMetadata: CalculateMetadataFunction = async () => {
+    const input = new Input({
+      formats: ALL_FORMATS,
+      source: new UrlSource(staticFile(REPO_LAUNCH_AD_VIDEO_SRC), {
+        getRetryDelay: () => null,
+      }),
+    });
+
+    const durationInSeconds = await input.computeDuration();
+    const fps = 30;
+
+    return {
+      durationInFrames: Math.max(1, Math.ceil(durationInSeconds * fps)),
+      fps,
+      width: 1920,
+      height: 1080,
+    };
+  };
+
   return (
     <>
       <Composition<DeviReelProps>
@@ -431,6 +457,104 @@ export const RemotionRoot: React.FC = () => {
         width={1920}
         height={1080}
       />
+
+      {/* Base44 Repo Launch Commercial - 45s LinkedIn */}
+      <Folder name="Marketing">
+        <Composition
+          id="Base44LinkedIn-Demo-45s"
+          component={Base44LinkedInDemo}
+          durationInFrames={45 * 30}
+          fps={30}
+          width={1920}
+          height={1080}
+        />
+        <Composition
+          id="Base44GenerateFlow-Demo-45s"
+          component={Base44GenerateFlowDemo}
+          durationInFrames={45 * 30}
+          fps={30}
+          width={1920}
+          height={1080}
+        />
+        <Composition
+          id="Base44Narrator-Demo-45s"
+          component={Base44NarratorDemo}
+          durationInFrames={48 * 30}
+          fps={30}
+          width={1920}
+          height={1080}
+        />
+        <Composition
+          id="RepoLaunchAd-1080p"
+          component={RepoLaunchAd}
+          durationInFrames={45 * 30}
+          fps={30}
+          width={1920}
+          height={1080}
+          calculateMetadata={calculateRepoLaunchAdMetadata}
+        />
+        <Composition
+          id="Base44RepoLaunch-Vertical"
+          component={Base44RepoLaunchCommercial}
+          durationInFrames={45 * 30}
+          fps={30}
+          width={1080}
+          height={1920}
+          defaultProps={{
+            includeVoiceover: false,
+            voiceoverSrc: "base44/Voice over.mp4",
+            showNarrator: false,
+            narratorSrc: "base44/narrator.png",
+            showNarratorVideo: true,
+            narratorVideoSrc: "base44/Voice over.mp4",
+            assets: {
+              github: "base44/langchain-github.png.png",
+              hero: "base44/base44-hero.png.png",
+              features: "base44/base44-features.png.png",
+              dashboard: "base44/base44-dashboard.png.png",
+            },
+          }}
+        />
+        <Composition
+          id="Base44RepoLaunch-Square"
+          component={Base44RepoLaunchCommercial}
+          durationInFrames={45 * 30}
+          fps={30}
+          width={1080}
+          height={1080}
+          defaultProps={{
+            includeVoiceover: false,
+            voiceoverSrc: "base44/Voice over.mp4",
+            showNarrator: false,
+            narratorSrc: "base44/narrator.png",
+            showNarratorVideo: true,
+            narratorVideoSrc: "base44/Voice over.mp4",
+            assets: {
+              github: "base44/langchain-github.png.png",
+              hero: "base44/base44-hero.png.png",
+              features: "base44/base44-features.png.png",
+              dashboard: "base44/base44-dashboard.png.png",
+            },
+          }}
+        />
+        <Composition
+          id="Base44RepoLaunch-TikTok"
+          component={Base44RepoLaunchTikTok}
+          durationInFrames={45 * 30}
+          fps={30}
+          width={1080}
+          height={1920}
+          defaultProps={{
+            narratorVideoSrc: "base44/Voice over.mp4",
+            assets: {
+              github: "base44/langchain-github.png.png",
+              hero: "base44/base44-hero.png.png",
+              features: "base44/base44-features.png.png",
+              dashboard: "base44/base44-dashboard.png.png",
+            },
+          }}
+        />
+      </Folder>
 
       {/* Hot Contour Edit - Car Lean + Second Clip (16 seconds) */}
       <Composition

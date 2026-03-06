@@ -19,3 +19,6 @@ brain/
 # Devi content guides (keep local only)
 devi-content/README.md
 devi-content/DEVI-VIRAL-CAPTION-GUIDE.md
+
+# MCP config (contains secrets)
+.mcp.json
