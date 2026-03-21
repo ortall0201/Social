@@ -22,3 +22,10 @@ devi-content/DEVI-VIRAL-CAPTION-GUIDE.md
 
 # MCP config (contains secrets)
 .mcp.json
+
+# Python scripts (local only)
+*.py
+
+# Misc local files
+nul
+devi_vton_colab.ipynb
