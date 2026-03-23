@@ -23,6 +23,17 @@ devi-content/DEVI-VIRAL-CAPTION-GUIDE.md
 # MCP config (contains secrets)
 .mcp.json
 
+# Agent-related files (local only)
+.agents/
+*.agent.json
+adb_mcp_server.py
+
+# Skills (local only)
+skills/
+
+# Temp ADB frames (local only)
+tmp_frames/
+
 # Python scripts (local only)
 *.py
 
