@@ -25,8 +25,10 @@ devi-content/DEVI-VIRAL-CAPTION-GUIDE.md
 
 # Agent-related files (local only)
 .agents/
+.claude/agents/
 *.agent.json
 adb_mcp_server.py
+.cursor/rules/
 
 # Skills (local only)
 skills/
@@ -37,9 +39,56 @@ tmp_frames/
 # Python scripts (local only)
 *.py
 
+# Iris control panel + agent registry (local only)
+IRIS.md
+agents.md
+
 # Misc local files
 nul
 devi_vton_colab.ipynb
+devi_vton_colab_api.ipynb
 
 # Devi video images
 devi-videos/images/
+devi-identity/images/*.jpeg
+
+# Devi video outputs (local only)
+devi-videos/*.mp4
+devi-videos/videos/
+motion videos/
+tmp_screen.png
+
+# Contenty pipeline runs (local only)
+contenty/
+
+# Claude local config and memory
+.claude/agent-memory-local/
+.claude/settings.local.json
+
+# Project instructions (local only, contains system context)
+CLAUDE.md
+
+# Production runtime state
+.state/
+services/iris-control-plane/.state/
+
+# Local deployment secrets and env files
+deploy/
+deploy/staging/secrets/approval_shared_secret.txt
+deploy/production/env/*.env
+deploy/production/env/*.local
+local-secrets/*
+
+# Work Manager bridge (local CLI chat IDs + last clipboard extracts)
+scripts/wm-local.ps1
+scripts/.wm-last-iris-prompt.txt
+scripts/.wm-last-codex-prompt.txt
+scripts/.wm-last-event-scout-prompt.txt
+
+# Operator dashboard local DB
+services/operator-dashboard/data/
+
+# Private local runtime / agent / worker system (never publish)
+docs/
+scripts/
+services/
