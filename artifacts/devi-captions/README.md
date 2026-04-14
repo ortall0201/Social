@@ -1,6 +1,8 @@
 # Devi caption-card assets (Buffer-ready)
 
-**Preferred delivery for production:** copy approved binaries to the VPS public edge (`https://iris-media.onsight-analytics.com/approved/<filename>`) per `AGENTS.md` — keeps large/reel assets off the public Social repo if you want that boundary. This folder also supports **raw GitHub** URLs for small static cards when VPS upload is not available from the local agent session.
+**Preferred delivery for production (canonical):** copy approved binaries to the VPS public edge — **`https://iris-media.onsight-analytics.com/approved/<filename>`** — then schedule Buffer with that URL (Remote Iris parity). See **`artifacts/MEDIA-DELIVERY-VPS.md`**.
+
+This folder may still use **raw GitHub** only as a **fallback** when VPS upload is impossible from the current session (never the default for reels / main roadmap grid).
 
 These PNGs are committed so Buffer can load them via **raw GitHub** after `git push`:
 
