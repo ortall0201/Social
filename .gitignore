@@ -26,9 +26,21 @@ devi-content/DEVI-VIRAL-CAPTION-GUIDE.md
 # Agent-related files (local only)
 .agents/
 .claude/agents/
+.claude/skills/ortal-the-great-linkedin/
+.claude/skills/linkedin-engagement-psychology/
+.claude/skills/linkedin-leads-outreach-safety/
+.claude/skills/agent-memory-wiki-pattern/
+.claude/skills/linkedin-buffer-operations/
+.claude/skills/linkedin-dm-boundaries/
 *.agent.json
 adb_mcp_server.py
 .cursor/rules/
+.cursor/skills/linkedin-engagement-psychology/
+.cursor/skills/linkedin-leads-outreach-safety/
+.cursor/skills/ortal-the-great-linkedin/
+.cursor/skills/agent-memory-wiki-pattern/
+.cursor/skills/linkedin-buffer-operations/
+.cursor/skills/linkedin-dm-boundaries/
 
 # Skills (local only)
 skills/
@@ -92,3 +104,9 @@ services/operator-dashboard/data/
 docs/
 scripts/
 services/
+
+# LinkedIn agent work is local-only and must never be published
+docs/agents/linkedin-lead-agent.md
+docs/agents/ortal-linkedin-persona.md
+brain/roadmaps/linkedin/
+docs/social-plan.md
