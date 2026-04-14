@@ -46,3 +46,7 @@ The agent session on Ortal’s PC **does not** have your SSH keys or Hostinger s
 ## Iris default (after this doc)
 
 When you say **“use VPS”**: Iris assumes media is (or will be) at **`https://iris-media.onsight-analytics.com/approved/<filename>`** and will **not** rely on pushing `contenty/` to GitHub for Buffer (that folder remains **gitignored** by design).
+
+## One-time exception (2026-04-14)
+
+Ortal asked for a **tracked** copy of pipeline outputs **outside** `contenty/` so raw GitHub URLs exist before Codex returns. That lives in repo root **`buffer-delivery/`** (see `buffer-delivery/README.md` + `buffer-delivery/CODEX-HANDOFF-2026-04-14.md`). Remove that folder once VPS upload is routine.
