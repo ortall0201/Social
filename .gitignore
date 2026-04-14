@@ -55,6 +55,12 @@ tmp_frames/
 IRIS.md
 agents.md
 
+# Buffer-scheduled media only (tracked binaries live here; no handoff .md in Git)
+buffer-delivery/*.md
+
+# Generated / non-repo Buffer assets (keep local; do not commit)
+artifacts/
+
 # Misc local files
 nul
 devi_vton_colab.ipynb
