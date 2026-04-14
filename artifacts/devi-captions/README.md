@@ -1,5 +1,7 @@
 # Devi caption-card assets (Buffer-ready)
 
+**Preferred delivery for production:** copy approved binaries to the VPS public edge (`https://iris-media.onsight-analytics.com/approved/<filename>`) per `AGENTS.md` — keeps large/reel assets off the public Social repo if you want that boundary. This folder also supports **raw GitHub** URLs for small static cards when VPS upload is not available from the local agent session.
+
 These PNGs are committed so Buffer can load them via **raw GitHub** after `git push`:
 
 - `devi-caption-card-met-season-main-character.png` — Met season / red-carpet energy  
