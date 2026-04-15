@@ -27,7 +27,7 @@ Take the current LinkedIn draft and rewrite it to sound more like Ortal.
 - Excessive criticism
 - Corporate phrases
 - Heavy buzzwords
-- Any **banned phrases** from [`persona_voice.md`](./persona_voice.md) (*Banned phrases*)
+- Any lines in [`forbidden_phrases.md`](./forbidden_phrases.md) unless there is a very specific reason
 
 ## Add
 
@@ -58,6 +58,7 @@ Make it feel like a real person who builds with AI, not a polished content machi
 
 ## Canon (read while rewriting)
 
+- [`forbidden_phrases.md`](./forbidden_phrases.md)
 - [`rewrite_rules.md`](./rewrite_rules.md)
 - [`persona_voice.md`](./persona_voice.md)
 - [`post_structure.md`](./post_structure.md)

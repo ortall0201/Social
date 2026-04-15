@@ -23,7 +23,8 @@ It packages the story for audience attention, readability, and soft positioning.
 
 - `docs/agents/generation_prompt.md` — master brief + format
 - `docs/agents/post_structure.md` — line map and endings
-- `docs/agents/persona_voice.md` — voice, banned phrases
+- `docs/agents/persona_voice.md` — voice
+- `docs/agents/forbidden_phrases.md` — phrase ban lists
 - `docs/agents/hook_library.md` — hook patterns
 - `docs/agents/leadgen_soft_positioning.md` — soft CTAs
 - `docs/agents/post_scoring.md` — score before publish
@@ -231,7 +232,7 @@ Phrases and patterns like:
 - "in today's fast-moving landscape"
 - any line that sounds like slide-deck language
 
-Also follow **Banned phrases** in `docs/agents/persona_voice.md`.
+Also follow **`docs/agents/forbidden_phrases.md`**.
 
 ## Rewrite triggers
 

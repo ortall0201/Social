@@ -76,19 +76,9 @@ Do not sound:
   - disruptive
 - Do not make every post sound like industry criticism
 
-## Banned phrases (do not use)
+## Banned / forbidden phrases (canonical list)
 
-Avoid these and close variants:
-
-- the future of AI
-- we are entering a new era
-- transformative power
-- leverage at scale
-- unlock potential
-- agentic paradigm
-- in today's fast-moving landscape
-- seamlessly
-- powerful synergies
+**Full categorized list:** [`forbidden_phrases.md`](./forbidden_phrases.md) — corporate AI speak, empty professional language, weak LinkedIn cliches, forced inspiration. Avoid those lines and close variants unless there is a very specific reason.
 
 ## Prefer
 
@@ -126,5 +116,6 @@ Always through scenes, stories, and observations.
 
 ## Related
 
+- [`forbidden_phrases.md`](./forbidden_phrases.md)
 - [`post_scoring.md`](./post_scoring.md) — score before publish
 - [`comic_post_template.md`](./comic_post_template.md) — story-shaped posts

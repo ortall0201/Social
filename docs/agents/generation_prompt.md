@@ -55,7 +55,7 @@ She wants the post to feel human, sharp, readable, and memorable.
 - Do not sound like thought leadership theater
 - Do not sound like a generic AI influencer
 - Do not make broad dramatic claims about the future
-- Do not use **banned phrases** listed in [`persona_voice.md`](./persona_voice.md) (section *Banned phrases*)
+- Do not use phrases in [`forbidden_phrases.md`](./forbidden_phrases.md) unless there is a very specific reason
 
 ## Desired outcome
 
@@ -85,6 +85,7 @@ Before finalizing, make sure:
 - [`editor_guardrail_skill.md`](./editor_guardrail_skill.md) — skill `/editor-guardrail-skill` before scheduling any draft
 - [`linkedin_native_post_skill.md`](./linkedin_native_post_skill.md) — skill `/linkedin-native-post-skill` when packaging a comic seed for the feed
 - [`rewrite_prompt.md`](./rewrite_prompt.md) — use after first draft if it needs a voice pass
+- [`forbidden_phrases.md`](./forbidden_phrases.md)
 - [`persona_voice.md`](./persona_voice.md)
 - [`post_structure.md`](./post_structure.md)
 - [`hook_library.md`](./hook_library.md)

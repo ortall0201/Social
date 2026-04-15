@@ -22,7 +22,8 @@ It must reject drafts that feel too polished, too generic, too preachy, too cold
 - `docs/agents/post_scoring.md` — aligned rubric and extra rejection rules
 - `docs/agents/rewrite_prompt.md` — copy-paste rewrite pass
 - `docs/agents/rewrite_rules.md` — fix patterns by issue type
-- `docs/agents/persona_voice.md` — voice + banned phrases
+- `docs/agents/persona_voice.md` — voice
+- `docs/agents/forbidden_phrases.md` — phrase ban lists by category
 
 ## Main objective
 
@@ -186,7 +187,7 @@ Watch for:
 - overly formal transitions
 - lines that sound nice but say nothing
 
-Also cross-check **Banned phrases** in `docs/agents/persona_voice.md`.
+Also cross-check **`docs/agents/forbidden_phrases.md`** (and close variants).
 
 ## Approval rule
 

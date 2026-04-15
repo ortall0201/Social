@@ -35,6 +35,8 @@ It is a grounded profile built from Ortal's local resume repo plus publicly visi
 
 **Voice (tone, avoid, prefer):** [`persona_voice.md`](./persona_voice.md).
 
+**Forbidden phrases (expanded lists):** [`forbidden_phrases.md`](./forbidden_phrases.md).
+
 **Content pillars (comic series + mix):** [`content_pillars.md`](./content_pillars.md).
 
 **Hooks (principles + examples):** [`hook_library.md`](./hook_library.md).

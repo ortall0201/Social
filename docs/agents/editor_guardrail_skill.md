@@ -11,6 +11,6 @@
 
 **Typical pipeline:** `/linkedin-native-post-skill` (or any draft) → **`/editor-guardrail-skill`** → Buffer / schedule.
 
-**Canon docs:** [`post_scoring.md`](./post_scoring.md), [`rewrite_prompt.md`](./rewrite_prompt.md), [`rewrite_rules.md`](./rewrite_rules.md), [`persona_voice.md`](./persona_voice.md).
+**Canon docs:** [`forbidden_phrases.md`](./forbidden_phrases.md), [`post_scoring.md`](./post_scoring.md), [`rewrite_prompt.md`](./rewrite_prompt.md), [`rewrite_rules.md`](./rewrite_rules.md), [`persona_voice.md`](./persona_voice.md).
 
 **Git:** use `git add -f` on the two `SKILL.md` paths under `skills/` if you edit them (same as other packaged skills).

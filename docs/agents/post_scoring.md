@@ -52,6 +52,7 @@ Reject the draft if:
 
 ## Related
 
+- [`forbidden_phrases.md`](./forbidden_phrases.md)
 - [`editor_guardrail_skill.md`](./editor_guardrail_skill.md) — skill `/editor-guardrail-skill` (full pre-schedule scorecard + verdict)
 - [`rewrite_rules.md`](./rewrite_rules.md)
 - [`post_structure.md`](./post_structure.md)
