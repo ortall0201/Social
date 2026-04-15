@@ -1,11 +1,12 @@
 {
   "mediaBaseUrl": "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks",
   "imageFile": "feed-hero-v1.png",
-  "timezoneNote": "Set dueAt when scheduling; UTC.",
+  "timezoneNote": "dueAt is UTC. 22:00 Israel (IDT, UTC+3) = 19:00Z same day. Batch follows 2026-04-15-five-slots (ends 2026-04-19). Buffer schedule attempt 2026-04-16 hit RATE_LIMIT_EXCEEDED (24h window); re-run from repo root on 2026-04-17 or later: powershell -ExecutionPolicy Bypass -File scripts/buffer/Buffer-QueueOrtalFiveSlots.ps1 -QueueFile .\\buffer-linkedin\\queue\\2026-04-16-gijane-comic-five.json — optional retry loop: Buffer-QueueOrtalFiveSlots-Retry.ps1 (same folder).",
   "posts": [
     {
       "slot": 1,
       "slug": "ortal-gijane-comic-2026-04-01",
+      "dueAt": "2026-04-20T19:00:00.000Z",
       "pillar": "me_vs_tone",
       "onImageCaption": "too polished",
       "text": "My agent handed me a post that sounded incredible.\n\nSmooth. Confident. Complete.\n\nAlso: not me.\n\nIt had the rhythm of someone who gives advice on a stage.\n\nI do not post from a stage.\n\nI post from the part of the week where something broke, got renamed three times, and still had to ship.\n\nSo I did what I always do.\n\nI rewrote it until it sounded like a human who actually touches the work.\n\nUseful beats impressive.\n\nBuilders probably know this feeling.\n\n#AI #BuildingInPublic #Content #Workflow"
@@ -13,6 +14,7 @@
     {
       "slot": 2,
       "slug": "ortal-gijane-comic-2026-04-02",
+      "dueAt": "2026-04-21T19:00:00.000Z",
       "pillar": "me_vs_chaos",
       "onImageCaption": "five tabs later",
       "text": "I opened one task.\n\nThen a log.\n\nThen a doc that contradicted the log.\n\nThen a workflow that was \"mostly\" true.\n\nFive tabs later, I was not confused.\n\nI was entertained by how fast simplicity becomes a small festival.\n\nThis is not a rant about tools.\n\nIt is a reminder that clarity is a design choice.\n\nIf your system needs hero memory to run, it is not a system yet.\n\nIt is a pile of good intentions wearing a spreadsheet.\n\nI like cleaning that pile.\n\n#Automation #Engineering #Workflow #AI"
@@ -20,6 +22,7 @@
     {
       "slot": 3,
       "slug": "ortal-gijane-comic-2026-04-03",
+      "dueAt": "2026-04-22T19:00:00.000Z",
       "pillar": "me_vs_agent",
       "onImageCaption": "one simple edit",
       "text": "I asked for one simple edit.\n\nI got a redesign, a philosophy, and a new personality for paragraph three.\n\nCool.\n\nI did not ask for a reboot.\n\nI asked for a scalpel.\n\nThis is the weird part of working with AI.\n\nIt can be wildly helpful and still miss the size of the change you meant.\n\nSo I learned to be boring on purpose.\n\nSmaller instructions. Harder boundaries. Fewer \"surprise improvements.\"\n\nThe goal is not more output.\n\nThe goal is output I can actually use.\n\n#AI #Prompting #Builders #Productivity"
@@ -27,6 +30,7 @@
     {
       "slot": 4,
       "slug": "ortal-gijane-comic-2026-04-04",
+      "dueAt": "2026-04-23T19:00:00.000Z",
       "pillar": "me_vs_automation_fantasy",
       "onImageCaption": "saved time allegedly",
       "text": "I automated a task to save twenty minutes.\n\nThen I spent forty minutes watching it do the wrong twenty minutes faster.\n\nNot mad.\n\nJust reminded that \"faster\" is not the same as \"correct.\"\n\nAutomation without ownership is a fun demo and a quiet debt.\n\nThe adult version includes naming what can fail, who notices first, and what \"stop\" looks like.\n\nThat part is not glamorous.\n\nIt is the part that keeps you from apologizing later.\n\nI would genuinely love to compare notes with anyone else babysitting a workflow that promised freedom and delivered homework.\n\n#Automation #Operations #AI #Engineering"
@@ -34,6 +38,7 @@
     {
       "slot": 5,
       "slug": "ortal-gijane-comic-2026-04-05",
+      "dueAt": "2026-04-24T19:00:00.000Z",
       "pillar": "soft_authority",
       "onImageCaption": "useful beats impressive",
       "text": "People keep asking for AI that sounds smart.\n\nI keep asking for AI that behaves well.\n\nSmart is easy to fake for a paragraph.\n\n\"Behaves well\" shows up when the edge case hits.\n\nWhen the permissions are wrong.\n\nWhen the user does the weird thing.\n\nWhen the output is almost right and still dangerous.\n\nThat is where you learn what you actually built.\n\nI care about the layer everyone skips in demos.\n\nThe part that makes a system usable when nobody is clapping.\n\nThis is the kind of problem I actually enjoy solving.\n\n#AI #Systems #Growth #Product"
