@@ -1,10 +1,10 @@
 {
-  "note": "Ortal LinkedIn tactical batch (Apr 15–19 19:00Z). Replace by deleting these IDs then re-running Buffer-QueueOrtalFiveSlots.ps1.",
+  "note": "Ortal LinkedIn tactical batch (Apr 15–19 19:00Z). Replace by deleting these IDs then re-running Buffer-QueueOrtalFiveSlots.ps1. Updated after2026-04-15 push + queue run.",
   "postIds": [
-    "69dfbfede999af0981a62af9",
-    "69dfbfeee999af0981a62b2e",
-    "69dfbff00558d4f0771e9757",
-    "69dfbff10558d4f0771e977e",
-    "69dfbff2e999af0981a62b60"
+    "69dfdc73b5aae064bb2a7664",
+    "69dfdc78b5aae064bb2a768a",
+    "69dfdc79edd42cea55bbaae0",
+    "69dfdc7cedd42cea55bbab06",
+    "69dfdc7dedd42cea55bbab2c"
   ]
 }
