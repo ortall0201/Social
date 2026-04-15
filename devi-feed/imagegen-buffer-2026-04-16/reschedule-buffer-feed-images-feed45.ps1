@@ -1,9 +1,14 @@
-# Point scheduled Buffer IG+FB feed image posts at native 4:5 Remotion overlays (contain + safe type).
-# Best match for IG feed + Buffer preview (often portrait); avoids bottom caption clip from 1:1 in a tall frame.
-# Run from repo root: pwsh -File devi-feed/imagegen-buffer-2026-04-16/reschedule-buffer-feed-images-feed45.ps1
+# Point scheduled Buffer IG+FB feed image posts at native 4:5 Remotion overlays (image band + type strip).
+# Best match for IG feed + Buffer preview (often portrait).
+# Run from repo root:
+#   pwsh -File devi-feed/imagegen-buffer-2026-04-16/reschedule-buffer-feed-images-feed45.ps1
+# Re-create posts that already use feed45 (e.g. after a new GitHub render) and bust CDN cache:
+#   pwsh -File devi-feed/imagegen-buffer-2026-04-16/reschedule-buffer-feed-images-feed45.ps1 -Force
 
 [CmdletBinding()]
-param()
+param(
+  [switch]$Force
+)
 
 $ErrorActionPreference = "Stop"
 $repoRoot = (Resolve-Path (Join-Path $PSScriptRoot "..\..")).Path
@@ -56,9 +61,11 @@ mutation CreateImagePost($input: CreatePostInput!) {
 '@
 
 function Get-CardNumberFromUrl([string]$src) {
+  if ($src -match "with-caption-feed45/devi-buffer-card-(\d+)-with-caption-feed45\.png") { return [int]$matches[1] }
   if ($src -match "with-caption/devi-buffer-card-(\d+)-with-caption\.png") { return [int]$matches[1] }
   if ($src -match "with-caption-1x1/devi-buffer-card-(\d+)-with-caption-1x1\.png") { return [int]$matches[1] }
   if ($src -match "feed-4x5/devi-buffer-card-(\d+)-with-caption-feed-4x5\.png") { return [int]$matches[1] }
+  if ($src -match "devi-buffer-card-(\d+)-") { return [int]$matches[1] }
   return $null
 }
 
@@ -76,13 +83,15 @@ function Invoke-ScheduledImages($channelId, $serviceName) {
     $n = $e.node
     $meta = $n.metadata.type
     if ($meta -ne "post") { continue }
-    $src = ($n.assets | ForEach-Object { $_.source }) | Select-Object -First 1
+       $src = ($n.assets | ForEach-Object { $_.source }) | Select-Object -First 1
     if (-not $src) { continue }
-    if ($src -match "with-caption-feed45/devi-buffer-card-\d+-with-caption-feed45\.png") { continue }
-    $num = Get-CardNumberFromUrl $src
+    $srcNorm = $src -replace "\?.*$", ""
+    if (-not $Force -and ($srcNorm -match "with-caption-feed45/devi-buffer-card-\d+-with-caption-feed45\.png")) { continue }
+    $num = Get-CardNumberFromUrl $srcNorm
     if (-not $num) { continue }
     $nn = "{0:D2}" -f $num
-    $newUrl = "$rawFeed45/devi-buffer-card-$nn-with-caption-feed45.png"
+    $cb = if ($Force) { "?v=$([DateTimeOffset]::UtcNow.ToUnixTimeMilliseconds())" } else { "" }
+    $newUrl = "$rawFeed45/devi-buffer-card-$nn-with-caption-feed45.png$cb"
     Write-Host "[$serviceName] $($n.id) -> feed45 card $nn"
     $del = (Invoke-BufferGraphQl -Query $mutDel -Variables @{ input = @{ id = $n.id } }).deletePost
     if ($del.__typename -ne "DeletePostSuccess") { throw "Delete failed: $($del | ConvertTo-Json)" }
