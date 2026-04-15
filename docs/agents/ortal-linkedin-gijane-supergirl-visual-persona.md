@@ -42,6 +42,8 @@ Reference panel treatment:
 
 Other campaigns may use **sentence-case** overlays (Batch 2) on the **same figure**; the **figure** still matches this doc when the brief says G.I. Jane / Supergirl.
 
+**Short comic-style on-image lines** (punchy, not poster-ALL-CAPS): [`comic_caption_rules.md`](./comic_caption_rules.md).
+
 ---
 
 ## Hard bans

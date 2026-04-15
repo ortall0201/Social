@@ -42,3 +42,11 @@ A clean last line that feels memorable, not preachy.
 ## After drafting
 
 Run [`post_scoring.md`](./post_scoring.md) before publish.
+
+---
+
+## Related
+
+- [`comic_caption_rules.md`](./comic_caption_rules.md) — on-image caption lines vs post body
+- [`hook_library.md`](./hook_library.md)
+- [`persona_voice.md`](./persona_voice.md)
