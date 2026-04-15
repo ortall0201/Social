@@ -23,6 +23,8 @@ It is a grounded profile built from Ortal's local resume repo plus publicly visi
 
 **Content pillars (comic series + mix):** [`content_pillars.md`](./content_pillars.md).
 
+**Hooks (principles + examples):** [`hook_library.md`](./hook_library.md).
+
 ## Source Notes
 
 Local source material reviewed:
