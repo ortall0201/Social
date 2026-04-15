@@ -24,6 +24,16 @@ Use `-Set feed45` or `-Set 916` for the other Remotion sets.
 
 **API reschedule scripts** append `?v=…` automatically on recreate so Buffer fetches fresh bytes.
 
+### Schedule this batch to Buffer (IG + FB)
+
+1. **API (when not rate-limited):** load `local-secrets/buffer_ids.ps1`, then from repo root:
+
+`powershell -ExecutionPolicy Bypass -File devi-feed/imagegen-buffer-2026-04-16/schedule-feed45-buffer-batch.ps1`
+
+Optional: `-StartUtc "2026-04-16T17:00:00Z"` for the first slot (defaults: tomorrow **17:00 UTC**, then **+1 day** per card). Each post: manifest **headline + subline +** up to **5** themed hashtags; image `with-caption-feed45` + cache-bust.
+
+2. **If Buffer returns `RATE_LIMIT_EXCEEDED`:** run `emit-feed45-buffer-payload.ps1` and use **`feed45-buffer-queue.json`** (or schedule manually from that file). Re-run the batch script after the 24h window.
+
 ## Remotion overlays (headline + Devi subline on image)
 
 From **`devi-remotion/`**:
