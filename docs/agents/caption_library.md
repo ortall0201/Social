@@ -102,5 +102,7 @@ If the caption sounds generic, motivational, or too internet-random, reject it.
 ## Related
 
 - [`comic_caption_rules.md`](./comic_caption_rules.md)
+- [`image_prompt_style_guide.md`](./image_prompt_style_guide.md)
+- [`master_orchestrator_skill.md`](./master_orchestrator_skill.md)
 - [`hook_library.md`](./hook_library.md)
 - [`ortal-linkedin-gijane-supergirl-visual-persona.md`](./ortal-linkedin-gijane-supergirl-visual-persona.md)

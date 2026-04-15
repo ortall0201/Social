@@ -44,6 +44,8 @@ Other campaigns may use **sentence-case** overlays (Batch 2) on the **same figur
 
 **Short comic-style on-image lines** (punchy, not poster-ALL-CAPS): [`comic_caption_rules.md`](./comic_caption_rules.md).
 
+**Imagegen brief checklist:** [`image_prompt_style_guide.md`](./image_prompt_style_guide.md). **Full series pipeline:** [`master_orchestrator_skill.md`](./master_orchestrator_skill.md).
+
 ---
 
 ## Hard bans

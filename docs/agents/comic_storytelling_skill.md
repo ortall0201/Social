@@ -2,6 +2,8 @@
 
 **Invoke:** `/comic-storytelling-skill`
 
+**End-to-end pipeline:** [`master_orchestrator_skill.md`](./master_orchestrator_skill.md) (`/master-orchestrator-skill`).
+
 **Packaged skill (source of truth):**
 
 - `.cursor/skills/comic-storytelling-skill/SKILL.md` — Cursor

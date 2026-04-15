@@ -2,6 +2,8 @@
 
 ## Purpose
 
+**Full comic-series pipeline (orchestration):** `/master-orchestrator-skill` — [`master_orchestrator_skill.md`](./master_orchestrator_skill.md).
+
 **Master generation brief (copy-paste prompt for new posts):** [`generation_prompt.md`](./generation_prompt.md).
 
 **Rewrite pass (copy-paste prompt for existing drafts):** [`rewrite_prompt.md`](./rewrite_prompt.md).
