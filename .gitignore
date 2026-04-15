@@ -55,9 +55,9 @@ tmp_frames/
 IRIS.md
 agents.md
 
-# Buffer staging folder — local only (mp4/jpg/png). Do not commit; promote copies to
-# iris-media / CDN / approved path when Buffer needs a fetchable HTTPS URL.
-buffer-delivery/
+# Local Buffer working copies (mp4/jpg/png). See tracked `buffer-delivery/README.md`.
+# Promote to iris-media / CDN / approved HTTPS before scheduling in Buffer.
+buffer-local/
 
 # Generated / non-repo Buffer assets (keep local; do not commit)
 artifacts/
