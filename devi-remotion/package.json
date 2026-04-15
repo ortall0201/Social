@@ -25,7 +25,8 @@
         "render:beauty-viral-tips-minimal": "node scripts/render-beauty-viral-tips-minimal.mjs",
         "render:devi-caption-pack": "node scripts/render-devi-caption-pack.mjs",
         "render:devi-static-caption-pack": "node scripts/render-devi-static-caption-pack.mjs",
-        "render:devi-feed-overlays": "node scripts/render-devi-feed-caption-overlay.mjs"
+        "render:devi-feed-overlays": "node scripts/render-devi-feed-caption-overlay.mjs",
+        "render:devi-feed-overlays-1x1": "node scripts/render-devi-feed-caption-overlay-1x1.mjs"
     },
     "dependencies": {
         "@remotion/bundler": "^4.0.409",

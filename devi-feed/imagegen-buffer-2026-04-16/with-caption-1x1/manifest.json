@@ -1,0 +1,70 @@
+{
+  "createdAt": "2026-04-15T20:35:52.194Z",
+  "compositionId": "DeviFeedImageCaptionSquare",
+  "format": "1080x1080",
+  "slides": [
+    {
+      "file": "devi-buffer-card-01.png",
+      "headline": "Quiet. Then. Iconic.",
+      "subline": "Archive energy without the costume parade.",
+      "textZone": "bottom",
+      "output": "devi-buffer-card-01-with-caption-1x1.png"
+    },
+    {
+      "file": "devi-buffer-card-02.png",
+      "headline": "Era. Shift. Dominance.",
+      "subline": "Old Hollywood restraint, new-weekend voltage.",
+      "textZone": "bottom",
+      "output": "devi-buffer-card-02-with-caption-1x1.png"
+    },
+    {
+      "file": "devi-buffer-card-03.png",
+      "headline": "Clocked. Cold. Clean.",
+      "subline": "Editorial silence beats loud trends.",
+      "textZone": "top",
+      "output": "devi-buffer-card-03-with-caption-1x1.png"
+    },
+    {
+      "file": "devi-buffer-card-04.png",
+      "headline": "Future. Finds. Devi.",
+      "subline": "Desert night, chrome accent, one read.",
+      "textZone": "bottom",
+      "output": "devi-buffer-card-04-with-caption-1x1.png"
+    },
+    {
+      "file": "devi-buffer-card-05.png",
+      "headline": "Western. But. Weaponized.",
+      "subline": "Refined country — built for saves, not cosplay.",
+      "textZone": "bottom",
+      "output": "devi-buffer-card-05-with-caption-1x1.png"
+    },
+    {
+      "file": "devi-buffer-card-06.png",
+      "headline": "Fashion. Is. Art.",
+      "subline": "Met countdown: sculpture you can wear.",
+      "textZone": "bottom",
+      "output": "devi-buffer-card-06-with-caption-1x1.png"
+    },
+    {
+      "file": "devi-buffer-card-07.png",
+      "headline": "Canvas. Became. Her.",
+      "subline": "Wearable paint, museum-grade taste.",
+      "textZone": "top",
+      "output": "devi-buffer-card-07-with-caption-1x1.png"
+    },
+    {
+      "file": "devi-buffer-card-08.png",
+      "headline": "Steps. Speak. Power.",
+      "subline": "Liquid silver, locked gaze, zero apology.",
+      "textZone": "bottom",
+      "output": "devi-buffer-card-08-with-caption-1x1.png"
+    },
+    {
+      "file": "devi-buffer-card-09.png",
+      "headline": "Tunnel. Mode. On.",
+      "subline": "Sideline light, front-row wardrobe math.",
+      "textZone": "top",
+      "output": "devi-buffer-card-09-with-caption-1x1.png"
+    }
+  ]
+}

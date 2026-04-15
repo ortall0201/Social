@@ -6,7 +6,7 @@
 
 **Naming:** `devi-buffer-card-NN.png` — one **distinct** caption per file; do not reuse the same card for multiple posts in the same batch.
 
-**Public URL (after `git push`):**`https://raw.githubusercontent.com/ortall0201/Social/main/devi-feed/imagegen-buffer-2026-04-16/<filename>`
+**Public URL (after `git push`):** `https://raw.githubusercontent.com/ortall0201/Social/main/devi-feed/imagegen-buffer-2026-04-16/<filename>`
 
 Prefer **`iris-media…/approved/…`** when VPS promotion is available (`brain/iris-status.md`).
 
@@ -29,6 +29,26 @@ Buffer’s web UI often **letterboxes or masks** 9:16 previews; the **bottom** o
 Scheduling **9:16 single-image feed posts** through Buffer sometimes triggers Meta **media container / dimension** errors (we hit this in Apr 2026). **Facebook** is often more forgiving. If IG rejects 9:16, fall back to **`with-caption/feed-4x5/`** (taller-than-wide feed-safe) **or** use a **Reel (video)** for true 9:16 vertical.
 
 **Optional `feed-4x5/`:** Only if you need IG feed reliability. **Do not center-crop** (that slices bottom type). Use **`manifest.json` `textZone`:** `bottom` → `crop=1080:1350:0:570`; `top` → `crop=1080:1350:0:0`.
+
+### 1:1 square (full body + on-image type, no IG vertical center-crop)
+
+Portrait sources are drawn with **`object-fit: contain`** inside **1080×1080**, so the **entire** still (head to toe) stays visible; pillarboxing is black side bars when needed.
+
+From **`devi-remotion/`**:
+
+```bash
+npm run render:devi-feed-overlays-1x1
+```
+
+Tracked outputs: **`with-caption-1x1/devi-buffer-card-NN-with-caption-1x1.png`** (+ `manifest.json`).
+
+**Raw URL:** `https://raw.githubusercontent.com/ortall0201/Social/main/devi-feed/imagegen-buffer-2026-04-16/with-caption-1x1/devi-buffer-card-NN-with-caption-1x1.png`
+
+When Buffer isn’t rate-limited, from **repo root**:
+
+`pwsh -File devi-feed/imagegen-buffer-2026-04-16/reschedule-buffer-feed-images-1x1.ps1`
+
+That swaps scheduled **feed image** posts from **9:16** or **feed-4x5** URLs to the matching **1:1** file (skips posts already on 1:1).
 
 ### Switch queued Buffer posts back to 9:16
 

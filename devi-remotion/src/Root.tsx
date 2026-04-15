@@ -30,6 +30,10 @@ import {
   DeviFeedImageCaption,
   DeviFeedImageCaptionProps,
 } from "./DeviFeedImageCaption";
+import {
+  DeviFeedImageCaptionSquare,
+  DeviFeedImageCaptionSquareProps,
+} from "./DeviFeedImageCaptionSquare";
 import { HotContourEdit } from "./HotContourEdit";
 import { NewsletterCommercial, NEWSLETTER_COMMERCIAL_DURATION } from "./NewsletterCommercial";
 import { Base44RepoLaunchCommercial } from "./Base44RepoLaunchCommercial";
@@ -461,6 +465,19 @@ export const RemotionRoot: React.FC = () => {
           imageFile: "devi-feed-buffer/devi-buffer-card-01.png",
           headline: "Quiet. Then. Iconic.",
           subline: "One archive beat. Zero noise.",
+          textZone: "bottom",
+        }}
+      />
+
+      <Still<DeviFeedImageCaptionSquareProps>
+        id="DeviFeedImageCaptionSquare"
+        component={DeviFeedImageCaptionSquare}
+        width={1080}
+        height={1080}
+        defaultProps={{
+          imageFile: "devi-feed-buffer/devi-buffer-card-01.png",
+          headline: "Quiet. Then. Iconic.",
+          subline: "Archive energy without the costume parade.",
           textZone: "bottom",
         }}
       />
