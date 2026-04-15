@@ -17,6 +17,8 @@ It is a grounded profile built from Ortal's local resume repo plus publicly visi
 
 **Draft scoring:** before publish, run the 1–10 rubric in [`linkedin_post_scoring.md`](./linkedin_post_scoring.md) (hard gates on readability, relatability, personality).
 
+**Comic / story posts:** structure and line budget — [`comic_post_template.md`](./comic_post_template.md).
+
 ## Source Notes
 
 Local source material reviewed:
