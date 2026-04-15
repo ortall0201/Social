@@ -55,8 +55,9 @@ tmp_frames/
 IRIS.md
 agents.md
 
-# Buffer-scheduled media only (tracked binaries live here; no handoff .md in Git)
-buffer-delivery/*.md
+# Buffer staging folder — local only (mp4/jpg/png). Do not commit; promote copies to
+# iris-media / CDN / approved path when Buffer needs a fetchable HTTPS URL.
+buffer-delivery/
 
 # Generated / non-repo Buffer assets (keep local; do not commit)
 artifacts/
