@@ -25,6 +25,8 @@ It is a grounded profile built from Ortal's local resume repo plus publicly visi
 
 **Hooks (principles + examples):** [`hook_library.md`](./hook_library.md).
 
+**Post structure (format + line map + endings):** [`post_structure.md`](./post_structure.md).
+
 ## Source Notes
 
 Local source material reviewed:
