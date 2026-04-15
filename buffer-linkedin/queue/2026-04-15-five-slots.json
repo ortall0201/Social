@@ -2,17 +2,17 @@
   "mediaBaseUrl": "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks",
   "imageFile": "feed-hero-v1.png",
   "timezoneNote": "dueAt is UTC. 22:00 Israel (IDT, UTC+3) = 19:00Z same calendar day.",
-  "imagegenCaptionStyle": "Batch 2 (B2-1…B2-5): sentence case, exact strings; typography clean bold sans. Figure + voice: artifacts/linkedin/visual-hooks/_shared-imagegen-persona-brief.md Visual style block (builder-heroine, not military cosplay). Roadmap: brain/roadmaps/linkedin/2026-04-15-five-slot-imagegen-pack.md.",
+  "imagegenCaptionStyle": "Track B G.I. Jane / Supergirl: poster overlays ALL CAPS — line1 white, line2 orange, top-left over dark side. Figure: docs/agents/ortal-linkedin-gijane-supergirl-visual-persona.md + assets/ortal-gijane-supergirl-persona-reference.png. Post body stays sentence-case (Batch 2 voice).",
   "posts": [
     {
       "slot": 1,
       "slug": "ortal-tactical-series-01",
       "dueAt": "2026-04-15T19:00:00.000Z",
       "batch2Id": "B2-1",
-      "pairingNote": "Approval / who signs the messy part",
+      "pairingNote": "Approval / messy part",
       "imagegenIntent": "Blank checklist vs shiny preview; unimpressed half-smile.",
-      "imagegenCaptionLine1": "\"Looks good\" is not a contract.",
-      "imagegenCaptionLine2": "Who signs the messy part?",
+      "imagegenCaptionLine1": "\"LOOKS GOOD\" IS NOT A CONTRACT.",
+      "imagegenCaptionLine2": "WHO SIGNS THE MESSY PART?",
       "text": "\"Looks good\" is not a contract. Who signs the messy part?\n\nEveryone loves the moment where the screen looks perfect and the room nods.\n\nI don't optimize for nods.\n\nI optimize for what happens when a customer hits the weird path — when legal already signed off — when automation does the almost right thing and you still owe a human explanation.\n\n\"Looks good\" is a mood. Ownership is a sentence someone has to live with.\n\nIf you're buying or building AI for anything customer-facing, ask an impolite question on day one: who signs the messy part?\n\nNot the roadmap fairy tale. The part where reality disagrees with the deck.\n\nI've watched rooms go quiet on that question. Quiet isn't awkward — it's a diagnostic.\n\nIf you're building agent workflows (including on a social surface) and the handoff layer is fuzzy — DM me the messy detail. I like seams more than slogans.\n\nIf you're hiring for growth / AI implementation / agent systems where \"ship\" includes approvals and ops reality — I'm open to the right role. I'm at my best when the job is bridge + execution, not vibes-only.\n\n#AI #Growth #Operations #Product #AgenticAI"
     },
     {
@@ -20,10 +20,10 @@
       "slug": "ortal-tactical-series-02",
       "dueAt": "2026-04-16T19:00:00.000Z",
       "batch2Id": "B2-2",
-      "pairingNote": "Automation you're scared to touch / pet",
-      "imagegenIntent": "Peering into opaque glowing \"pet\" box; don't trust this.",
-      "imagegenCaptionLine1": "If you're scared to touch your own automation,",
-      "imagegenCaptionLine2": "you didn't build a system. You built a pet.",
+      "pairingNote": "Automation pet",
+      "imagegenIntent": "Peering into opaque glowing pet box; skeptical.",
+      "imagegenCaptionLine1": "IF YOU'RE SCARED TO TOUCH YOUR OWN AUTOMATION,",
+      "imagegenCaptionLine2": "YOU DIDN'T BUILD A SYSTEM. YOU BUILT A PET.",
       "text": "If you're scared to touch your own automation, you didn't build a system. You built a pet.\n\nSmell test — no philosophy, just behavior:\n\nCan you change your \"automation\" without feeling like you're about to anger a ghost?\n\nIf not, you don't have a system. You have a pet that learned how to beg for tickets.\n\nThat's not a moral judgment. It's a reliability statement.\n\nReal systems have boundaries you can explain, steps you can trace, and a human place where responsibility is obvious.\n\nThe fix isn't always a bigger model. Sometimes it's docs a normal human can read. Sometimes it's a hard rule: this can change, this can't — and who breaks glass.\n\nTeams hiring \"AI builders\" — if your interview only tests demos, you'll accidentally hire pet trainers.\n\nTeams buying help — if you want this cleaned up without theater, talk to me like an operator: what breaks, who owns it, what's allowed to go live.\n\n#Automation #AI #Engineering #Workflow #Hiring"
     },
     {
@@ -31,10 +31,10 @@
       "slug": "ortal-tactical-series-03",
       "dueAt": "2026-04-17T19:00:00.000Z",
       "batch2Id": "B2-3",
-      "pairingNote": "Private experiments vs live feed",
-      "imagegenIntent": "Stands on line between calm lab and harsh \"live\" edge.",
-      "imagegenCaptionLine1": "Private experiments lie.",
-      "imagegenCaptionLine2": "The feed remembers.",
+      "pairingNote": "Private vs LIVE FEED",
+      "imagegenIntent": "Threshold: calm lab left, LIVE FEED stage right.",
+      "imagegenCaptionLine1": "PRIVATE EXPERIMENTS LIE.",
+      "imagegenCaptionLine2": "THE FEED REMEMBERS.",
       "text": "Private experiments lie. The feed remembers.\n\nPrivate experiments can make you feel clever.\n\nA live surface makes you tell the truth about risk — fast.\n\nThat's why I keep a real project in public: an AI influencer on a social platform, with multi-step agent workflows and a hard rule — nothing goes live without a human approving the actual package.\n\nIt's not \"content.\" It's operating discipline with the lights on.\n\nYou learn what you believe about approvals, drift, and failure modes when the output is visible enough to matter.\n\nPrivate lies are sweet. The timeline is blunt.\n\nIf you're a founder/operator trying to ship agents for growth or social and you're tired of demos that don't survive contact with reality — DM me. I care about gates, seams, and who owns Tuesday.\n\nIf you're hiring for growth engineering / AI implementation where the product is repeatable workflows — that's the lane I want. Show me the live edge you protect.\n\n#AI #Growth #SocialMedia #Agents #BuildInPublic"
     },
     {
@@ -42,10 +42,10 @@
       "slug": "ortal-tactical-series-04",
       "dueAt": "2026-04-18T19:00:00.000Z",
       "batch2Id": "B2-4",
-      "pairingNote": "Who owns Tuesday / empty owner",
-      "imagegenIntent": "Calendar/tickets, empty \"owner\" — dry humor.",
-      "imagegenCaptionLine1": "Cool prototype.",
-      "imagegenCaptionLine2": "Who owns Tuesday?",
+      "pairingNote": "Tuesday owner",
+      "imagegenIntent": "Calendar/tickets, empty owner; dry humor.",
+      "imagegenCaptionLine1": "COOL PROTOTYPE.",
+      "imagegenCaptionLine2": "WHO OWNS TUESDAY?",
       "text": "Cool prototype. Who owns Tuesday?\n\nWeek one is romance.\n\nWeek two is maintenance — and maintenance is where the story stops flattering you.\n\nCool prototype. I mean it. Now name the owner of Tuesday.\n\nThe triage. The weird edge case. The \"why did it say that\" moment everyone pretends is rare.\n\nEmpty owner fields don't delete work. They route it to whoever has the softest boundary — usually the person who already cares too much.\n\nI'd rather fight about ownership in words early than in incidents late.\n\nThat mindset is what I bring to growth and AI work: not hero launches — systems that don't gaslight the team.\n\nHiring managers: if your role needs someone who loves the unsexy middle — routing, accountability, adult timelines — let's talk.\n\nOperators: if this paragraph made you wince because it's your calendar, not your roadmap — same. DM me the real bottleneck.\n\n#Product #AI #Growth #Operations #Leadership"
     },
     {
@@ -53,10 +53,10 @@
       "slug": "ortal-tactical-series-05",
       "dueAt": "2026-04-19T19:00:00.000Z",
       "batch2Id": "B2-5",
-      "pairingNote": "Integration isn't later",
-      "imagegenIntent": "Under-desk real cables; unglamorous, competent.",
-      "imagegenCaptionLine1": "The integration isn't \"later.\"",
-      "imagegenCaptionLine2": "It's where adults work.",
+      "pairingNote": "Integration / adults work",
+      "imagegenIntent": "Under-desk cables; competent, unglamorous.",
+      "imagegenCaptionLine1": "THE INTEGRATION ISN'T \"LATER.\"",
+      "imagegenCaptionLine2": "IT'S WHERE ADULTS WORK.",
       "text": "The integration isn't \"later.\" It's where adults work.\n\n\"Integration later\" is a comforting sentence.\n\nIt's also where good intentions become expensive truths.\n\nPermissions. Webhooks. Retries. Idempotency. The gap between \"worked once\" and \"works on a bad Tuesday.\"\n\nThat's not punishment. That's the section of the work where credibility is earned without an audience clapping.\n\nI build knowing this: skipping integration is how you get a beautiful demo and a fragile life.\n\nIf you want AI that survives the business, stop treating integration like a personality flaw.\n\nIf you need help wiring agent steps into real tools and real ownership — that's a conversation I want.\n\nIf you're recruiting for growth / AI / automation roles where \"shipping\" includes integration reality, I'm interested — especially when the team respects the boring layer.\n\n#Integration #AI #Engineering #Growth #SaaS"
     }
   ]
