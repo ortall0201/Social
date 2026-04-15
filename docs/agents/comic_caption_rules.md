@@ -8,6 +8,8 @@ The image gives the scene.
 
 The post text gives the meaning, humor, or insight.
 
+**Prewritten caption buckets:** [`caption_library.md`](./caption_library.md).
+
 ## Character
 
 The visual character is: **G.I. Jane tactical supergirl** figure (see [`ortal-linkedin-gijane-supergirl-visual-persona.md`](./ortal-linkedin-gijane-supergirl-visual-persona.md)).
@@ -64,6 +66,7 @@ The post body can go deeper.
 
 ## Related
 
+- [`caption_library.md`](./caption_library.md)
 - [`hook_library.md`](./hook_library.md)
 - [`comic_post_template.md`](./comic_post_template.md)
 - [`post_structure.md`](./post_structure.md)

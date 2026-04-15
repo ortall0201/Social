@@ -18,6 +18,7 @@ This skill is for building the **raw story engine** behind the post.
 ## Repo canon (read when refining)
 
 - `docs/agents/comic_caption_rules.md` — on-image caption traits and examples
+- `docs/agents/caption_library.md` — caption type buckets and lines
 - `docs/agents/ortal-linkedin-gijane-supergirl-visual-persona.md` — tactical heroine visual lock
 - `docs/agents/hook_library.md` — hook patterns (optional cross-check)
 - `docs/agents/comic_post_template.md` — post shape (if handoff to full post later)

@@ -33,6 +33,8 @@ It is a grounded profile built from Ortal's local resume repo plus publicly visi
 
 **Comic on-image captions (short punchy overlays):** [`comic_caption_rules.md`](./comic_caption_rules.md).
 
+**Caption library (type buckets + examples):** [`caption_library.md`](./caption_library.md).
+
 **Voice (tone, avoid, prefer):** [`persona_voice.md`](./persona_voice.md).
 
 **Forbidden phrases (expanded lists):** [`forbidden_phrases.md`](./forbidden_phrases.md).
