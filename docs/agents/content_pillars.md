@@ -99,6 +99,7 @@ Every post must do at least one of these:
 
 ## Related
 
+- [`leadgen_soft_positioning.md`](./leadgen_soft_positioning.md)
 - [`persona_voice.md`](./persona_voice.md)
 - [`comic_post_template.md`](./comic_post_template.md)
 - [`post_scoring.md`](./post_scoring.md)

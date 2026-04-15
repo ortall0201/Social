@@ -31,6 +31,8 @@ It is a grounded profile built from Ortal's local resume repo plus publicly visi
 
 **Rewrite rules (draft fixes):** [`rewrite_rules.md`](./rewrite_rules.md).
 
+**Lead gen (soft positioning, light CTAs):** [`leadgen_soft_positioning.md`](./leadgen_soft_positioning.md).
+
 ## Source Notes
 
 Local source material reviewed:
