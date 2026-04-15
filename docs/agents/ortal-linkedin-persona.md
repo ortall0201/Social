@@ -27,6 +27,8 @@ It is a grounded profile built from Ortal's local resume repo plus publicly visi
 
 **Post structure (format + line map + endings):** [`post_structure.md`](./post_structure.md).
 
+**Rewrite rules (draft fixes):** [`rewrite_rules.md`](./rewrite_rules.md).
+
 ## Source Notes
 
 Local source material reviewed:
