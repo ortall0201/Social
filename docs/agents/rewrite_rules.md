@@ -67,6 +67,7 @@ The moment I stopped treating the agent like a text generator, the whole workflo
 
 ## Related
 
+- [`rewrite_prompt.md`](./rewrite_prompt.md) — copy-paste rewrite instruction
 - [`persona_voice.md`](./persona_voice.md)
 - [`post_structure.md`](./post_structure.md)
 - [`post_scoring.md`](./post_scoring.md)

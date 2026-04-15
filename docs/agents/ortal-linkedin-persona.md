@@ -4,6 +4,8 @@
 
 **Master generation brief (copy-paste prompt for new posts):** [`generation_prompt.md`](./generation_prompt.md).
 
+**Rewrite pass (copy-paste prompt for existing drafts):** [`rewrite_prompt.md`](./rewrite_prompt.md).
+
 This file defines who Ortal is on LinkedIn for Ortal the Great and any future subagents that support:
 
 - authority building

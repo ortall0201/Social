@@ -81,6 +81,7 @@ Before finalizing, make sure:
 
 ## Canon (read before generating)
 
+- [`rewrite_prompt.md`](./rewrite_prompt.md) — use after first draft if it needs a voice pass
 - [`persona_voice.md`](./persona_voice.md)
 - [`post_structure.md`](./post_structure.md)
 - [`hook_library.md`](./hook_library.md)
