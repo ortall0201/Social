@@ -48,7 +48,7 @@ Scheduling **9:16 single-image feed posts** through Buffer sometimes triggers Me
 
 ### Native 4:5 (recommended for Buffer + IG feed image posts)
 
-**1080×1350** — same aspect as IG’s primary **single-image feed** surface. Source art uses **`object-fit: contain`** (full figure, no forced crop) and headline/subline sit in a **large bottom/top inset** so previews are less likely to clip type.
+**1080×1350** — same aspect as IG’s primary **single-image feed** surface. The photo **fills** the frame (**`object-fit: cover`**) and headline/subline are an **on-image overlay** (gradient scrim + type), not a separate strip below.
 
 From **`devi-remotion/`**:
 
