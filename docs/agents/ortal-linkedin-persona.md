@@ -15,7 +15,7 @@ It is a grounded profile built from Ortal's local resume repo plus publicly visi
 
 **Visual / imagegen (G.I. Jane / “Supergirl” tactical heroine):** canonical look + reference still — `ortal-linkedin-gijane-supergirl-visual-persona.md`. Overlay copy rules and Batch hooks — `artifacts/linkedin/visual-hooks/_shared-imagegen-persona-brief.md` (repo path; file may be gitignored locally — mirror in `brain/` or docs if needed).
 
-**Draft scoring:** before publish, run the 1–10 rubric in [`linkedin_post_scoring.md`](./linkedin_post_scoring.md) (hard gates on readability, relatability, personality).
+**Draft scoring:** before publish, run the 1–10 rubric in [`post_scoring.md`](./post_scoring.md) (gates: readability, personality, relatability, hook; see file for full rules).
 
 **Comic / story posts:** structure and line budget — [`comic_post_template.md`](./comic_post_template.md).
 

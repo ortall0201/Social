@@ -58,5 +58,5 @@ End with a clean final line that lands
 
 - [`comic_post_template.md`](./comic_post_template.md)
 - [`hook_library.md`](./hook_library.md)
-- [`linkedin_post_scoring.md`](./linkedin_post_scoring.md)
+- [`post_scoring.md`](./post_scoring.md)
 - [`persona_voice.md`](./persona_voice.md)

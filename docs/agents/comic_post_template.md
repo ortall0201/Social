@@ -41,4 +41,4 @@ A clean last line that feels memorable, not preachy.
 
 ## After drafting
 
-Run [`linkedin_post_scoring.md`](./linkedin_post_scoring.md) before publish.
+Run [`post_scoring.md`](./post_scoring.md) before publish.

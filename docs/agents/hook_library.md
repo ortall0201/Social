@@ -74,5 +74,5 @@ The first two lines should make the reader think one of these:
 
 - [`persona_voice.md`](./persona_voice.md)
 - [`comic_post_template.md`](./comic_post_template.md)
-- [`linkedin_post_scoring.md`](./linkedin_post_scoring.md)
+- [`post_scoring.md`](./post_scoring.md)
 - [`content_pillars.md`](./content_pillars.md)

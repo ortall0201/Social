@@ -101,4 +101,4 @@ Every post must do at least one of these:
 
 - [`persona_voice.md`](./persona_voice.md)
 - [`comic_post_template.md`](./comic_post_template.md)
-- [`linkedin_post_scoring.md`](./linkedin_post_scoring.md)
+- [`post_scoring.md`](./post_scoring.md)

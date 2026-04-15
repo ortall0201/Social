@@ -69,4 +69,4 @@ The moment I stopped treating the agent like a text generator, the whole workflo
 
 - [`persona_voice.md`](./persona_voice.md)
 - [`post_structure.md`](./post_structure.md)
-- [`linkedin_post_scoring.md`](./linkedin_post_scoring.md)
+- [`post_scoring.md`](./post_scoring.md)

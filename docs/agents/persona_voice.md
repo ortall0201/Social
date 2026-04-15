@@ -112,5 +112,5 @@ Always through scenes, stories, and observations.
 
 ## Related
 
-- [`linkedin_post_scoring.md`](./linkedin_post_scoring.md) — score before publish
+- [`post_scoring.md`](./post_scoring.md) — score before publish
 - [`comic_post_template.md`](./comic_post_template.md) — story-shaped posts
