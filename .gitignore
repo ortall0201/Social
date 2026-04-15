@@ -121,3 +121,6 @@ docs/agents/ortal-linkedin-gijane-supergirl-visual-persona.md
 docs/agents/assets/ortal-gijane-supergirl-persona-reference.png
 brain/roadmaps/linkedin/
 docs/social-plan.md
+
+# Local Buffer retry log (feed45 batch)
+devi-feed/imagegen-buffer-2026-04-16/buffer-batch-retry.log
