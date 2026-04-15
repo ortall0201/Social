@@ -90,8 +90,8 @@ function Invoke-ScheduledImages($channelId, $serviceName) {
     $num = Get-CardNumberFromUrl $srcNorm
     if (-not $num) { continue }
     $nn = "{0:D2}" -f $num
-    $cb = if ($Force) { "?v=$([DateTimeOffset]::UtcNow.ToUnixTimeMilliseconds())" } else { "" }
-    $newUrl = "$rawFeed45/devi-buffer-card-$nn-with-caption-feed45.png$cb"
+    $v = [DateTimeOffset]::UtcNow.ToUnixTimeMilliseconds() + $num
+    $newUrl = "$rawFeed45/devi-buffer-card-$nn-with-caption-feed45.png?v=$v"
     Write-Host "[$serviceName] $($n.id) -> feed45 card $nn"
     $del = (Invoke-BufferGraphQl -Query $mutDel -Variables @{ input = @{ id = $n.id } }).deletePost
     if ($del.__typename -ne "DeletePostSuccess") { throw "Delete failed: $($del | ConvertTo-Json)" }

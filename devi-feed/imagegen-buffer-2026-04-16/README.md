@@ -10,6 +10,20 @@
 
 Prefer **`iris-media…/approved/…`** when VPS promotion is available (`brain/iris-status.md`).
 
+### Buffer not showing the latest PNG (stale refetch)
+
+`raw.githubusercontent.com` URLs are often **cached** by URL. Deleting a post and re-adding the **same** link can still show an **old** image.
+
+**Manual scheduling:** paste URLs **with a cache-buster** (GitHub ignores the query; Buffer treats it as a new URL). Generate nine links at once:
+
+```powershell
+powershell -File devi-feed/imagegen-buffer-2026-04-16/emit-image-urls-for-buffer.ps1 -Set 1x1
+```
+
+Use `-Set feed45` or `-Set 916` for the other Remotion sets.
+
+**API reschedule scripts** append `?v=…` automatically on recreate so Buffer fetches fresh bytes.
+
 ## Remotion overlays (headline + Devi subline on image)
 
 From **`devi-remotion/`**:
@@ -68,9 +82,11 @@ Tracked outputs: **`with-caption-1x1/devi-buffer-card-NN-with-caption-1x1.png`**
 
 When Buffer isn’t rate-limited, from **repo root**:
 
-`pwsh -File devi-feed/imagegen-buffer-2026-04-16/reschedule-buffer-feed-images-1x1.ps1`
+`powershell -ExecutionPolicy Bypass -File devi-feed/imagegen-buffer-2026-04-16/reschedule-buffer-feed-images-1x1.ps1`
 
-That swaps scheduled **feed image** posts from **9:16** or **feed-4x5** URLs to the matching **1:1** file (skips posts already on 1:1).
+Add **`-Force`** to re-create posts that already use `with-caption-1x1` (e.g. after a new render). Each recreate uses a fresh `?v=` on the image URL.
+
+That swaps scheduled **feed image** posts from **9:16**, **feed-4x5**, or **feed45** to the matching **1:1** file.
 
 ### Switch queued Buffer posts back to 9:16
 

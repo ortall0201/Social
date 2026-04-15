@@ -1,10 +1,14 @@
-# Point scheduled Buffer IG+FB feed image posts at 1:1 Remotion overlays (full frame + type).
-# Run from repo root: pwsh -File devi-feed/imagegen-buffer-2026-04-16/reschedule-buffer-feed-images-1x1.ps1
+# Point scheduled Buffer IG+FB feed image posts at 1:1 Remotion overlays (image band + type strip).
+# Run from repo root:
+#   powershell -ExecutionPolicy Bypass -File devi-feed/imagegen-buffer-2026-04-16/reschedule-buffer-feed-images-1x1.ps1
+# After re-rendering PNGs or if Buffer cached an old 1:1, refresh in place:
+#   powershell -ExecutionPolicy Bypass -File devi-feed/imagegen-buffer-2026-04-16/reschedule-buffer-feed-images-1x1.ps1 -Force
 # Requires: scripts/buffer-common.ps1, local-secrets/buffer_access_token.txt
-# Matches URLs from 9:16 with-caption, feed-4x5, or existing 1x1 (no-op if already 1x1).
 
 [CmdletBinding()]
-param()
+param(
+  [switch]$Force
+)
 
 $ErrorActionPreference = "Stop"
 $repoRoot = (Resolve-Path (Join-Path $PSScriptRoot "..\..")).Path
@@ -57,8 +61,11 @@ mutation CreateImagePost($input: CreatePostInput!) {
 '@
 
 function Get-CardNumberFromUrl([string]$src) {
+  if ($src -match "with-caption-1x1/devi-buffer-card-(\d+)-with-caption-1x1\.png") { return [int]$matches[1] }
+  if ($src -match "with-caption-feed45/devi-buffer-card-(\d+)-with-caption-feed45\.png") { return [int]$matches[1] }
   if ($src -match "with-caption/devi-buffer-card-(\d+)-with-caption\.png") { return [int]$matches[1] }
   if ($src -match "feed-4x5/devi-buffer-card-(\d+)-with-caption-feed-4x5\.png") { return [int]$matches[1] }
+  if ($src -match "devi-buffer-card-(\d+)-") { return [int]$matches[1] }
   return $null
 }
 
@@ -78,13 +85,16 @@ function Invoke-ScheduledImages($channelId, $serviceName) {
     if ($meta -ne "post") { continue }
     $src = ($n.assets | ForEach-Object { $_.source }) | Select-Object -First 1
     if (-not $src) { continue }
-    if ($src -match "with-caption-1x1/devi-buffer-card-\d+-with-caption-1x1\.png") {
+    $srcNorm = $src -replace "\?.*$", ""
+    if (-not $Force -and ($srcNorm -match "with-caption-1x1/devi-buffer-card-\d+-with-caption-1x1\.png")) {
       continue
     }
-    $num = Get-CardNumberFromUrl $src
+    $num = Get-CardNumberFromUrl $srcNorm
     if (-not $num) { continue }
     $nn = "{0:D2}" -f $num
-    $newUrl = "$raw1x1/devi-buffer-card-$nn-with-caption-1x1.png"
+    # Always bust cache: Buffer often reuses bytes for the same raw.githubusercontent.com path.
+    $v = [DateTimeOffset]::UtcNow.ToUnixTimeMilliseconds() + $num
+    $newUrl = "$raw1x1/devi-buffer-card-$nn-with-caption-1x1.png?v=$v"
     Write-Host "[$serviceName] $($n.id) -> 1:1 card $nn"
     $del = (Invoke-BufferGraphQl -Query $mutDel -Variables @{ input = @{ id = $n.id } }).deletePost
     if ($del.__typename -ne "DeletePostSuccess") { throw "Delete failed: $($del | ConvertTo-Json)" }
