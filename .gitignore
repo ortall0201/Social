@@ -110,6 +110,8 @@ services/operator-dashboard/data/
 # Private local runtime / agent / worker system (never publish)
 docs/
 scripts/
+!devi-remotion/scripts/
+!devi-remotion/scripts/**
 services/
 
 # LinkedIn agent work is local-only and must never be published
