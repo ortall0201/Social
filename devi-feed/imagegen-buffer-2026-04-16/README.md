@@ -18,6 +18,22 @@ From **`devi-remotion/`**:
 npm run render:devi-feed-overlays
 ```
 
-Copies these PNGs into `devi-remotion/public/devi-feed-buffer/` (gitignored), then writes **`devi-remotion/out/devi-feed-caption-overlays/*-with-caption.png`** + `manifest.json`. Use overlaid stills for Buffer if you want on-image type; plain cards stay in this folder for caption-only posts.
+Copies these PNGs into `devi-remotion/public/devi-feed-buffer/` (gitignored), then writes **`devi-remotion/out/devi-feed-caption-overlays/*-with-caption.png`** + `manifest.json`. **Canonical publish still for on-image type:** copy or track **`with-caption/devi-buffer-card-NN-with-caption.png` (9:16)** so headline + subline stay in full frame.
 
-**Feed 4:5 for IG/FB (`with-caption/feed-4x5/`):** Do **not** center-crop 9:16 → 4:5 — that **cuts off** bottom Remotion type. Use **`manifest.json` `textZone`:** `bottom` → ffmpeg `crop=1080:1350:0:570` (keep **bottom** strip); `top` → `crop=1080:1350:0:0` (keep **top** strip). Re-run the crop step after changing overlays.
+### Buffer preview vs the real file
+
+Buffer’s web UI often **letterboxes or masks** 9:16 previews; the **bottom** of the frame can look **cut off** even when the **PNG is complete**. To verify pixels, open the **raw image URL** in a new browser tab (full bleed). That clipping is usually **not** what Instagram/Facebook receive—unless Meta applies its own crop rules (see below).
+
+### Instagram feed API and aspect ratio
+
+Scheduling **9:16 single-image feed posts** through Buffer sometimes triggers Meta **media container / dimension** errors (we hit this in Apr 2026). **Facebook** is often more forgiving. If IG rejects 9:16, fall back to **`with-caption/feed-4x5/`** (taller-than-wide feed-safe) **or** use a **Reel (video)** for true 9:16 vertical.
+
+**Optional `feed-4x5/`:** Only if you need IG feed reliability. **Do not center-crop** (that slices bottom type). Use **`manifest.json` `textZone`:** `bottom` → `crop=1080:1350:0:570`; `top` → `crop=1080:1350:0:0`.
+
+### Switch queued Buffer posts back to 9:16
+
+When the Buffer API isn’t rate-limited, from **repo root**:
+
+`pwsh -File devi-feed/imagegen-buffer-2026-04-16/reschedule-buffer-feed-images-916.ps1`
+
+That replaces **`feed-4x5`…** URLs with **`…/with-caption/devi-buffer-card-NN-with-caption.png`** on all **scheduled feed image** posts (IG + FB), keeping caption + time.
