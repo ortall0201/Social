@@ -82,6 +82,7 @@ Before finalizing, make sure:
 
 ## Canon (read before generating)
 
+- [`editor_guardrail_skill.md`](./editor_guardrail_skill.md) — skill `/editor-guardrail-skill` before scheduling any draft
 - [`linkedin_native_post_skill.md`](./linkedin_native_post_skill.md) — skill `/linkedin-native-post-skill` when packaging a comic seed for the feed
 - [`rewrite_prompt.md`](./rewrite_prompt.md) — use after first draft if it needs a voice pass
 - [`persona_voice.md`](./persona_voice.md)

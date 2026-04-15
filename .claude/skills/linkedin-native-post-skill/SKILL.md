@@ -267,5 +267,5 @@ Not a content machine trying to sound insightful.
 ## Pipeline
 
 1. `/comic-storytelling-skill` → story seed, arc, visual direction, caption options  
-2. `/linkedin-native-post-skill` → this skill → final post text  
-3. `docs/agents/post_scoring.md` → self-check before publish  
+2. `/linkedin-native-post-skill` → this skill → draft post text  
+3. `/editor-guardrail-skill` → scorecard, approve or rewrite → then schedule  

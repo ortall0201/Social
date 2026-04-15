@@ -9,7 +9,7 @@
 
 Turn a **comic story seed** (usually from `/comic-storytelling-skill`) into **LinkedIn-native** post text: mobile spacing, hook → scene → tension → insight → soft positioning → ending. **Does not** invent the story from scratch.
 
-**Typical pipeline:** `/comic-storytelling-skill` → `/linkedin-native-post-skill` → [`post_scoring.md`](./post_scoring.md).
+**Typical pipeline:** `/comic-storytelling-skill` → `/linkedin-native-post-skill` → `/editor-guardrail-skill` → schedule. Quick rubric: [`post_scoring.md`](./post_scoring.md).
 
 **Git:** these paths are under ignored `skills/` rules; after edits use `git add -f` on the two `SKILL.md` files.
 

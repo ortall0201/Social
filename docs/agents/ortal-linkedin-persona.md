@@ -10,6 +10,8 @@
 
 **LinkedIn-native post (story seed → feed-ready prose):** skill `/linkedin-native-post-skill` — see [`linkedin_native_post_skill.md`](./linkedin_native_post_skill.md).
 
+**Editor guardrail (pre-schedule scorecard + verdict):** skill `/editor-guardrail-skill` — see [`editor_guardrail_skill.md`](./editor_guardrail_skill.md).
+
 This file defines who Ortal is on LinkedIn for Ortal the Great and any future subagents that support:
 
 - authority building
@@ -23,7 +25,9 @@ It is a grounded profile built from Ortal's local resume repo plus publicly visi
 
 **Visual / imagegen (G.I. Jane / “Supergirl” tactical heroine):** canonical look + reference still — `ortal-linkedin-gijane-supergirl-visual-persona.md`. Overlay copy rules and Batch hooks — `artifacts/linkedin/visual-hooks/_shared-imagegen-persona-brief.md` (repo path; file may be gitignored locally — mirror in `brain/` or docs if needed).
 
-**Draft scoring:** before publish, run the 1–10 rubric in [`post_scoring.md`](./post_scoring.md) (gates: readability, personality, relatability, hook; see file for full rules).
+**Pre-schedule QA:** skill `/editor-guardrail-skill` — [`editor_guardrail_skill.md`](./editor_guardrail_skill.md) (10-category scorecard, thresholds, verdict).
+
+**Quick rubric reference:** [`post_scoring.md`](./post_scoring.md) (shorter checklist; editor skill is the full gate).
 
 **Comic / story posts:** structure and line budget — [`comic_post_template.md`](./comic_post_template.md).
 
