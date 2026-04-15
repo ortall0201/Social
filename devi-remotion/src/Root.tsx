@@ -26,6 +26,10 @@ import { BeautyViralTipsMinimal } from "./BeautyViralTipsMinimal";
 import { DeviCaptionMinimalReel, DeviCaptionMinimalReelProps } from "./DeviCaptionMinimalReel";
 import { DeviCaptionStaticMinimal, DeviCaptionStaticMinimalProps } from "./DeviCaptionStaticMinimal";
 import { DeviViralCaptionMinimal, DeviViralCaptionMinimalProps } from "./DeviViralCaptionMinimal";
+import {
+  DeviFeedImageCaption,
+  DeviFeedImageCaptionProps,
+} from "./DeviFeedImageCaption";
 import { HotContourEdit } from "./HotContourEdit";
 import { NewsletterCommercial, NEWSLETTER_COMMERCIAL_DURATION } from "./NewsletterCommercial";
 import { Base44RepoLaunchCommercial } from "./Base44RepoLaunchCommercial";
@@ -445,6 +449,19 @@ export const RemotionRoot: React.FC = () => {
         defaultProps={{
           caption: "The version of you that once felt impossible? You're becoming her.",
           theme: "dark",
+        }}
+      />
+
+      <Still<DeviFeedImageCaptionProps>
+        id="DeviFeedImageCaption"
+        component={DeviFeedImageCaption}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          imageFile: "devi-feed-buffer/devi-buffer-card-01.png",
+          headline: "Quiet. Then. Iconic.",
+          subline: "One archive beat. Zero noise.",
+          textZone: "bottom",
         }}
       />
 

@@ -2,6 +2,9 @@
 node_modules/
 package-lock.json
 
+# Copied feed cards for Remotion staticFile (source of truth: ../devi-feed/)
+public/devi-feed-buffer/
+
 # Build output
 dist/
 out/
