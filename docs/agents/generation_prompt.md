@@ -55,6 +55,7 @@ She wants the post to feel human, sharp, readable, and memorable.
 - Do not sound like thought leadership theater
 - Do not sound like a generic AI influencer
 - Do not make broad dramatic claims about the future
+- Do not use **banned phrases** listed in [`persona_voice.md`](./persona_voice.md) (section *Banned phrases*)
 
 ## Desired outcome
 

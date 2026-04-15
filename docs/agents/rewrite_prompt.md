@@ -27,6 +27,7 @@ Take the current LinkedIn draft and rewrite it to sound more like Ortal.
 - Excessive criticism
 - Corporate phrases
 - Heavy buzzwords
+- Any **banned phrases** from [`persona_voice.md`](./persona_voice.md) (*Banned phrases*)
 
 ## Add
 

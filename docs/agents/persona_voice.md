@@ -76,6 +76,20 @@ Do not sound:
   - disruptive
 - Do not make every post sound like industry criticism
 
+## Banned phrases (do not use)
+
+Avoid these and close variants:
+
+- the future of AI
+- we are entering a new era
+- transformative power
+- leverage at scale
+- unlock potential
+- agentic paradigm
+- in today's fast-moving landscape
+- seamlessly
+- powerful synergies
+
 ## Prefer
 
 - Scenes

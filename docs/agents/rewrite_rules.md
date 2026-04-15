@@ -4,6 +4,8 @@
 
 Rewrite drafts so they sound more human, more readable, more memorable, and more like Ortal.
 
+Strip **banned phrases** (see [`persona_voice.md`](./persona_voice.md), *Banned phrases*).
+
 ## Rewrite when the post feels
 
 - Too high-level
