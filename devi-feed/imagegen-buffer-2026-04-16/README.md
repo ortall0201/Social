@@ -19,3 +19,5 @@ npm run render:devi-feed-overlays
 ```
 
 Copies these PNGs into `devi-remotion/public/devi-feed-buffer/` (gitignored), then writes **`devi-remotion/out/devi-feed-caption-overlays/*-with-caption.png`** + `manifest.json`. Use overlaid stills for Buffer if you want on-image type; plain cards stay in this folder for caption-only posts.
+
+**Feed 4:5 for IG/FB (`with-caption/feed-4x5/`):** Do **not** center-crop 9:16 → 4:5 — that **cuts off** bottom Remotion type. Use **`manifest.json` `textZone`:** `bottom` → ffmpeg `crop=1080:1350:0:570` (keep **bottom** strip); `top` → `crop=1080:1350:0:0` (keep **top** strip). Re-run the crop step after changing overlays.

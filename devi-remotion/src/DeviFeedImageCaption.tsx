@@ -47,8 +47,9 @@ export const DeviFeedImageCaption: React.FC<DeviFeedImageCaptionProps> = ({
       <AbsoluteFill
         style={{
           justifyContent: isBottom ? "flex-end" : "flex-start",
+          /* Extra bottom padding: IG/FB crop players and in-app chrome eat the lower edge; feed 4:5 crops must anchor bottom — still keep type off the true frame edge. */
           paddingTop: isBottom ? 0 : 96,
-          paddingBottom: isBottom ? 96 : 0,
+          paddingBottom: isBottom ? 168 : 0,
           paddingLeft: 64,
           paddingRight: 64,
         }}
