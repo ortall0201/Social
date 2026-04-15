@@ -34,13 +34,10 @@ Optional: `-StartUtc "2026-04-16T17:00:00Z"` for the first slot (defaults: tomor
 
 2. **If Buffer returns `RATE_LIMIT_EXCEEDED`:** run `emit-feed45-buffer-payload.ps1` and use **`feed45-buffer-queue.json`** (or schedule manually from that file). Re-run the batch script after the 24h window.
 
-3. **Windows PC left on — local “cron” + auto-retry:** from repo root, either:
-   - **Foreground retry loop** (tries every 60 min until Buffer accepts):  
-     `powershell -ExecutionPolicy Bypass -File devi-feed/imagegen-buffer-2026-04-16/run-feed45-buffer-batch-retry.ps1`  
-     Optional: `-RetryIntervalMinutes 45`, `-MaxAttempts 0` (default = unlimited). Logs append to `buffer-batch-retry.log` in this folder.
-   - **Task Scheduler** (one-shot ~24h ahead by default):  
-     `powershell -ExecutionPolicy Bypass -File devi-feed/imagegen-buffer-2026-04-16/register-feed45-buffer-windows-task.ps1`  
-     Or `-OnceAt "2026-04-17 09:00"` / `-DailyAtHour 9`. Remove: `-Unregister`.
+3. **Windows PC left on — local “cron” + auto-retry (optional, gitignored):** two helpers live **only on your machine** in this folder and are **listed in `.gitignore`** so they are never committed unless you explicitly choose to track them:
+   - `run-feed45-buffer-batch-retry.ps1` — foreground loop; retries after rate limit; logs to `buffer-batch-retry.log` (also gitignored).
+   - `register-feed45-buffer-windows-task.ps1` — registers a Task Scheduler job that runs the retry script.
+   If those files are missing, ask Iris to recreate them in-session (they are not part of the public tree by design).
 
 ## Remotion overlays (headline + Devi subline on image)
 

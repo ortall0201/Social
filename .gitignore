@@ -122,5 +122,7 @@ docs/agents/assets/ortal-gijane-supergirl-persona-reference.png
 brain/roadmaps/linkedin/
 docs/social-plan.md
 
-# Local Buffer retry log (feed45 batch)
+# Local Buffer helpers (feed45 batch) — keep on disk only; do not commit without explicit approval
 devi-feed/imagegen-buffer-2026-04-16/buffer-batch-retry.log
+devi-feed/imagegen-buffer-2026-04-16/run-feed45-buffer-batch-retry.ps1
+devi-feed/imagegen-buffer-2026-04-16/register-feed45-buffer-windows-task.ps1
