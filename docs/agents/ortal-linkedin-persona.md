@@ -21,6 +21,8 @@ It is a grounded profile built from Ortal's local resume repo plus publicly visi
 
 **Voice (tone, avoid, prefer):** [`persona_voice.md`](./persona_voice.md).
 
+**Content pillars (comic series + mix):** [`content_pillars.md`](./content_pillars.md).
+
 ## Source Notes
 
 Local source material reviewed:
