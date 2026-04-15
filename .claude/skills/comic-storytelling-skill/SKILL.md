@@ -1,6 +1,6 @@
 ---
 name: comic-storytelling-skill
-description: Turn a real AI-building moment into a comic-style story engine (scene, tension, payoff, visual direction, image captions). Not for full LinkedIn post prose; use before imagegen or alongside Ortal comic posts.
+description: Turn a real AI-building moment into a comic-style story engine (scene, tension, payoff, visual direction, image captions). Not for full LinkedIn post prose; hand off to linkedin-native-post-skill for feed-ready copy.
 metadata:
   tags: linkedin, ortal, comic, storytelling, imagegen, caption, builder, ai-workflows
 ---
@@ -254,6 +254,10 @@ A strong comic story should make the next writer instantly understand:
 - what is funny or tense about it
 - what the image should show
 - what emotional note the post should land on
+
+## Handoff
+
+For **LinkedIn feed-ready prose** from this story engine, use **`/linkedin-native-post-skill`** (pass the story seed + arc; that skill does not invent a new story from scratch).
 
 ## Final rule
 

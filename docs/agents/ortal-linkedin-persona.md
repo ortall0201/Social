@@ -8,6 +8,8 @@
 
 **Comic story engine (moment → arc → visual + captions):** skill `/comic-storytelling-skill` — see [`comic_storytelling_skill.md`](./comic_storytelling_skill.md).
 
+**LinkedIn-native post (story seed → feed-ready prose):** skill `/linkedin-native-post-skill` — see [`linkedin_native_post_skill.md`](./linkedin_native_post_skill.md).
+
 This file defines who Ortal is on LinkedIn for Ortal the Great and any future subagents that support:
 
 - authority building
