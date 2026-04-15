@@ -482,6 +482,20 @@ export const RemotionRoot: React.FC = () => {
         }}
       />
 
+      {/* Native 4:5 (1080×1350) — matches IG single-image feed; reduces Buffer/IG preview zoom vs 1:1 */}
+      <Still<DeviFeedImageCaptionSquareProps>
+        id="DeviFeedImageCaptionFeed4x5"
+        component={DeviFeedImageCaptionSquare}
+        width={1080}
+        height={1350}
+        defaultProps={{
+          imageFile: "devi-feed-buffer/devi-buffer-card-01.png",
+          headline: "Quiet. Then. Iconic.",
+          subline: "Archive energy without the costume parade.",
+          textZone: "bottom",
+        }}
+      />
+
       {/* Newsletter Studio Commercial - Full Before/After/Growth (~1m49s, 1920x1080 YouTube) */}
       <Composition
         id="NewsletterCommercial"
