@@ -117,5 +117,7 @@ services/
 # LinkedIn agent work is local-only and must never be published
 docs/agents/linkedin-lead-agent.md
 docs/agents/ortal-linkedin-persona.md
+docs/agents/ortal-linkedin-gijane-supergirl-visual-persona.md
+docs/agents/assets/ortal-gijane-supergirl-persona-reference.png
 brain/roadmaps/linkedin/
 docs/social-plan.md
