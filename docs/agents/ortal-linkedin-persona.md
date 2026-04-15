@@ -19,6 +19,8 @@ It is a grounded profile built from Ortal's local resume repo plus publicly visi
 
 **Comic / story posts:** structure and line budget — [`comic_post_template.md`](./comic_post_template.md).
 
+**Voice (tone, avoid, prefer):** [`persona_voice.md`](./persona_voice.md).
+
 ## Source Notes
 
 Local source material reviewed:
