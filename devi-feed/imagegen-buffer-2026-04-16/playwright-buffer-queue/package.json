@@ -1,0 +1,14 @@
+{
+  "name": "playwright-buffer-queue",
+  "private": true,
+  "type": "module",
+  "description": "Optional Playwright helper for Buffer Publish + feed45 JSON queue (local session file).",
+  "scripts": {
+    "save-session": "node save-session.mjs",
+    "publish": "node publish-from-queue.mjs",
+    "codegen": "playwright codegen https://publish.buffer.com"
+  },
+  "devDependencies": {
+    "playwright": "^1.49.0"
+  }
+}

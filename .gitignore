@@ -126,3 +126,7 @@ docs/social-plan.md
 devi-feed/imagegen-buffer-2026-04-16/buffer-batch-retry.log
 devi-feed/imagegen-buffer-2026-04-16/run-feed45-buffer-batch-retry.ps1
 devi-feed/imagegen-buffer-2026-04-16/register-feed45-buffer-windows-task.ps1
+
+# Playwright Buffer session (never commit)
+devi-feed/imagegen-buffer-2026-04-16/playwright-buffer-queue/buffer-auth.json
+devi-feed/imagegen-buffer-2026-04-16/playwright-buffer-queue/node_modules/
