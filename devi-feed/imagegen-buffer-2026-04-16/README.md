@@ -32,7 +32,7 @@ Use `-Set feed45` or `-Set 916` for the other Remotion sets.
 
 Optional: `-StartUtc "2026-04-16T17:00:00Z"` for the first slot (defaults: tomorrow **17:00 UTC**, then **+1 day** per card). Each post: manifest **headline + subline +** up to **5** themed hashtags; image `with-caption-feed45` + cache-bust.
 
-2. **If Buffer returns `RATE_LIMIT_EXCEEDED`:** run `emit-feed45-buffer-payload.ps1` and use **`feed45-buffer-queue.json`** (or schedule manually from that file). Re-run the batch script after the 24h window.
+2. **If Buffer returns `RATE_LIMIT_EXCEEDED`:** limits in the **API beta** are **rolling** (not a fixed clock reset); rotating API keys does not necessarily open a new quota if the same client/account is still over the sliding window. Check usage in Buffer’s **Developer Dashboard**, and on **429** responses inspect **`RateLimit-Reset`** / **`Retry-After`** headers (or `extensions.retryAfter` in the JSON body) for when the next call may succeed — see [API limits](https://developers.buffer.com/guides/api-limits.html). Reduce churn: fewer delete/recreate cycles; batch scheduling when possible. Meanwhile run `emit-feed45-buffer-payload.ps1` and use **`feed45-buffer-queue.json`** in the Buffer UI if the API is hot.
 
 3. **Windows PC left on — local “cron” + auto-retry (optional, gitignored):** two helpers live **only on your machine** in this folder and are **listed in `.gitignore`** so they are never committed unless you explicitly choose to track them:
    - `run-feed45-buffer-batch-retry.ps1` — foreground loop; retries after rate limit; logs to `buffer-batch-retry.log` (also gitignored).
