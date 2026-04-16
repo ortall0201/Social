@@ -1,5 +1,5 @@
 {
-  "mediaBaseUrl": "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks",
+  "mediaBaseUrl": "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks",
   "imageFile": "feed-hero-v1.png",
   "timezoneNote": "dueAt is UTC. 22:00 Israel (IDT, UTC+3) = 19:00Z same day. Batch follows 2026-04-15-five-slots (ends 2026-04-19). Buffer schedule attempt 2026-04-16 hit RATE_LIMIT_EXCEEDED (24h window); re-run from repo root on 2026-04-17 or later: powershell -ExecutionPolicy Bypass -File scripts/buffer/Buffer-QueueOrtalFiveSlots.ps1 -QueueFile .\\buffer-linkedin\\queue\\2026-04-16-gijane-comic-five.json — optional retry loop: Buffer-QueueOrtalFiveSlots-Retry.ps1 (same folder).",
   "posts": [
