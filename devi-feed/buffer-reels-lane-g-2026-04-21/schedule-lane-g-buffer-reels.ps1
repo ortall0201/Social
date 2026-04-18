@@ -1,6 +1,9 @@
-# Schedule lane G Coachella homage reels (R-G-001–006) to Devi Instagram via Buffer.
-# Requires: local-secrets/buffer_access_token.txt, local-secrets/buffer_ids.ps1 (BUFFER_PROFILE_IG_DEVI)
+# Schedule lane G Coachella homage reels (R-G-001–006) to Devi Instagram + Facebook Page via Buffer.
+# Requires: local-secrets/buffer_access_token.txt, local-secrets/buffer_ids.ps1 with:
+#   BUFFER_PROFILE_IG_DEVI, BUFFER_PROFILE_FB_PAGE_DEVI
 # Media must be fetchable HTTPS — default: raw GitHub after you push this folder.
+#
+# Run normalize-lane-g-reels-1080x1920.ps1 before push so MP4s are 1080x1920 (Meta / Buffer reliability).
 #
 # From repo root:
 #   powershell -ExecutionPolicy Bypass -File devi-feed/buffer-reels-lane-g-2026-04-21/schedule-lane-g-buffer-reels.ps1
@@ -19,14 +22,15 @@ $ErrorActionPreference = "Stop"
 $repoRoot = (Resolve-Path (Join-Path $PSScriptRoot "..\..")).Path
 $idsPath = Join-Path $repoRoot "local-secrets\buffer_ids.ps1"
 if (-not (Test-Path -LiteralPath $idsPath)) {
-  throw "Missing $idsPath - copy buffer_ids.example.ps1 and set BUFFER_PROFILE_IG_DEVI"
+  throw "Missing $idsPath - copy buffer_ids.example.ps1 and set BUFFER_PROFILE_IG_DEVI / BUFFER_PROFILE_FB_PAGE_DEVI"
 }
 . $idsPath
-if (-not $env:BUFFER_PROFILE_IG_DEVI) {
-  throw "BUFFER_PROFILE_IG_DEVI must be set in buffer_ids.ps1"
+if ([string]::IsNullOrWhiteSpace($env:BUFFER_PROFILE_IG_DEVI) -or [string]::IsNullOrWhiteSpace($env:BUFFER_PROFILE_FB_PAGE_DEVI)) {
+  throw "BUFFER_PROFILE_IG_DEVI and BUFFER_PROFILE_FB_PAGE_DEVI must be set in buffer_ids.ps1"
 }
 
 $ig = $env:BUFFER_PROFILE_IG_DEVI.Trim()
+$fb = $env:BUFFER_PROFILE_FB_PAGE_DEVI.Trim()
 $queueScript = Join-Path $repoRoot "scripts\buffer-queue-video-post.ps1"
 if (-not (Test-Path -LiteralPath $queueScript)) {
   throw "Missing $queueScript (buffer-queue-video-post.ps1)"
@@ -86,8 +90,20 @@ foreach ($p in $posts) {
     -DueAt $due | Out-Null
 
   Start-Sleep -Milliseconds 800
+
+  Write-Host ("[{0}] FB reel due {1}" -f $p.file, $due)
+  & $queueScript `
+    -ChannelId $fb `
+    -Service facebook `
+    -PostType reel `
+    -Text $body `
+    -VideoUrl $url `
+    -DueAt $due | Out-Null
+
+  Start-Sleep -Milliseconds 800
+
   $cursor = $cursor.AddDays(1)
   $i++
 }
 
-Write-Host "Done. 6 Instagram reels queued."
+Write-Host "Done. 6 Instagram + 6 Facebook reels queued."
