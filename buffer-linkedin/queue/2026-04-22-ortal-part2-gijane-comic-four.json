@@ -1,0 +1,86 @@
+{
+  "seriesTrack": "gijane_comic",
+  "seriesId": "ortal-gijane-comic-2026-04",
+  "seriesPart": 2,
+  "continuesSlugsPart1": [
+    "ortal-gijane-comic-2026-04-01",
+    "ortal-gijane-comic-2026-04-02",
+    "ortal-gijane-comic-2026-04-03",
+    "ortal-gijane-comic-2026-04-04",
+    "ortal-gijane-comic-2026-04-05"
+  ],
+  "continuesManifest": "buffer-linkedin/queue/2026-04-16-gijane-comic-five.json",
+  "voiceNote": "Scene-first, lighter CTA than tactical track — same rhythm as part 1 comic slots (2,4,6,8,10). No dual hiring block; optional community closer. No OPS pin by default (add if a slot outperforms).",
+  "characterLockNote": "Same locked GI Jane / tactical heroine as tactical-series heroes — one face across the whole arc. See buffer-linkedin/visual-hooks/README.md.",
+  "imagegen": {
+    "track": "comic_career_fit",
+    "colorGrade": "Cool key: blue-grey / slate / soft teal bias — calm, trustworthy, slightly 'career fit' editorial (like a cooler LinkedIn grade). Keep orange minimal; no hot amber dominance.",
+    "composition": "Vary environment and pose per post; scene-first beats tied to pillar — not the same frame as tactical heroes.",
+    "typography": "Short comic overlay: sentence-case or title case, punchy — align with onImageCaption / comic_caption_rules.md."
+  },
+  "mediaBaseUrl": "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks",
+  "imageFile": "feed-hero-v1.png",
+  "status": "draft",
+  "assetsNote": "feed-hero-v1.png for each slug exists under buffer-linkedin/visual-hooks/ (Cursor imagegen, 2026-04-18). Cool blue-grey comic / career-fit grade. Commit + push to main before scheduling with jsDelivr/raw GitHub URLs.",
+  "scheduling": {
+    "interleaveWith": "buffer-linkedin/queue/2026-04-22-ortal-part2-tactical-series-five.json",
+    "queueSlotsInOrder": [12, 14, 16, 18],
+    "patternWithTactical": "T_G_T_G_T_G_T_G_T",
+    "bufferCadence2026": "Apr 20 19:00Z C06; Apr 21 19:00Z C07; Apr 22 19:00Z C08; Apr 23 19:00Z C09 — UTC. See tactical manifest for paired T slots."
+  },
+  "timezoneNote": "dueAt UTC. Evening 19:00Z ≈ 22:00 Israel IDT; morning 08:00Z. Push feed-hero-v1.png per slug before scheduling.",
+  "posts": [
+    {
+      "queueSlot": 12,
+      "slug": "ortal-gijane-comic-2026-04-06",
+      "pillar": "metric_theater",
+      "bufferPostId": null,
+      "bufferStatus": "draft",
+      "dueAt": "2026-04-20T19:00:00.000Z",
+      "sentAt": null,
+      "linkedInUrl": null,
+      "imageUrl": "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-gijane-comic-2026-04-06/feed-hero-v1.png",
+      "onImageCaption": "dashboard courage",
+      "text": "I once watched a room applaud a metric that couldn't buy a single decision.\n\nGreen. Pretty. Useless.\n\nIf your numbers can't change what you do this week, you don't have strategy.\n\nYou have a dashboard that helps you feel brave.\n\nSo I stopped asking \"what does the chart say?\"\n\nI started asking \"what would we do if it moved?\"\n\nIf the answer is vague, the metric is theater.\n\nTheater is expensive - it eats meetings and pretends it bought clarity.\n\nPick one ugly number that hurts when it's wrong.\n\nOwn it.\n\nEverything else can be wallpaper.\n\nIf you've done this exercise and it stung - you're my people.\n\n#Growth #Analytics #Leadership #Product #Operations"
+    },
+    {
+      "queueSlot": 14,
+      "slug": "ortal-gijane-comic-2026-04-07",
+      "pillar": "context_rot",
+      "bufferPostId": null,
+      "bufferStatus": "draft",
+      "dueAt": "2026-04-21T19:00:00.000Z",
+      "sentAt": null,
+      "linkedInUrl": null,
+      "imageUrl": "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-gijane-comic-2026-04-07/feed-hero-v1.png",
+      "onImageCaption": "stale context",
+      "text": "The retrieval stack looked healthy.\n\nThe policy page was from last quarter.\n\nYour agent is not hallucinating.\n\nSometimes it's just confidently reading yesterday's truth.\n\nContext rots faster than code.\n\nDocs drift. Policies change. The spreadsheet nobody owns becomes \"the source\" because it has a link.\n\nIf retrieval is your religion, freshness is your discipline.\n\nExpiry dates. Owners. Delete paths.\n\nBoring words - until the wrong paragraph shows up in front of a customer.\n\nI care about systems that know what they don't know.\n\nThat's the adult version.\n\nBuilders who've seen \"almost right\" go sideways in public - I would love your war stories.\n\n#AI #RAG #KnowledgeManagement #Engineering #Trust"
+    },
+    {
+      "queueSlot": 16,
+      "slug": "ortal-gijane-comic-2026-04-08",
+      "pillar": "postmortem_truth",
+      "bufferPostId": null,
+      "bufferStatus": "draft",
+      "dueAt": "2026-04-22T19:00:00.000Z",
+      "sentAt": null,
+      "linkedInUrl": null,
+      "imageUrl": "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-gijane-comic-2026-04-08/feed-hero-v1.png",
+      "onImageCaption": "what actually happened",
+      "text": "We wrote the postmortem in passive voice.\n\n\"An issue was observed.\"\n\nCool.\n\nThe system learned nothing.\n\nThe fastest teams don't have fewer incidents.\n\nThey have less shame about the write-up.\n\nI want the boring facts: what was supposed to be true, what was true, what signal you missed, what you will change before next week.\n\nBlameless doesn't mean consequence-free.\n\nIt means the system gets corrected instead of the person getting decorated.\n\nAI makes failures weirder.\n\nSo the habit matters more.\n\nIf you've ever read a postmortem that sounded like marketing, you know why I'm picky about language.\n\n#Engineering #Culture #Reliability #AI #Leadership"
+    },
+    {
+      "queueSlot": 18,
+      "slug": "ortal-gijane-comic-2026-04-09",
+      "pillar": "comm_layer_scope",
+      "bufferPostId": null,
+      "bufferStatus": "draft",
+      "dueAt": "2026-04-23T19:00:00.000Z",
+      "sentAt": null,
+      "linkedInUrl": null,
+      "imageUrl": "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-gijane-comic-2026-04-09/feed-hero-v1.png",
+      "onImageCaption": "just ai the email",
+      "text": "Someone said: \"just AI the email.\"\n\nOkay.\n\nWhich email creates precedent?\n\nWhich one trains the customer to expect a human?\n\nWhich one can commit us while we're in a meeting?\n\nEmail is not a file format.\n\nIt's a relationship surface.\n\nAutomation that treats comms like string replacement creates debt in people's heads.\n\nI'm not saying don't use tools.\n\nI'm saying name the boundary: what can draft, what can send, what must never leave without a human who accepts the tradeoff.\n\nThat's not bureaucracy.\n\nThat's adulthood.\n\nIf you've ever watched scope sneak in through the inbox - same.\n\n#Communication #AI #Sales #Operations #Trust"
+    }
+  ]
+}
