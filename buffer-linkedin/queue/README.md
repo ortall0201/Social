@@ -45,7 +45,7 @@ Stub pointers (do not schedule from these): [2026-04-19-gijane-series-part2-nine
 
 Add `feed-hero-v1.png` under each **new** slug folder above before scheduling (commit + push to `main` if using raw/jsDelivr URLs).
 
-**Batch schedule Part 2 to Buffer (after push to `main`):** from repo root, `. .\local-secrets\buffer_ids.ps1` then `.\scripts\Schedule-OrtalPart2LinkedInBuffer.ps1` — uses `dueAt` cadence in the Part 2 manifests (Apr 20–25 UTC window).
+**Batch schedule Part 2 to Buffer (after push to `main`):** from repo root, `. .\local-secrets\buffer_ids.ps1` then `.\buffer-linkedin\queue\Schedule-OrtalPart2LinkedInBuffer.ps1` — uses Apr 20–25 UTC cadence (see `bufferCadence2026` in Part 2 JSON).
 
 ## `2026-04-15-five-slots.json`
 
