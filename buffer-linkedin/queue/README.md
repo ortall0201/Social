@@ -43,6 +43,8 @@ This overwrites the queue file with **10 slots** when the full wave is present (
 
 Stub pointers (do not schedule from these): [2026-04-19-gijane-series-part2-nine-leads-and-hiring.json](./2026-04-19-gijane-series-part2-nine-leads-and-hiring.json), [2026-04-18-gijane-comic-series-part2-nine.json](./2026-04-18-gijane-comic-series-part2-nine.json).
 
+**Part 3 (next wave — 5 tactical + 5 comic, draft):** queue slots **20–29**, pattern `T_G_` × 5. Plan: [../planning/ORTAL-LINKEDIN-PART3-FIVE-AND-FIVE.md](../planning/ORTAL-LINKEDIN-PART3-FIVE-AND-FIVE.md). JSON: [2026-04-26-ortal-part3-tactical-series-five.json](./2026-04-26-ortal-part3-tactical-series-five.json), [2026-04-26-ortal-part3-gijane-comic-five.json](./2026-04-26-ortal-part3-gijane-comic-five.json). **`dueAt` is null** until Part 2 finishes — then set times, imagegen `ortal-tactical-series-11`…`15` + `ortal-gijane-comic-2026-04-10`…`14`, push `main`, Buffer schedule (clone Part 2 script).
+
 Add `feed-hero-v1.png` under each **new** slug folder above before scheduling (commit + push to `main` if using raw/jsDelivr URLs).
 
 **Batch schedule Part 2 to Buffer (after push to `main`):** from repo root, `. .\local-secrets\buffer_ids.ps1` then `.\buffer-linkedin\queue\Schedule-OrtalPart2LinkedInBuffer.ps1` — uses Apr 20–25 UTC cadence (see `bufferCadence2026` in Part 2 JSON).

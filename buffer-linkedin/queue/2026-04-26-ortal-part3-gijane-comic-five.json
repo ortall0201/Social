@@ -1,0 +1,95 @@
+{
+  "seriesTrack": "gijane_comic",
+  "seriesId": "ortal-gijane-comic-2026-04",
+  "seriesPart": 3,
+  "continuesFromPart2": {
+    "tacticalManifest": "buffer-linkedin/queue/2026-04-22-ortal-part2-tactical-series-five.json",
+    "comicManifest": "buffer-linkedin/queue/2026-04-22-ortal-part2-gijane-comic-four.json",
+    "planningDoc": "buffer-linkedin/planning/ORTAL-LINKEDIN-PART3-FIVE-AND-FIVE.md"
+  },
+  "nextRunNote": "Draft only: set dueAt, generate feed-hero-v1.png for ortal-gijane-comic-2026-04-10..14, push main, schedule after Part 2. Interleave with Part 3 tactical (slots 20-29). No OPS pin required by default.",
+  "voiceNote": "Scene-first, lighter CTA than tactical; cool blue-grey image grade.",
+  "characterLockNote": "Same locked heroine; see buffer-linkedin/visual-hooks/README.md.",
+  "imagegen": {
+    "track": "comic_career_fit",
+    "colorGrade": "Cool key: blue-grey / slate / soft teal — minimal warm orange.",
+    "composition": "Unique scene per slug; comic pacing.",
+    "typography": "Short sentence-case or title-case overlay."
+  },
+  "mediaBaseUrl": "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks",
+  "imageFile": "feed-hero-v1.png",
+  "status": "draft",
+  "scheduling": {
+    "interleaveWith": "buffer-linkedin/queue/2026-04-26-ortal-part3-tactical-series-five.json",
+    "queueSlotsInOrder": [21, 23, 25, 27, 29],
+    "patternWithTactical": "T_G_T_G_T_G_T_G_T_G"
+  },
+  "timezoneNote": "dueAt null until scheduled.",
+  "posts": [
+    {
+      "queueSlot": 21,
+      "slug": "ortal-gijane-comic-2026-04-10",
+      "pillar": "meeting_vs_pr",
+      "bufferPostId": null,
+      "bufferStatus": "draft",
+      "dueAt": null,
+      "sentAt": null,
+      "linkedInUrl": null,
+      "imageUrl": "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-gijane-comic-2026-04-10/feed-hero-v1.png",
+      "onImageCaption": "could've been a PR",
+      "text": "We held a meeting to decide what we could have decided in a PR comment.\n\nThe PR would have left a trail.\n\nThe meeting left a vibe.\n\nVibes are not versioned.\n\nI like humans.\n\nI also like artifacts - because artifacts are how adults share memory without inventing folklore.\n\nIf your team is \"moving fast\" and the record of the decision is three sentences in a chat, you're not fast.\n\nYou're borrowing time from future you.\n\nIf you've ever walked out of a room knowing nothing committed changed - you're not alone.\n\n#Engineering #Culture #Collaboration #AI #BuildingInPublic"
+    },
+    {
+      "queueSlot": 23,
+      "slug": "ortal-gijane-comic-2026-04-11",
+      "pillar": "estimation_theater",
+      "bufferPostId": null,
+      "bufferStatus": "draft",
+      "dueAt": null,
+      "sentAt": null,
+      "linkedInUrl": null,
+      "imageUrl": "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-gijane-comic-2026-04-11/feed-hero-v1.png",
+      "onImageCaption": "story points cosplay",
+      "text": "We estimated in story points because it felt safer than saying \"we don't know.\"\n\nConfidence is a skill.\n\nSo is admitting variance.\n\nThe theater part isn't the points.\n\nIt's the performance that the number is real because we all agreed to nod.\n\nI'd rather hear: here is what we know, here is what could blow us up, here is what we'll learn in the first slice.\n\nBoring.\n\nUseful.\n\nIf your planning ritual makes everyone perform certainty, your plan isn't protecting you.\n\nIt's decorating risk.\n\n#Product #Engineering #Agile #Leadership #Delivery"
+    },
+    {
+      "queueSlot": 25,
+      "slug": "ortal-gijane-comic-2026-04-12",
+      "pillar": "works_on_my_prompt",
+      "bufferPostId": null,
+      "bufferStatus": "draft",
+      "dueAt": null,
+      "sentAt": null,
+      "linkedInUrl": null,
+      "imageUrl": "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-gijane-comic-2026-04-12/feed-hero-v1.png",
+      "onImageCaption": "works on my laptop",
+      "text": "\"Works on my machine\" used to be a joke sticker.\n\nNow it's a lifestyle - except the machine is a prompt and the joke is customer-facing.\n\nI get it.\n\nLocal miracles feel incredible.\n\nThey also lie politely.\n\nThe adult move is the same as always: reproduce, narrow, name the diff, ship the fix - with a human who owns the blast radius.\n\nAgents don't remove that.\n\nThey speed up the part where you discover you skipped it.\n\nIf you've ever promoted a miracle that died in prod - welcome.\n\nWe have snacks and shame-free retros.\n\n#AI #Engineering #DevOps #Quality #Humor"
+    },
+    {
+      "queueSlot": 27,
+      "slug": "ortal-gijane-comic-2026-04-13",
+      "pillar": "brand_voice_drift",
+      "bufferPostId": null,
+      "bufferStatus": "draft",
+      "dueAt": null,
+      "sentAt": null,
+      "linkedInUrl": null,
+      "imageUrl": "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-gijane-comic-2026-04-13/feed-hero-v1.png",
+      "onImageCaption": "sounds like the brand",
+      "text": "The draft sounded professional.\n\nIt also sounded like nobody who actually talks to customers.\n\nBrand voice isn't a font.\n\nIt's constraints: what you promise, what you refuse, what you sound like when something breaks.\n\nModels default to confident generic - because generic is the path of least resistance.\n\nSo you add guardrails, examples, and a human who says \"not us\" fast enough to matter.\n\nIf your AI content pipeline can't say \"not us,\" it will eventually say \"oops\" in public.\n\nMarketing and growth folks who've watched voice drift in real time - I see you.\n\n#Brand #Marketing #AI #Content #Trust"
+    },
+    {
+      "queueSlot": 29,
+      "slug": "ortal-gijane-comic-2026-04-14",
+      "pillar": "friendly_error_still_error",
+      "bufferPostId": null,
+      "bufferStatus": "draft",
+      "dueAt": null,
+      "sentAt": null,
+      "linkedInUrl": null,
+      "imageUrl": "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-gijane-comic-2026-04-14/feed-hero-v1.png",
+      "onImageCaption": "polite outage",
+      "text": "We shipped the friendliest error message.\n\nStill an error.\n\nStill blocked the user.\n\nStill counted as failure in the real world.\n\nTone matters.\n\nTruth matters more.\n\nI'd rather see blunt clarity than polite fog - especially when money, time, or trust is on the line.\n\nMake it human.\n\nMake it accurate.\n\nMake the next step obvious.\n\nEverything else is interior decorating.\n\nIf you've ever watched UX copy try to hug a user out of a broken workflow - same.\n\n#UX #Product #Engineering #AI #CustomerExperience"
+    }
+  ]
+}
