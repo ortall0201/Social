@@ -111,7 +111,7 @@ function New-LaneGBatch {
     [string]$ServiceName,
     [string]$PostType,
     [hashtable]$DueByFile,
-    [int]$MsBase
+    [long]$MsBase
   )
 
   $posts = @(
