@@ -23,7 +23,7 @@ Output defaults to `buffer-linkedin/exports/buffer-linkedin-sent-<timestamp>.csv
 
 This overwrites the queue file with **10 slots** when the full wave is present (6 sent + 4 scheduled); each post includes `bufferPostId`, `linkedInUrl`, `imageUrl`, and exact `text`.
 
-**Part 2 (two continuous series — same interleave as part 1):**
+**Part 2 (two continuous series — same interleave as part 1):** All **`dueAt` values are 2026-04-20 onward (UTC)**. If your local date has moved past a post’s `dueAt`, reschedule in Buffer and bump the JSON — do not rely on stale times.
 
 | Order | `queueSlot` | Track | Manifest | New slug(s) |
 |------|-------------|--------|----------|-------------|
@@ -81,3 +81,19 @@ Dry run (no API calls):
 **Buffer Free:** if you see `LimitReachedError`, the **LinkedIn** channel already has **10** posts in the queue for that channel — delete or publish some, then re-run (or queue a subset by editing the JSON).
 
 Re-verify `channelId` when Buffer reconnects channels. Canonical pattern: `brain/roadmaps/linkedin/2026-04-22-linkedin-buffer-post-roadmap.md`.
+
+## Continuation update (2026-04-25)
+
+LinkedIn queue was checked against live Buffer and had no scheduled backlog, so continuation was filled as follows:
+
+- Part 3 (`2026-04-26-...`) is now date-filled for **Apr 27-May 1, 2026 UTC**.
+- Part 4 (`2026-05-04-...`) is created and date-filled for **May 4-May 8, 2026 UTC**.
+- Interleave remains `T_G_T_G_T_G_T_G_T_G` with:
+  - tactical at `08:00Z`
+  - comic at `19:00Z`
+
+New week-2 manifests:
+- `buffer-linkedin/queue/2026-05-04-ortal-part4-tactical-series-five.json`
+- `buffer-linkedin/queue/2026-05-04-ortal-part4-gijane-comic-five.json`
+
+Note: schedule only after `feed-hero-v1.png` exists for each new slug and files are pushed to `main`.

@@ -1,0 +1,115 @@
+{
+    "seriesTrack":  "tactical",
+    "seriesId":  "ortal-tactical-series",
+    "seriesPart":  4,
+    "continuesFromPart3":  {
+                               "tacticalManifest":  "buffer-linkedin/queue/2026-04-26-ortal-part3-tactical-series-five.json",
+                               "comicManifest":  "buffer-linkedin/queue/2026-04-26-ortal-part3-gijane-comic-five.json"
+                           },
+    "nextRunNote":  "Part 4 is date-filled for week 2: May 4-May 8, 2026 UTC (08:00Z tactical, 19:00Z comic). Schedule after feed-hero-v1 assets exist for all slugs.",
+    "goals":  [
+                  "qualified_leads_agent_implementation",
+                  "growth_or_ai_builder_role"
+              ],
+    "conversion":  {
+                       "keyword":  "OPS",
+                       "leadMagnetUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/lead-magnets/ai-social-ops-seven-questions.md",
+                       "pinCommentTemplate":  "If this is your ops world: short checklist (approvals + publish planes + STOP). Comment OPS and I will send the link. Hiring managers + founders welcome.",
+                       "dualCtaNote":  "Each tactical post keeps dual CTA: implementation DM + hiring scope."
+                   },
+    "characterLockNote":  "Same GI Jane / tactical heroine lock - buffer-linkedin/visual-hooks/README.md.",
+    "imagegen":  {
+                     "track":  "tactical_lead_authority",
+                     "colorGrade":  "Warm key: orange-amber accents, high-contrast urgency.",
+                     "composition":  "Unique environment per slug; avoid repeated desk-only compositions.",
+                     "typography":  "ALL CAPS two-line poster: line 1 white, line 2 orange."
+                 },
+    "mediaBaseUrl":  "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks",
+    "imageFile":  "feed-hero-v1.png",
+    "status":  "ready_to_schedule",
+    "scheduling":  {
+                       "interleaveWith":  "buffer-linkedin/queue/2026-05-04-ortal-part4-gijane-comic-five.json",
+                       "queueSlotsInOrder":  [
+                                                 30,
+                                                 32,
+                                                 34,
+                                                 36,
+                                                 38
+                                             ],
+                       "patternWithComic":  "T_G_T_G_T_G_T_G_T_G",
+                       "bufferCadence2026":  "May 4-May 8, 2026 UTC: tactical 08:00Z daily, comic pair 19:00Z daily."
+                   },
+    "timezoneNote":  "dueAt UTC. 19:00Z is evening IL time.",
+    "posts":  [
+                  {
+                      "queueSlot":  30,
+                      "slug":  "ortal-tactical-series-16",
+                      "pillar":  "approval_fatigue",
+                      "bufferPostId":  null,
+                      "bufferStatus":  "planned",
+                      "dueAt":  "2026-05-04T08:00:00.000Z",
+                      "sentAt":  null,
+                      "linkedInUrl":  null,
+                      "imageUrl":  "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-tactical-series-16/feed-hero-v1.png",
+                      "onImageCaption":  "approval fatigue is real",
+                      "pinComment":  "If approvals are slowing you down, comment OPS for the checklist (gates + STOP + escalation).",
+                      "text":  "Approval fatigue is not a people problem. It is a workflow design problem.  If every decision feels equally urgent, your team stops seeing risk and starts clicking approve to survive the day.  Good governance is not more buttons. It is better triage: what must be reviewed, what can auto-pass, what escalates, and who owns the final no.  I build systems where approvals protect speed instead of killing it.  Founders and ops leads shipping AI workflows: if your review layer is becoming theater, DM me your current flow and bottleneck.  Hiring for AI implementation / growth systems with real operational ownership? I am open to the right role.  #AI #Operations #Governance #Workflow #Leadership"
+                  },
+                  {
+                      "queueSlot":  32,
+                      "slug":  "ortal-tactical-series-17",
+                      "pillar":  "prompt_registry",
+                      "bufferPostId":  null,
+                      "bufferStatus":  "planned",
+                      "dueAt":  "2026-05-05T08:00:00.000Z",
+                      "sentAt":  null,
+                      "linkedInUrl":  null,
+                      "imageUrl":  "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-tactical-series-17/feed-hero-v1.png",
+                      "onImageCaption":  "prompt registry or chaos",
+                      "pinComment":  "Prompt changes without a registry? Comment OPS for the practical checklist.",
+                      "text":  "If prompt behavior changes but nobody can answer what changed, when, and why - you are running production by rumor.  A prompt registry is not bureaucracy. It is memory with accountability.  Version. owner. risk note. rollback.  Without that, your team burns hours reproducing yesterday\u0027s \"magic\" while customers see inconsistent behavior.  I like fast teams. I like them even more when fast includes traceability.  If your agent stack needs a pragmatic prompt governance layer, DM me. I implement the boring pieces that keep velocity honest.  If you\u0027re hiring for growth + AI systems where reliability matters, send scope.  #AI #PromptEngineering #Engineering #Operations #Reliability"
+                  },
+                  {
+                      "queueSlot":  34,
+                      "slug":  "ortal-tactical-series-18",
+                      "pillar":  "incident_calendar",
+                      "bufferPostId":  null,
+                      "bufferStatus":  "planned",
+                      "dueAt":  "2026-05-06T08:00:00.000Z",
+                      "sentAt":  null,
+                      "linkedInUrl":  null,
+                      "imageUrl":  "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-tactical-series-18/feed-hero-v1.png",
+                      "onImageCaption":  "incidents need calendars",
+                      "pinComment":  "Incident playbook gaps? Comment OPS and I will send the checklist.",
+                      "text":  "Every team says incidents are \"rare\" until three of them land in the same week.  Reliability is not belief. It is calendar reality: response windows, ownership rotation, escalation path, and postmortem follow-through.  Agents can reduce toil - but they can also hide fragility when no one owns the operating calendar.  The question is simple: when it breaks at 2 a.m., is the path obvious?  I build systems where that answer is yes before launch day.  If your AI workflow is one alert away from panic, DM me.  If you\u0027re hiring for AI/growth platform work with operational accountability, that is my lane.  #SRE #AI #Operations #Engineering #IncidentManagement"
+                  },
+                  {
+                      "queueSlot":  36,
+                      "slug":  "ortal-tactical-series-19",
+                      "pillar":  "fallback_design",
+                      "bufferPostId":  null,
+                      "bufferStatus":  "planned",
+                      "dueAt":  "2026-05-07T08:00:00.000Z",
+                      "sentAt":  null,
+                      "linkedInUrl":  null,
+                      "imageUrl":  "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-tactical-series-19/feed-hero-v1.png",
+                      "onImageCaption":  "fallback is part of product",
+                      "pinComment":  "Fallback path design questions? Comment OPS for the framework.",
+                      "text":  "Fallback is not a failure state. It is part of product design.  If your workflow only looks good when every dependency is healthy, it is not resilient. It is lucky.  Real systems define graceful degradation: what still works, what pauses safely, what informs users, and what never auto-fires without a human.  That is how trust survives bad days.  I care about teams that design for reality, not just demos.  Founders and operators: if you need help turning AI automations into resilient workflows, DM me.  Hiring for AI implementation with reliability scope? Let\u0027s talk.  #Product #AI #Reliability #Architecture #Operations"
+                  },
+                  {
+                      "queueSlot":  38,
+                      "slug":  "ortal-tactical-series-20",
+                      "pillar":  "decision_log",
+                      "bufferPostId":  null,
+                      "bufferStatus":  "planned",
+                      "dueAt":  "2026-05-08T08:00:00.000Z",
+                      "sentAt":  null,
+                      "linkedInUrl":  null,
+                      "imageUrl":  "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-tactical-series-20/feed-hero-v1.png",
+                      "onImageCaption":  "log the decision",
+                      "pinComment":  "Need cleaner decision trails for agent work? Comment OPS.",
+                      "text":  "Execution gets easier when decisions are easy to find.  Decision logs are underrated leverage: what we chose, why we chose it, what risk we accepted, and what would trigger a change.  Without this, teams re-litigate the same argument every sprint and call it collaboration.  With it, velocity compounds.  I build delivery systems where decisions survive staffing changes and context loss.  If your AI/growth stack is moving fast but memory is breaking, DM me.  If you\u0027re hiring for a builder who bridges strategy and operations, I am interested.  #Leadership #AI #Operations #Delivery #Systems"
+                  }
+              ]
+}
