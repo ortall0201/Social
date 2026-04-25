@@ -1,4 +1,4 @@
-{
+﻿{
     "seriesTrack":  "gijane_comic",
     "seriesId":  "ortal-gijane-comic-2026-04",
     "seriesPart":  4,
@@ -6,7 +6,7 @@
                                "tacticalManifest":  "buffer-linkedin/queue/2026-04-26-ortal-part3-tactical-series-five.json",
                                "comicManifest":  "buffer-linkedin/queue/2026-04-26-ortal-part3-gijane-comic-five.json"
                            },
-    "nextRunNote":  "Part 4 is date-filled for week 2: May 4-May 8, 2026 UTC (08:00Z tactical, 19:00Z comic). Schedule after feed-hero-v1 assets exist for all slugs.",
+    "nextRunNote":  "Captions refreshed on 2026-04-25 by Codex; re-sync Buffer schedule with updated text.",
     "voiceNote":  "Scene-first, lighter CTA than tactical; cool blue-grey grade.",
     "characterLockNote":  "Same locked heroine; see buffer-linkedin/visual-hooks/README.md.",
     "imagegen":  {
@@ -43,7 +43,7 @@
                       "linkedInUrl":  null,
                       "imageUrl":  "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-gijane-comic-2026-04-15/feed-hero-v1.png",
                       "onImageCaption":  "timezone roulette",
-                      "text":  "We scheduled one \"quick\" sync across three timezones.  It took longer to agree on the hour than to decide the work.  Distributed teams do not fail because of distance. They fail because time is treated like a free resource.  Respecting timezone reality is operational empathy, not admin overhead.  If your process only works when everyone is online at once, your process is fragile.  Build async artifacts people can trust when they wake up.  #RemoteWork #Operations #Leadership #Product #AI"
+                      "text":  "GI Jane Comic #15\n\nThree timezones. One \"quick sync.\"\nForty-five minutes spent choosing the meeting hour.\n\nAsync is not optional in distributed teams.\nIt is respect, operationalized."
                   },
                   {
                       "queueSlot":  33,
@@ -56,7 +56,7 @@
                       "linkedInUrl":  null,
                       "imageUrl":  "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-gijane-comic-2026-04-16/feed-hero-v1.png",
                       "onImageCaption":  "copy paste is not scale",
-                      "text":  "At first, copy-paste feels efficient.  Then it becomes your architecture.  Manual duplication hides drift until one field changes in one place and nowhere else.  Scale is not volume. Scale is consistency under change.  If your workflow depends on perfect human repetition, it is already expensive - you just have not invoiced the cost yet.  #Automation #Operations #Quality #AI #Delivery"
+                      "text":  "GI Jane Comic #16\n\nCopy-paste feels fast until it becomes your architecture.\n\nManual duplication is delayed fragility.\nThe bill arrives on the first real change request."
                   },
                   {
                       "queueSlot":  35,
@@ -69,7 +69,7 @@
                       "linkedInUrl":  null,
                       "imageUrl":  "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-gijane-comic-2026-04-17/feed-hero-v1.png",
                       "onImageCaption":  "screenshot governance",
-                      "text":  "\"I approved it\" in a chat thread is not a governance model.  Screenshots are receipts, not systems.  Real approval means status, actor, timestamp, scope, and a reversible path when assumptions break.  The difference sounds pedantic until you need evidence under pressure.  Then it becomes the difference between control and chaos.  #Governance #AI #Compliance #Operations #Risk"
+                      "text":  "GI Jane Comic #17\n\n\"I approved it in chat\" is not governance.\nIt is a memory game with screenshots.\n\nReal approval has status, scope, actor, timestamp, and reversal path."
                   },
                   {
                       "queueSlot":  37,
@@ -82,7 +82,7 @@
                       "linkedInUrl":  null,
                       "imageUrl":  "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-gijane-comic-2026-04-18/feed-hero-v1.png",
                       "onImageCaption":  "quiet launch is healthy",
-                      "text":  "The healthiest launch day I have seen was quiet.  Not because nobody cared - because everyone knew the plan, the monitors, and the rollback.  Chaos is not proof of ambition. Sometimes it is proof of missing preparation.  I trust teams that rehearse failure paths before they celebrate success paths.  Quiet does not mean small. Quiet means controlled.  #Product #Engineering #AI #Launch #Reliability"
+                      "text":  "GI Jane Comic #18\n\nBest launch day I ever saw was quiet.\n\nNot because nobody cared.\nBecause everyone knew the monitor plan, rollback path, and owner.\n\nQuiet is not small.\nQuiet is prepared."
                   },
                   {
                       "queueSlot":  39,
@@ -95,7 +95,7 @@
                       "linkedInUrl":  null,
                       "imageUrl":  "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-gijane-comic-2026-04-19/feed-hero-v1.png",
                       "onImageCaption":  "playbook nobody reads",
-                      "text":  "Every company has that \"playbook\" nobody opens until something breaks.  If your process lives in a doc no one can execute in five minutes, it is decoration.  Good playbooks are short, runnable, and owned.  They answer: what happened, who acts now, what stops next damage.  Boring clarity beats heroic improvisation. Every time.  #Operations #Leadership #IncidentResponse #AI #Systems"
+                      "text":  "GI Jane Comic #19\n\nEvery company has the emergency playbook nobody reads until things break.\n\nIf it cannot be executed in five minutes, it is decoration.\n\nBoring clarity beats heroic improvisation."
                   }
               ]
 }

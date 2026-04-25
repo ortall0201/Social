@@ -1,4 +1,4 @@
-{
+﻿{
     "seriesTrack":  "tactical",
     "seriesId":  "ortal-tactical-series",
     "seriesPart":  3,
@@ -7,7 +7,7 @@
                                "comicManifest":  "buffer-linkedin/queue/2026-04-22-ortal-part2-gijane-comic-four.json",
                                "planningDoc":  "buffer-linkedin/planning/ORTAL-LINKEDIN-PART3-FIVE-AND-FIVE.md"
                            },
-    "nextRunNote":  "Part 3 is date-filled for week 1: April 27-May 1, 2026 UTC (08:00Z tactical, 19:00Z comic). Schedule after feed-hero-v1 assets exist for all slugs.",
+    "nextRunNote":  "Captions refreshed on 2026-04-25 by Codex; re-sync Buffer schedule with updated text.",
     "goals":  [
                   "qualified_leads_agent_implementation",
                   "growth_or_ai_builder_role"
@@ -19,10 +19,10 @@
                        "dualCtaNote":  "Tactical closers reference Calendly via LinkedIn About (public booking link). Do not commit private URLs in JSON; keep link in About or local-secrets.",
                        "calendlyNote":  "Put your Calendly URL in LinkedIn About; post copy says \u0027calendar in About\u0027 or equivalent."
                    },
-    "characterLockNote":  "Same GI Jane / tactical heroine lock ג€” buffer-linkedin/visual-hooks/README.md.",
+    "characterLockNote":  "Same GI Jane / tactical heroine lock ׳’ג‚¬ג€ buffer-linkedin/visual-hooks/README.md.",
     "imagegen":  {
                      "track":  "tactical_lead_authority",
-                     "colorGrade":  "Warm key: orangeג€“amber, high contrast.",
+                     "colorGrade":  "Warm key: orange׳’ג‚¬ג€amber, high contrast.",
                      "composition":  "Unique environment per slug; match pillar metaphor.",
                      "typography":  "ALL CAPS two-line poster: white + orange."
                  },
@@ -41,7 +41,7 @@
                        "patternWithComic":  "T_G_T_G_T_G_T_G_T_G",
                        "bufferCadenceTBD":  "Set dueAt when Part 2 completes; suggest alternating 08:00Z / 19:00Z UTC like Part 2."
                    },
-    "timezoneNote":  "dueAt null until scheduled. Evening 19:00Z ג‰ˆ 22:00 Israel IDT.",
+    "timezoneNote":  "dueAt null until scheduled. Evening 19:00Z ׳’ג€°ֻ† 22:00 Israel IDT.",
     "posts":  [
                   {
                       "queueSlot":  20,
@@ -55,7 +55,7 @@
                       "imageUrl":  "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-tactical-series-11/feed-hero-v1.png",
                       "onImageCaption":  "approved stack only",
                       "pinComment":  "Shadow workflows + agents: Comment OPS for the seven-question ops checklist (approvals + publish planes + STOP).",
-                      "text":  "If your \"real\" workflow is happening in five unofficial chats and a browser tab nobody names in the security review, you don\u0027t have shadow IT.\n\nYou have shadow operations.\n\nAI didn\u0027t invent this.\n\nIt just made the gap easier to widen - because the fastest path is always the unapproved one.\n\nI\u0027m not here to shame speed.\n\nI\u0027m here to name the cost: audits, incidents, and the day legal asks for a trail you can\u0027t produce.\n\nAdult version: publish the allowed path, make it usable, and measure who still routes around it - then fix the friction, not the person.\n\nIf you\u0027re a founder or ops lead standing up agents and you need a real approval + publish plane (not a slide) - DM me the stack in one paragraph.\n\nIf you\u0027re hiring for growth / AI implementation where \"ship\" includes governance reality - I\u0027m open to the right role. Calendar link in my About; or DM the JD.\n\n#AI #Governance #Security #Operations #Agents"
+                      "text":  "Tactical Series #11\n\nShadow workflows are not speed. They are risk transferred to your future self.\n\nIf your AI flow lives in side chats, private tabs, and undocumented handoffs, you do not have an ops system yet.\n\nYou have a luck system.\n\nFix the path, not the person: approved route, clear owner, visible audit trail.\n\nFounders/operators scaling agent workflows: DM me \"OPS\" and I will send the practical checklist.\nHiring for AI implementation + delivery ownership? I am open to the right role."
                   },
                   {
                       "queueSlot":  22,
@@ -69,7 +69,7 @@
                       "imageUrl":  "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-tactical-series-12/feed-hero-v1.png",
                       "onImageCaption":  "staging is a story",
                       "pinComment":  "Prod truth + agents: Comment OPS for the checklist link.",
-                      "text":  "\"We\u0027ll test in staging\" is a nice sentence.\n\nIt is not always a real object.\n\nSometimes staging is a story the org tells so it can sleep.\n\nAgents change the math: more branches, more variants, more \"small\" releases that are only small in the deck.\n\nI\u0027m not anti-staging.\n\nI\u0027m anti pretending.\n\nIf production is the only place the ugly edge shows up, then production is your test - whether you admit it or not.\n\nOwn that.\n\nBuild monitors, rollbacks, and human gates that match the actual risk - not the imagined one.\n\nTeams shipping customer-facing agents and tired of demos that die in prod - DM me. I care about the boring safety layer.\n\nHiring for platform / AI / growth engineering where prod honesty is part of the job - calendar in About, or send the role.\n\n#Engineering #Reliability #AI #Product #Operations"
+                      "text":  "Tactical Series #12\n\n\"We tested in staging\" only helps when staging is real.\n\nIf production is the first place your workflow meets real load, real users, and real edge cases, production is your test plan.\n\nDesign for truth: monitors, rollback criteria, and explicit human gate points.\n\nTeams shipping AI features and tired of demo-only confidence: DM me \"OPS\" for the production-readiness checklist."
                   },
                   {
                       "queueSlot":  24,
@@ -83,7 +83,7 @@
                       "imageUrl":  "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-tactical-series-13/feed-hero-v1.png",
                       "onImageCaption":  "who owns the doc",
                       "pinComment":  "Knowledge + agents: Comment OPS for the doc.",
-                      "text":  "Documentation is not a file type.\n\nIt is a responsibility assignment.\n\nIf nobody owns it, it becomes folklore - and folklore is how you get ten contradictory \"sources of truth\" and a very confident model.\n\nRetrieval doesn\u0027t fix ownership.\n\nIt amplifies whatever you already tolerate.\n\nThe fix is boring: owners, review cadence, expiry, and delete paths.\n\nNot sexy.\n\nCheaper than apologizing to a customer.\n\nIf you\u0027re building agent workflows and your doc strategy is still \"we\u0027ll clean it up\" - DM me. I like turning folklore into something a new hire can run.\n\nIf you\u0027re hiring a builder who treats knowledge as infrastructure - About has my calendar; or DM a one-line scope.\n\n#KnowledgeManagement #AI #Engineering #Operations #Documentation"
+                      "text":  "Tactical Series #13\n\nDocumentation is not a file. It is ownership.\n\nWhen nobody owns updates, retrieval becomes a rumor amplifier.\n\nThe boring controls win: owner, review cadence, expiry, archive rule.\n\nThat is how knowledge becomes infrastructure.\n\nIf your team is scaling agents and your docs are drifting, DM me \"OPS\"."
                   },
                   {
                       "queueSlot":  26,
@@ -97,7 +97,7 @@
                       "imageUrl":  "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-tactical-series-14/feed-hero-v1.png",
                       "onImageCaption":  "ai on the label",
                       "pinComment":  "Buyer / vendor reality: Comment OPS for the checklist.",
-                      "text":  "If the pitch says \"AI\" twelve times and \"evaluation harness\" zero times, you\u0027re not buying intelligence.\n\nYou\u0027re buying a mood.\n\nAI washing is just the newest paint job on the oldest game: vague promises, hand-wavy integration, and a demo that survives until the first angry Tuesday.\n\nBuyers: ask impolite questions - data boundaries, failure modes, human override, export, and what happens when the model updates.\n\nBuilders: if you sell real workflows, welcome those questions.\n\nThey separate you from the brochure crowd.\n\nFounders evaluating agent stacks for growth or ops - DM me if you want a second brain on what to demand in a POC.\n\nIf you\u0027re hiring someone who has read enough RFPs to smell washing - calendar in About.\n\n#Procurement #AI #SaaS #Engineering #Leadership"
+                      "text":  "Tactical Series #14\n\nIf the vendor deck says \"AI\" ten times and \"failure mode\" zero times, you are buying a mood, not a system.\n\nSerious buying questions: evaluation harness, rollback behavior, human override, and export path.\n\nReal operators welcome hard questions.\n\nIf you are evaluating agent vendors this quarter, DM me \"OPS\" for my due-diligence prompts."
                   },
                   {
                       "queueSlot":  28,
@@ -111,7 +111,7 @@
                       "imageUrl":  "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-tactical-series-15/feed-hero-v1.png",
                       "onImageCaption":  "who owns 2am",
                       "pinComment":  "Incidents + automation: Comment OPS for gates + STOP.",
-                      "text":  "Automation that fires at 2 a.m. still needs an owner at 2 a.m.\n\nIf your answer is \"the bot handles it,\" you haven\u0027t finished the design.\n\nYou\u0027ve renamed panic.\n\nOn-call is not a personality.\n\nIt is a contract: what wakes a human, what can auto-remediate, what must never auto-remediate, and who gets blamed when the playbook is wrong.\n\nAgents make incidents weirder.\n\nSo the ownership graph matters more.\n\nIf you\u0027re standing up agent + toolchains without a clear on-call story - DM me. I like drawings adults can run under stress.\n\nIf you\u0027re hiring for reliability-minded AI / platform / growth engineering - About has my calendar.\n\n#SRE #AI #Operations #Engineering #Culture"
+                      "text":  "Tactical Series #15\n\nAutomation at 2 a.m. still needs ownership at 2 a.m.\n\n\"The bot handles it\" is not incident design.\n\nDefine the contract: what auto-remediates, what must page a human, what is never allowed to auto-fire.\n\nThis is where trust is built.\n\nNeed to harden your on-call + AI workflow? DM me \"OPS\"."
                   }
               ]
 }
