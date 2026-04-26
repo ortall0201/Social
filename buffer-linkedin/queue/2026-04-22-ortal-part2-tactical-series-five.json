@@ -20,17 +20,17 @@
                        "pinCommentTemplate":  "If this is your ops world: short checklist (approvals + publish planes + STOP). Comment OPS and I will send the link. Hiring managers + founders welcome.",
                        "dualCtaNote":  "Each post ends with (1) implementation DM (2) hiring intent. Pin comment + OPS per LEAD-GEN-PLAYBOOK."
                    },
-    "characterLockNote":  "Hero uses the same locked GI Jane / tactical persona as all Ortal LinkedIn imagegen in this arc ג€” see buffer-linkedin/visual-hooks/README.md and docs/agents/ortal-linkedin-gijane-supergirl-visual-persona.md.",
+    "characterLockNote":  "Hero uses the same locked GI Jane / tactical persona as all Ortal LinkedIn imagegen in this arc ׳’ג‚¬ג€ see buffer-linkedin/visual-hooks/README.md and docs/agents/ortal-linkedin-gijane-supergirl-visual-persona.md.",
     "imagegen":  {
                      "track":  "tactical_lead_authority",
-                     "colorGrade":  "Warm key: orangeג€“amber accents, strong chiaroscuro, urgency and implementation energy (not a cool corporate blue wash).",
-                     "composition":  "Vary environment and pose per post; each hero must match the pillar ג€” avoid repeating the same desk/monitor layout.",
-                     "typography":  "ALL CAPS two-line poster overlay: line 1 white, line 2 orange ג€” exact copy from brief / onImageCaption expansion."
+                     "colorGrade":  "Warm key: orange׳’ג‚¬ג€amber accents, strong chiaroscuro, urgency and implementation energy (not a cool corporate blue wash).",
+                     "composition":  "Vary environment and pose per post; each hero must match the pillar ׳’ג‚¬ג€ avoid repeating the same desk/monitor layout.",
+                     "typography":  "ALL CAPS two-line poster overlay: line 1 white, line 2 orange ׳’ג‚¬ג€ exact copy from brief / onImageCaption expansion."
                  },
     "mediaBaseUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks",
-    "imageFile":  "feed-hero-v2.png",
+    "imageFile":  "feed-hero-v1.png",
     "status":  "scheduled_buffer",
-    "assetsNote":  "Caption copy regenerated on 2026-04-26 (no series numbering); visual hooks refreshed to feed-hero-v2 on 2026-04-26.",
+    "assetsNote":  "Caption copy regenerated on 2026-04-26 (no series numbering); visual hooks refreshed (new art applied to canonical feed-hero-v1) on 2026-04-26.",
     "scheduling":  {
                        "interleaveWith":  "buffer-linkedin/queue/2026-04-22-ortal-part2-gijane-comic-four.json",
                        "queueSlotsInOrder":  [
@@ -41,9 +41,9 @@
                                                  19
                                              ],
                        "patternWithComic":  "T_G_T_G_T_G_T_G_T",
-                       "bufferCadence2026":  "Apr 20 08:00Z T06 with comic 19:00Z; Apr 21 comic only 19:00Z; Apr 22ג€“23 one T (08:00Z) + one C (19:00Z) each; Apr 24 T 19:00Z; Apr 25 T 08:00Z ג€” all UTC."
+                       "bufferCadence2026":  "Apr 20 08:00Z T06 with comic 19:00Z; Apr 21 comic only 19:00Z; Apr 22׳’ג‚¬ג€23 one T (08:00Z) + one C (19:00Z) each; Apr 24 T 19:00Z; Apr 25 T 08:00Z ׳’ג‚¬ג€ all UTC."
                    },
-    "timezoneNote":  "dueAt UTC. Evening 19:00Z ג‰ˆ 22:00 Israel IDT; morning slots 08:00Z. Push feed-hero-v2.png per slug before scheduling.",
+    "timezoneNote":  "dueAt UTC. Evening 19:00Z ׳’ג€°ֻ† 22:00 Israel IDT; morning slots 08:00Z. Push feed-hero-v1.png per slug before scheduling.",
     "posts":  [
                   {
                       "queueSlot":  11,
@@ -54,7 +54,7 @@
                       "dueAt":  "2026-04-20T08:00:00.000Z",
                       "sentAt":  null,
                       "linkedInUrl":  null,
-                      "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-06/feed-hero-v2.png",
+                      "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-06/feed-hero-v1.png",
                       "onImageCaption":  "fix the prompt later",
                       "pinComment":  "If prompts are your shadow codebase: I keep a short ops checklist (approvals + publish planes + STOP). Comment OPS for the link.",
                       "text":  "\"Fix the prompt later\" is how teams create invisible production logic.\n\nIf behavior depends on one magical wording, that is code debt without code review.\n\nOperational rule: version prompts, assign ownership, and test edge-case phrasing before rollout.\n\nDaily AI pro tip:\nWith xAI TTS/text flows, log model + voice + request id per run. That trace is the difference between guessing and debugging."
@@ -68,7 +68,7 @@
                       "dueAt":  "2026-04-22T08:00:00.000Z",
                       "sentAt":  null,
                       "linkedInUrl":  null,
-                      "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-07/feed-hero-v2.png",
+                      "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-07/feed-hero-v1.png",
                       "onImageCaption":  "human in the loop",
                       "pinComment":  "Gates + approvals + STOP: Comment OPS for the doc. Founders fixing \"human in the loop\" theater - same.",
                       "text":  "\"Human in the loop\" only matters when the human can actually stop bad output.\n\nIf every approval becomes a reflexive yes, you added delay, not safety.\n\nDefine three lanes: auto-pass, escalate, reject. Then name one accountable owner per lane.\n\nDaily AI pro tip:\nRate limits and retries are product behavior. Treat them as architecture, not a billing footnote."
@@ -82,7 +82,7 @@
                       "dueAt":  "2026-04-23T08:00:00.000Z",
                       "sentAt":  null,
                       "linkedInUrl":  null,
-                      "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-08/feed-hero-v2.png",
+                      "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-08/feed-hero-v1.png",
                       "onImageCaption":  "can you export it",
                       "pinComment":  "Vendor + workflow reality: Comment OPS for the short ops checklist.",
                       "text":  "\"Can you export it?\" is the fastest way to expose vendor risk.\n\nIf switching providers breaks your workflow, you rented capability, you did not build it.\n\nPortability is leverage under pressure, not theory.\n\nDaily AI pro tip:\nKeep provider adapters thin so business logic survives model/vendor changes."
@@ -96,7 +96,7 @@
                       "dueAt":  "2026-04-24T19:00:00.000Z",
                       "sentAt":  null,
                       "linkedInUrl":  null,
-                      "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-09/feed-hero-v2.png",
+                      "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-09/feed-hero-v1.png",
                       "onImageCaption":  "one merge path",
                       "pinComment":  "Agents + single source of truth: Comment OPS for the doc.",
                       "text":  "One merge path beats ten brilliant parallel threads.\n\nChats are velocity. Repos are memory.\n\nWithout a conflict contract, multi-agent work turns into multi-opinion noise.\n\nDaily AI pro tip:\nStore prompts, schema versions, and output artifacts together so every run is reproducible."
@@ -110,7 +110,7 @@
                       "dueAt":  "2026-04-25T08:00:00.000Z",
                       "sentAt":  null,
                       "linkedInUrl":  null,
-                      "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-10/feed-hero-v2.png",
+                      "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-10/feed-hero-v1.png",
                       "onImageCaption":  "deck vs deploy",
                       "pinComment":  "Aligning leadership + ship log: Comment OPS for the seven questions doc.",
                       "text":  "Deck story and deploy log must say the same thing.\n\nWhen leadership sees one narrative and operators see another timeline, trust erodes fast.\n\nOperational truth is a growth advantage.\n\nDaily AI pro tip:\nTrack success rate, retry rate, median latency, and cost per successful output. Those four numbers reveal most pipeline problems."

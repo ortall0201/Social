@@ -10,18 +10,18 @@
                                 "ortal-gijane-comic-2026-04-05"
                             ],
     "continuesManifest":  "buffer-linkedin/queue/2026-04-16-gijane-comic-five.json",
-    "voiceNote":  "Scene-first, lighter CTA than tactical track ג€” same rhythm as part 1 comic slots (2,4,6,8,10). No dual hiring block; optional community closer. No OPS pin by default (add if a slot outperforms).",
-    "characterLockNote":  "Same locked GI Jane / tactical heroine as tactical-series heroes ג€” one face across the whole arc. See buffer-linkedin/visual-hooks/README.md.",
+    "voiceNote":  "Scene-first, lighter CTA than tactical track ׳’ג‚¬ג€ same rhythm as part 1 comic slots (2,4,6,8,10). No dual hiring block; optional community closer. No OPS pin by default (add if a slot outperforms).",
+    "characterLockNote":  "Same locked GI Jane / tactical heroine as tactical-series heroes ׳’ג‚¬ג€ one face across the whole arc. See buffer-linkedin/visual-hooks/README.md.",
     "imagegen":  {
                      "track":  "comic_career_fit",
-                     "colorGrade":  "Cool key: blue-grey / slate / soft teal bias ג€” calm, trustworthy, slightly \u0027career fit\u0027 editorial (like a cooler LinkedIn grade). Keep orange minimal; no hot amber dominance.",
-                     "composition":  "Vary environment and pose per post; scene-first beats tied to pillar ג€” not the same frame as tactical heroes.",
-                     "typography":  "Short comic overlay: sentence-case or title case, punchy ג€” align with onImageCaption / comic_caption_rules.md."
+                     "colorGrade":  "Cool key: blue-grey / slate / soft teal bias ׳’ג‚¬ג€ calm, trustworthy, slightly \u0027career fit\u0027 editorial (like a cooler LinkedIn grade). Keep orange minimal; no hot amber dominance.",
+                     "composition":  "Vary environment and pose per post; scene-first beats tied to pillar ׳’ג‚¬ג€ not the same frame as tactical heroes.",
+                     "typography":  "Short comic overlay: sentence-case or title case, punchy ׳’ג‚¬ג€ align with onImageCaption / comic_caption_rules.md."
                  },
     "mediaBaseUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks",
-    "imageFile":  "feed-hero-v2.png",
+    "imageFile":  "feed-hero-v1.png",
     "status":  "scheduled_buffer",
-    "assetsNote":  "Caption copy regenerated on 2026-04-26 (no series numbering); visual hooks refreshed to feed-hero-v2 on 2026-04-26.",
+    "assetsNote":  "Caption copy regenerated on 2026-04-26 (no series numbering); visual hooks refreshed (new art applied to canonical feed-hero-v1) on 2026-04-26.",
     "scheduling":  {
                        "interleaveWith":  "buffer-linkedin/queue/2026-04-22-ortal-part2-tactical-series-five.json",
                        "queueSlotsInOrder":  [
@@ -31,9 +31,9 @@
                                                  18
                                              ],
                        "patternWithTactical":  "T_G_T_G_T_G_T_G_T",
-                       "bufferCadence2026":  "Apr 20 19:00Z C06; Apr 21 19:00Z C07; Apr 22 19:00Z C08; Apr 23 19:00Z C09 ג€” UTC. See tactical manifest for paired T slots."
+                       "bufferCadence2026":  "Apr 20 19:00Z C06; Apr 21 19:00Z C07; Apr 22 19:00Z C08; Apr 23 19:00Z C09 ׳’ג‚¬ג€ UTC. See tactical manifest for paired T slots."
                    },
-    "timezoneNote":  "dueAt UTC. Evening 19:00Z ג‰ˆ 22:00 Israel IDT; morning 08:00Z. Push feed-hero-v2.png per slug before scheduling.",
+    "timezoneNote":  "dueAt UTC. Evening 19:00Z ׳’ג€°ֻ† 22:00 Israel IDT; morning 08:00Z. Push feed-hero-v1.png per slug before scheduling.",
     "posts":  [
                   {
                       "queueSlot":  12,
@@ -44,7 +44,7 @@
                       "dueAt":  "2026-04-20T19:00:00.000Z",
                       "sentAt":  null,
                       "linkedInUrl":  null,
-                      "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-gijane-comic-2026-04-06/feed-hero-v2.png",
+                      "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-gijane-comic-2026-04-06/feed-hero-v1.png",
                       "onImageCaption":  "dashboard courage",
                       "text":  "Everyone loved the dashboard.\nNobody changed a decision.\n\nPretty metrics are decoration until they alter behavior.\n\nDaily AI pro tip:\nChoose one painful metric that drives action. In content ops, \"published with valid media\" is often more honest than \"generated successfully.\""
                   },
@@ -57,7 +57,7 @@
                       "dueAt":  "2026-04-21T19:00:00.000Z",
                       "sentAt":  null,
                       "linkedInUrl":  null,
-                      "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-gijane-comic-2026-04-07/feed-hero-v2.png",
+                      "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-gijane-comic-2026-04-07/feed-hero-v1.png",
                       "onImageCaption":  "stale context",
                       "text":  "Stale context is the quiet failure mode.\n\nYour model can be technically accurate and operationally wrong when your source is yesterday.\n\nDaily AI pro tip:\nAdd freshness metadata to retrieval sources and enforce expiry checks in your pipeline."
                   },
@@ -70,7 +70,7 @@
                       "dueAt":  "2026-04-22T19:00:00.000Z",
                       "sentAt":  null,
                       "linkedInUrl":  null,
-                      "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-gijane-comic-2026-04-08/feed-hero-v2.png",
+                      "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-gijane-comic-2026-04-08/feed-hero-v1.png",
                       "onImageCaption":  "what actually happened",
                       "text":  "Postmortems fail when they read like PR.\n\nClear beats elegant: what failed, why it failed, and what changes before the next run.\n\nDaily AI pro tip:\nProbe final media files (audio stream, duration, codec, resolution) before scheduling. Most publish errors are preventable."
                   },
@@ -83,7 +83,7 @@
                       "dueAt":  "2026-04-23T19:00:00.000Z",
                       "sentAt":  null,
                       "linkedInUrl":  null,
-                      "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-gijane-comic-2026-04-09/feed-hero-v2.png",
+                      "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-gijane-comic-2026-04-09/feed-hero-v1.png",
                       "onImageCaption":  "just ai the email",
                       "text":  "\"Just automate the email\" sounds efficient until one message creates the wrong commitment.\n\nCommunication workflows need explicit send boundaries.\n\nDaily AI pro tip:\nAutomate drafting freely. Keep send actions gated unless policy logic is proven under real edge cases."
                   }
