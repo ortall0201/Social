@@ -1,113 +1,121 @@
 {
-  "seriesTrack": "tactical",
-  "seriesId": "ortal-tactical-series",
-  "seriesPart": 2,
-  "continuesSlugsPart1": [
-    "ortal-tactical-series-01",
-    "ortal-tactical-series-02",
-    "ortal-tactical-series-03",
-    "ortal-tactical-series-04",
-    "ortal-tactical-series-05"
-  ],
-  "continuesManifest": "buffer-linkedin/queue/2026-04-16-gijane-comic-five.json",
-  "goals": [
-    "qualified_leads_agent_implementation",
-    "growth_or_ai_builder_role"
-  ],
-  "conversion": {
-    "keyword": "OPS",
-    "leadMagnetUrl": "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/lead-magnets/ai-social-ops-seven-questions.md",
-    "pinCommentTemplate": "If this is your ops world: short checklist (approvals + publish planes + STOP). Comment OPS and I will send the link. Hiring managers + founders welcome.",
-    "dualCtaNote": "Each post ends with (1) implementation DM (2) hiring intent. Pin comment + OPS per LEAD-GEN-PLAYBOOK."
-  },
-  "characterLockNote": "Hero uses the same locked GI Jane / tactical persona as all Ortal LinkedIn imagegen in this arc — see buffer-linkedin/visual-hooks/README.md and docs/agents/ortal-linkedin-gijane-supergirl-visual-persona.md.",
-  "imagegen": {
-    "track": "tactical_lead_authority",
-    "colorGrade": "Warm key: orange–amber accents, strong chiaroscuro, urgency and implementation energy (not a cool corporate blue wash).",
-    "composition": "Vary environment and pose per post; each hero must match the pillar — avoid repeating the same desk/monitor layout.",
-    "typography": "ALL CAPS two-line poster overlay: line 1 white, line 2 orange — exact copy from brief / onImageCaption expansion."
-  },
-  "mediaBaseUrl": "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks",
-  "imageFile": "feed-hero-v1.png",
-  "status": "scheduled_buffer",
-  "assetsNote": "feed-hero-v1.png on main; scheduled to Buffer 2026-04-18 (custom times Apr 20–25 UTC). Pin tactical posts per LEAD-GEN-PLAYBOOK.",
-  "scheduling": {
-    "interleaveWith": "buffer-linkedin/queue/2026-04-22-ortal-part2-gijane-comic-four.json",
-    "queueSlotsInOrder": [11, 13, 15, 17, 19],
-    "patternWithComic": "T_G_T_G_T_G_T_G_T",
-    "bufferCadence2026": "Apr 20 08:00Z T06 with comic 19:00Z; Apr 21 comic only 19:00Z; Apr 22–23 one T (08:00Z) + one C (19:00Z) each; Apr 24 T 19:00Z; Apr 25 T 08:00Z — all UTC."
-  },
-  "timezoneNote": "dueAt UTC. Evening 19:00Z ≈ 22:00 Israel IDT; morning slots 08:00Z. Push feed-hero-v1.png per slug before scheduling.",
-  "posts": [
-    {
-      "queueSlot": 11,
-      "slug": "ortal-tactical-series-06",
-      "pillar": "prompt_as_debt",
-      "bufferPostId": "69e3952c9e2b6223dd91d931",
-      "bufferStatus": "scheduled",
-      "dueAt": "2026-04-20T08:00:00.000Z",
-      "sentAt": null,
-      "linkedInUrl": null,
-      "imageUrl": "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-tactical-series-06/feed-hero-v1.png",
-      "onImageCaption": "fix the prompt later",
-      "pinComment": "If prompts are your shadow codebase: I keep a short ops checklist (approvals + publish planes + STOP). Comment OPS for the link.",
-      "text": "\"We'll fix the prompt later\" is how you build a hidden programming language nobody reviews.\n\nA prompt is not vibes.\n\nIt is behavior under uncertainty.\n\nLater never gets a calendar invite.\n\nLater becomes folklore: \"ask it this way, it works better\" - tribal knowledge wearing a productivity costume.\n\nIf you wouldn't ship code without a second pair of eyes, don't ship prompt changes without a trail.\n\nVersion it. Name the failure mode. Test the edge case you don't want to explain to a customer.\n\nI am not anti-speed.\n\nI am anti-mystery.\n\nIf your team is standing up agents and the governance layer is still \"we'll clean this up\" - DM me. I implement agent workflows with real review trails, not vibes.\n\nIf you're hiring for growth / AI implementation / agent systems where prompts are treated like shipping surface area - I'm open to the right role. DM the JD or one-line scope.\n\n#AI #Engineering #Operations #Product #Prompting"
-    },
-    {
-      "queueSlot": 13,
-      "slug": "ortal-tactical-series-07",
-      "pillar": "approval_rubber_stamp",
-      "bufferPostId": "69e395353a4ea0d0143c19b0",
-      "bufferStatus": "scheduled",
-      "dueAt": "2026-04-22T08:00:00.000Z",
-      "sentAt": null,
-      "linkedInUrl": null,
-      "imageUrl": "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-tactical-series-07/feed-hero-v1.png",
-      "onImageCaption": "human in the loop",
-      "pinComment": "Gates + approvals + STOP: Comment OPS for the doc. Founders fixing \"human in the loop\" theater - same.",
-      "text": "\"Human in the loop\" is not a moral sticker.\n\nIt is a workflow.\n\nIf humans always approve because they're scared to be slow, you didn't add safety.\n\nYou added latency and called it governance.\n\nA real loop has teeth: what gets blocked, what gets escalated, what gets logged, and who is allowed to say no without a career penalty.\n\nOtherwise the human is decoration.\n\nAnd the model knows it.\n\nBuild the loop you'd want if you were the one signing.\n\nFounders and ops leads: if you need someone to design approval planes for agent + social + publish workflows (not a slide - a runnable rule set) - DM me the use case in one paragraph.\n\nIf you're hiring for AI product / implementation / growth engineering where governance is part of the job, not an afterthought - I want to see it. DM the role title or link.\n\n#AI #Governance #Risk #Operations #Leadership"
-    },
-    {
-      "queueSlot": 15,
-      "slug": "ortal-tactical-series-08",
-      "pillar": "portable_workflows",
-      "bufferPostId": "69e3953b9e2b6223dd91d9c3",
-      "bufferStatus": "scheduled",
-      "dueAt": "2026-04-23T08:00:00.000Z",
-      "sentAt": null,
-      "linkedInUrl": null,
-      "imageUrl": "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-tactical-series-08/feed-hero-v1.png",
-      "onImageCaption": "can you export it",
-      "pinComment": "Vendor + workflow reality: Comment OPS for the short ops checklist.",
-      "text": "The vendor deck promised freedom.\n\nThe export screen said \"coming soon.\"\n\nIf your workflow dies when you change vendors, you didn't build leverage.\n\nYou built a lease.\n\nPortable doesn't mean purist.\n\nIt means: artifacts, interfaces, and decisions that survive a Tuesday renegotiation.\n\nCan you export the rules?\n\nCan someone else run the checklist without your hero employee?\n\nIf the honest answer is no, say it out loud in the room.\n\nThat sentence saves money later.\n\nI like builders who treat exit as a feature - not because they're leaving, because they're not children about dependency.\n\nAgency principals and technical founders: if you're shipping agent + automation stacks for clients and you want manifests, fallbacks, and handoff docs that survive staff churn - DM me. I like implementation work that respects margin.\n\nIf you're hiring someone who bridges architecture and delivery for AI workflows - growth, platform, or implementation - send the role. I care about boring portability.\n\n#Automation #Architecture #SaaS #AI #Operations"
-    },
-    {
-      "queueSlot": 17,
-      "slug": "ortal-tactical-series-09",
-      "pillar": "single_writer_merge",
-      "bufferPostId": "69e395413a4ea0d0143c1a04",
-      "bufferStatus": "scheduled",
-      "dueAt": "2026-04-24T19:00:00.000Z",
-      "sentAt": null,
-      "linkedInUrl": null,
-      "imageUrl": "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-tactical-series-09/feed-hero-v1.png",
-      "onImageCaption": "one merge path",
-      "pinComment": "Agents + single source of truth: Comment OPS for the doc.",
-      "text": "Ten parallel chats are not ten times productivity.\n\nThey're ten drafts of reality that still need an owner.\n\nI run serious work out of repos for a reason.\n\nCommitted text is a merge path.\n\nThreads are weather.\n\nIf two agents disagree, that's not a vibe problem.\n\nIt's a contract problem.\n\nWho resolves it, with what evidence, and where does the decision live tomorrow morning?\n\nIf you can't answer that, you're not orchestrating.\n\nYou're improvising in stereo.\n\nCompanies rolling out multi-agent setups and hitting \"everyone has a different answer\" - DM me. I implement orchestration patterns people can actually run (agents as contracts, not vibes).\n\nIf you're hiring for AI systems / platform / growth engineering with real orchestration scope - that's the role I want. DM the JD summary.\n\n#AI #Agents #Workflow #Engineering #BuildingInPublic"
-    },
-    {
-      "queueSlot": 19,
-      "slug": "ortal-tactical-series-10",
-      "pillar": "narrative_vs_ship_log",
-      "bufferPostId": "69e395449e2b6223dd91da12",
-      "bufferStatus": "scheduled",
-      "dueAt": "2026-04-25T08:00:00.000Z",
-      "sentAt": null,
-      "linkedInUrl": null,
-      "imageUrl": "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-tactical-series-10/feed-hero-v1.png",
-      "onImageCaption": "deck vs deploy",
-      "pinComment": "Aligning leadership + ship log: Comment OPS for the seven questions doc.",
-      "text": "Slide decks get applause.\n\nDeploy logs get dates.\n\nThe story you tell leadership should not contradict the deploy log.\n\nIf it does, you don't have alignment.\n\nYou have a polite fog.\n\nFog feels safe in the meeting.\n\nIt is expensive in production.\n\nI respect teams that can say: here is what shipped, here is what broke, here is what we learned, here is what we are funding next.\n\nNo myth-making.\n\nNo hero arcs.\n\nJust the work, with timestamps.\n\nThat's the kind of environment where AI help is actually additive - because the ground truth exists.\n\nExecutives and founders bridging AI investment with operational truth - DM me if you want a second brain on sequencing: what to gate, what to prove, what to automate next.\n\nIf you're hiring a senior growth / AI / product-leaning builder who lives in that gap between narrative and deploy - let's talk. DM the mandate.\n\n#Leadership #Product #Engineering #AI #Culture"
-    }
-  ]
+    "seriesTrack":  "tactical",
+    "seriesId":  "ortal-tactical-series",
+    "seriesPart":  2,
+    "continuesSlugsPart1":  [
+                                "ortal-tactical-series-01",
+                                "ortal-tactical-series-02",
+                                "ortal-tactical-series-03",
+                                "ortal-tactical-series-04",
+                                "ortal-tactical-series-05"
+                            ],
+    "continuesManifest":  "buffer-linkedin/queue/2026-04-16-gijane-comic-five.json",
+    "goals":  [
+                  "qualified_leads_agent_implementation",
+                  "growth_or_ai_builder_role"
+              ],
+    "conversion":  {
+                       "keyword":  "OPS",
+                       "leadMagnetUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/lead-magnets/ai-social-ops-seven-questions.md",
+                       "pinCommentTemplate":  "If this is your ops world: short checklist (approvals + publish planes + STOP). Comment OPS and I will send the link. Hiring managers + founders welcome.",
+                       "dualCtaNote":  "Each post ends with (1) implementation DM (2) hiring intent. Pin comment + OPS per LEAD-GEN-PLAYBOOK."
+                   },
+    "characterLockNote":  "Hero uses the same locked GI Jane / tactical persona as all Ortal LinkedIn imagegen in this arc ג€” see buffer-linkedin/visual-hooks/README.md and docs/agents/ortal-linkedin-gijane-supergirl-visual-persona.md.",
+    "imagegen":  {
+                     "track":  "tactical_lead_authority",
+                     "colorGrade":  "Warm key: orangeג€“amber accents, strong chiaroscuro, urgency and implementation energy (not a cool corporate blue wash).",
+                     "composition":  "Vary environment and pose per post; each hero must match the pillar ג€” avoid repeating the same desk/monitor layout.",
+                     "typography":  "ALL CAPS two-line poster overlay: line 1 white, line 2 orange ג€” exact copy from brief / onImageCaption expansion."
+                 },
+    "mediaBaseUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks",
+    "imageFile":  "feed-hero-v2.png",
+    "status":  "scheduled_buffer",
+    "assetsNote":  "Caption copy regenerated on 2026-04-26 (no series numbering); visual hooks refreshed to feed-hero-v2 on 2026-04-26.",
+    "scheduling":  {
+                       "interleaveWith":  "buffer-linkedin/queue/2026-04-22-ortal-part2-gijane-comic-four.json",
+                       "queueSlotsInOrder":  [
+                                                 11,
+                                                 13,
+                                                 15,
+                                                 17,
+                                                 19
+                                             ],
+                       "patternWithComic":  "T_G_T_G_T_G_T_G_T",
+                       "bufferCadence2026":  "Apr 20 08:00Z T06 with comic 19:00Z; Apr 21 comic only 19:00Z; Apr 22ג€“23 one T (08:00Z) + one C (19:00Z) each; Apr 24 T 19:00Z; Apr 25 T 08:00Z ג€” all UTC."
+                   },
+    "timezoneNote":  "dueAt UTC. Evening 19:00Z ג‰ˆ 22:00 Israel IDT; morning slots 08:00Z. Push feed-hero-v2.png per slug before scheduling.",
+    "posts":  [
+                  {
+                      "queueSlot":  11,
+                      "slug":  "ortal-tactical-series-06",
+                      "pillar":  "prompt_as_debt",
+                      "bufferPostId":  "69e3952c9e2b6223dd91d931",
+                      "bufferStatus":  "scheduled",
+                      "dueAt":  "2026-04-20T08:00:00.000Z",
+                      "sentAt":  null,
+                      "linkedInUrl":  null,
+                      "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-06/feed-hero-v2.png",
+                      "onImageCaption":  "fix the prompt later",
+                      "pinComment":  "If prompts are your shadow codebase: I keep a short ops checklist (approvals + publish planes + STOP). Comment OPS for the link.",
+                      "text":  "\"Fix the prompt later\" is how teams create invisible production logic.\n\nIf behavior depends on one magical wording, that is code debt without code review.\n\nOperational rule: version prompts, assign ownership, and test edge-case phrasing before rollout.\n\nDaily AI pro tip:\nWith xAI TTS/text flows, log model + voice + request id per run. That trace is the difference between guessing and debugging."
+                  },
+                  {
+                      "queueSlot":  13,
+                      "slug":  "ortal-tactical-series-07",
+                      "pillar":  "approval_rubber_stamp",
+                      "bufferPostId":  "69e395353a4ea0d0143c19b0",
+                      "bufferStatus":  "scheduled",
+                      "dueAt":  "2026-04-22T08:00:00.000Z",
+                      "sentAt":  null,
+                      "linkedInUrl":  null,
+                      "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-07/feed-hero-v2.png",
+                      "onImageCaption":  "human in the loop",
+                      "pinComment":  "Gates + approvals + STOP: Comment OPS for the doc. Founders fixing \"human in the loop\" theater - same.",
+                      "text":  "\"Human in the loop\" only matters when the human can actually stop bad output.\n\nIf every approval becomes a reflexive yes, you added delay, not safety.\n\nDefine three lanes: auto-pass, escalate, reject. Then name one accountable owner per lane.\n\nDaily AI pro tip:\nRate limits and retries are product behavior. Treat them as architecture, not a billing footnote."
+                  },
+                  {
+                      "queueSlot":  15,
+                      "slug":  "ortal-tactical-series-08",
+                      "pillar":  "portable_workflows",
+                      "bufferPostId":  "69e3953b9e2b6223dd91d9c3",
+                      "bufferStatus":  "scheduled",
+                      "dueAt":  "2026-04-23T08:00:00.000Z",
+                      "sentAt":  null,
+                      "linkedInUrl":  null,
+                      "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-08/feed-hero-v2.png",
+                      "onImageCaption":  "can you export it",
+                      "pinComment":  "Vendor + workflow reality: Comment OPS for the short ops checklist.",
+                      "text":  "\"Can you export it?\" is the fastest way to expose vendor risk.\n\nIf switching providers breaks your workflow, you rented capability, you did not build it.\n\nPortability is leverage under pressure, not theory.\n\nDaily AI pro tip:\nKeep provider adapters thin so business logic survives model/vendor changes."
+                  },
+                  {
+                      "queueSlot":  17,
+                      "slug":  "ortal-tactical-series-09",
+                      "pillar":  "single_writer_merge",
+                      "bufferPostId":  "69e395413a4ea0d0143c1a04",
+                      "bufferStatus":  "scheduled",
+                      "dueAt":  "2026-04-24T19:00:00.000Z",
+                      "sentAt":  null,
+                      "linkedInUrl":  null,
+                      "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-09/feed-hero-v2.png",
+                      "onImageCaption":  "one merge path",
+                      "pinComment":  "Agents + single source of truth: Comment OPS for the doc.",
+                      "text":  "One merge path beats ten brilliant parallel threads.\n\nChats are velocity. Repos are memory.\n\nWithout a conflict contract, multi-agent work turns into multi-opinion noise.\n\nDaily AI pro tip:\nStore prompts, schema versions, and output artifacts together so every run is reproducible."
+                  },
+                  {
+                      "queueSlot":  19,
+                      "slug":  "ortal-tactical-series-10",
+                      "pillar":  "narrative_vs_ship_log",
+                      "bufferPostId":  "69e395449e2b6223dd91da12",
+                      "bufferStatus":  "scheduled",
+                      "dueAt":  "2026-04-25T08:00:00.000Z",
+                      "sentAt":  null,
+                      "linkedInUrl":  null,
+                      "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-10/feed-hero-v2.png",
+                      "onImageCaption":  "deck vs deploy",
+                      "pinComment":  "Aligning leadership + ship log: Comment OPS for the seven questions doc.",
+                      "text":  "Deck story and deploy log must say the same thing.\n\nWhen leadership sees one narrative and operators see another timeline, trust erodes fast.\n\nOperational truth is a growth advantage.\n\nDaily AI pro tip:\nTrack success rate, retry rate, median latency, and cost per successful output. Those four numbers reveal most pipeline problems."
+                  }
+              ]
 }
+
+
