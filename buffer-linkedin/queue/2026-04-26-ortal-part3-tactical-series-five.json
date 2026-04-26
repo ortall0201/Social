@@ -26,7 +26,7 @@
                      "composition":  "Unique environment per slug; match pillar metaphor.",
                      "typography":  "ALL CAPS two-line poster: white + orange."
                  },
-    "mediaBaseUrl":  "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks",
+    "mediaBaseUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks",
     "imageFile":  "feed-hero-v1.png",
     "status":  "ready_to_schedule",
     "scheduling":  {
@@ -49,13 +49,13 @@
                       "pillar":  "shadow_workflow_ai",
                       "bufferPostId":  null,
                       "bufferStatus":  "planned",
-                      "dueAt":  "2026-04-27T08:00:00.000Z",
+                      "dueAt":  "2026-04-26T13:50:00.000Z",
                       "sentAt":  null,
                       "linkedInUrl":  null,
-                      "imageUrl":  "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-tactical-series-11/feed-hero-v1.png",
+                      "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-11/feed-hero-v1.png",
                       "onImageCaption":  "approved stack only",
                       "pinComment":  "Shadow workflows + agents: Comment OPS for the seven-question ops checklist (approvals + publish planes + STOP).",
-                      "text":  "Tactical Series #11\n\nShadow workflows are not speed. They are risk transferred to your future self.\n\nIf your AI flow lives in side chats, private tabs, and undocumented handoffs, you do not have an ops system yet.\n\nYou have a luck system.\n\nFix the path, not the person: approved route, clear owner, visible audit trail.\n\nFounders/operators scaling agent workflows: DM me \"OPS\" and I will send the practical checklist.\nHiring for AI implementation + delivery ownership? I am open to the right role."
+                      "text":  "Shadow workflows are not speed. They are risk transferred to your future self.\n\nIf your AI flow lives in side chats, private tabs, and undocumented handoffs, you do not have an ops system yet.\n\nYou have a luck system.\n\nFix the path, not the person: approved route, clear owner, visible audit trail.\n\nFounders/operators scaling agent workflows: DM me \"OPS\" and I will send the practical checklist.\nHiring for AI implementation + delivery ownership? I am open to the right role.\n\nDaily AI pro tip:\nGive every automation path one approved execution route and one named owner, or shadow tooling will quietly become your real production system."
                   },
                   {
                       "queueSlot":  22,
@@ -63,13 +63,13 @@
                       "pillar":  "production_is_the_test",
                       "bufferPostId":  null,
                       "bufferStatus":  "planned",
-                      "dueAt":  "2026-04-28T08:00:00.000Z",
+                      "dueAt":  "2026-04-27T08:00:00.000Z",
                       "sentAt":  null,
                       "linkedInUrl":  null,
-                      "imageUrl":  "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-tactical-series-12/feed-hero-v1.png",
+                      "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-12/feed-hero-v1.png",
                       "onImageCaption":  "staging is a story",
                       "pinComment":  "Prod truth + agents: Comment OPS for the checklist link.",
-                      "text":  "Tactical Series #12\n\n\"We tested in staging\" only helps when staging is real.\n\nIf production is the first place your workflow meets real load, real users, and real edge cases, production is your test plan.\n\nDesign for truth: monitors, rollback criteria, and explicit human gate points.\n\nTeams shipping AI features and tired of demo-only confidence: DM me \"OPS\" for the production-readiness checklist."
+                      "text":  "\"We tested in staging\" only helps when staging is real.\n\nIf production is the first place your workflow meets real load, real users, and real edge cases, production is your test plan.\n\nDesign for truth: monitors, rollback criteria, and explicit human gate points.\n\nTeams shipping AI features and tired of demo-only confidence: DM me \"OPS\" for the production-readiness checklist.\n\nDaily AI pro tip:\nRun one canary generation against production inputs before a bigger batch so auth, schema, and provider failures show up early instead of publicly."
                   },
                   {
                       "queueSlot":  24,
@@ -77,13 +77,13 @@
                       "pillar":  "documentation_folklore",
                       "bufferPostId":  null,
                       "bufferStatus":  "planned",
-                      "dueAt":  "2026-04-29T08:00:00.000Z",
+                      "dueAt":  "2026-04-28T08:00:00.000Z",
                       "sentAt":  null,
                       "linkedInUrl":  null,
-                      "imageUrl":  "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-tactical-series-13/feed-hero-v1.png",
+                      "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-13/feed-hero-v1.png",
                       "onImageCaption":  "who owns the doc",
                       "pinComment":  "Knowledge + agents: Comment OPS for the doc.",
-                      "text":  "Tactical Series #13\n\nDocumentation is not a file. It is ownership.\n\nWhen nobody owns updates, retrieval becomes a rumor amplifier.\n\nThe boring controls win: owner, review cadence, expiry, archive rule.\n\nThat is how knowledge becomes infrastructure.\n\nIf your team is scaling agents and your docs are drifting, DM me \"OPS\"."
+                      "text":  "Documentation is not a file. It is ownership.\n\nWhen nobody owns updates, retrieval becomes a rumor amplifier.\n\nThe boring controls win: owner, review cadence, expiry, archive rule.\n\nThat is how knowledge becomes infrastructure.\n\nIf your team is scaling agents and your docs are drifting, DM me \"OPS\".\n\nDaily AI pro tip:\nAttach freshness dates and explicit owners to retrieval sources so accurate models do not become confidently outdated assistants."
                   },
                   {
                       "queueSlot":  26,
@@ -91,13 +91,13 @@
                       "pillar":  "ai_washing_rfp",
                       "bufferPostId":  null,
                       "bufferStatus":  "planned",
-                      "dueAt":  "2026-04-30T08:00:00.000Z",
+                      "dueAt":  "2026-04-29T08:00:00.000Z",
                       "sentAt":  null,
                       "linkedInUrl":  null,
-                      "imageUrl":  "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-tactical-series-14/feed-hero-v1.png",
+                      "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-14/feed-hero-v1.png",
                       "onImageCaption":  "ai on the label",
                       "pinComment":  "Buyer / vendor reality: Comment OPS for the checklist.",
-                      "text":  "Tactical Series #14\n\nIf the vendor deck says \"AI\" ten times and \"failure mode\" zero times, you are buying a mood, not a system.\n\nSerious buying questions: evaluation harness, rollback behavior, human override, and export path.\n\nReal operators welcome hard questions.\n\nIf you are evaluating agent vendors this quarter, DM me \"OPS\" for my due-diligence prompts."
+                      "text":  "If the vendor deck says \"AI\" ten times and \"failure mode\" zero times, you are buying a mood, not a system.\n\nSerious buying questions: evaluation harness, rollback behavior, human override, and export path.\n\nReal operators welcome hard questions.\n\nIf you are evaluating agent vendors this quarter, DM me \"OPS\" for my due-diligence prompts.\n\nDaily AI pro tip:\nThe cheapest vendor demo is often the most expensive integration, so score tools on fallback behavior and exportability before you score them on polish."
                   },
                   {
                       "queueSlot":  28,
@@ -105,13 +105,13 @@
                       "pillar":  "oncall_and_agents",
                       "bufferPostId":  null,
                       "bufferStatus":  "planned",
-                      "dueAt":  "2026-05-01T08:00:00.000Z",
+                      "dueAt":  "2026-04-30T08:00:00.000Z",
                       "sentAt":  null,
                       "linkedInUrl":  null,
-                      "imageUrl":  "https://cdn.jsdelivr.net/gh/ortall0201/Social@main/buffer-linkedin/visual-hooks/ortal-tactical-series-15/feed-hero-v1.png",
+                      "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-15/feed-hero-v1.png",
                       "onImageCaption":  "who owns 2am",
                       "pinComment":  "Incidents + automation: Comment OPS for gates + STOP.",
-                      "text":  "Tactical Series #15\n\nAutomation at 2 a.m. still needs ownership at 2 a.m.\n\n\"The bot handles it\" is not incident design.\n\nDefine the contract: what auto-remediates, what must page a human, what is never allowed to auto-fire.\n\nThis is where trust is built.\n\nNeed to harden your on-call + AI workflow? DM me \"OPS\"."
+                      "text":  "Automation at 2 a.m. still needs ownership at 2 a.m.\n\n\"The bot handles it\" is not incident design.\n\nDefine the contract: what auto-remediates, what must page a human, what is never allowed to auto-fire.\n\nThis is where trust is built.\n\nNeed to harden your on-call + AI workflow? DM me \"OPS\".\n\nDaily AI pro tip:\nTag every failed run with an incident owner and request id automatically so triage starts with context instead of a search party."
                   }
               ]
 }
