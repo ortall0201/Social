@@ -17,7 +17,7 @@
       "track": "tactical",
       "pillar": "handoff_contracts",
       "dueAt": "2026-04-29T12:00:00.000Z",
-      "bufferPostId": null,
+      "bufferPostId": "69f1c57264f99768ec897bd7",
       "imageUrl": "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-part5-tactical-series-16/feed-hero-v1.png",
       "text": "Fast handoffs without contracts are slow incidents in disguise.\n\nIf role boundaries are fuzzy, hidden rework becomes default behavior.\n\nWrite the contract: owner, gate, escalation path, rollback.\n\nIf your handoffs are messy right now, comment OPS and I will send the checklist."
     },
@@ -28,7 +28,7 @@
       "track": "tactical",
       "pillar": "retry_without_limit",
       "dueAt": "2026-04-30T08:00:00.000Z",
-      "bufferPostId": null,
+      "bufferPostId": "69f1c575b85bfdc31a5cf99b",
       "imageUrl": "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-part5-tactical-series-17/feed-hero-v1.png",
       "text": "Retries are not reliability if they hide a broken path.\n\nRetry storms create fake success and real cost.\n\nSet ceilings, backoff, and failover rules before scale.\n\nIf this sounds familiar, share this with your ops team."
     },
@@ -39,7 +39,7 @@
       "track": "tactical",
       "pillar": "approval_latency",
       "dueAt": "2026-05-01T08:00:00.000Z",
-      "bufferPostId": null,
+      "bufferPostId": "69f1c578b85bfdc31a5cf9c1",
       "imageUrl": "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-part5-tactical-series-18/feed-hero-v1.png",
       "text": "Approval delay is still a production risk.\n\nLong approval chains do not create safety. They hide ownership.\n\nRun three lanes: auto-pass, escalate, reject.\n\nComment OPS if you want a practical lane template."
     },
@@ -50,7 +50,7 @@
       "track": "tactical",
       "pillar": "state_drift",
       "dueAt": "2026-05-02T08:00:00.000Z",
-      "bufferPostId": null,
+      "bufferPostId": "69f1c57ab85bfdc31a5cf9e7",
       "imageUrl": "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-part5-tactical-series-19/feed-hero-v1.png",
       "text": "When docs and runtime disagree, runtime wins and trust loses.\n\nDrift is governance debt, not a typo.\n\nSet freshness owner + review cadence + expiry rules.\n\nTag whoever owns runtime truth in your stack."
     }
