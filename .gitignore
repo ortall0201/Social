@@ -98,6 +98,29 @@ deploy/production/env/*.env
 deploy/production/env/*.local
 local-secrets/*
 
+# Media outputs are local/private by default.
+# Keep generated images, videos/reels, audio, temp frames, and exported renders out of GitHub.
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.mp4
+*.mov
+*.webm
+*.mp3
+*.wav
+*.m4a
+
+# Explicit persona/reference allowlist only.
+!devi-identity/images/devi-face-primary.png
+!docs/agents/assets/ortal-gijane-supergirl-persona-reference.png
+!tools/iris-storyteller/character/iris-character-primary.jpg
+
+# Real local URL/config values should not be committed; keep examples only.
+buffer-linkedin/MEDIA_BASE_URL.txt
+!buffer-linkedin/MEDIA_BASE_URL.example.txt
+
 # Work Manager bridge (local CLI chat IDs + last clipboard extracts)
 scripts/wm-local.ps1
 scripts/.wm-last-iris-prompt.txt
@@ -129,4 +152,13 @@ devi-feed/imagegen-buffer-2026-04-16/register-feed45-buffer-windows-task.ps1
 
 # Playwright Buffer session (never commit)
 devi-feed/imagegen-buffer-2026-04-16/playwright-buffer-queue/buffer-auth.json
+devi-feed/imagegen-buffer-2026-04-16/playwright-buffer-queue/.calendly-chrome-profile/
+devi-feed/imagegen-buffer-2026-04-16/playwright-buffer-queue/calendly-audit-out/
 devi-feed/imagegen-buffer-2026-04-16/playwright-buffer-queue/node_modules/
+
+# LinkedIn Buffer CSV exports (local metrics join; keep folder via exports/.gitkeep)
+buffer-linkedin/exports/*.csv
+buffer-linkedin/exports/buffer-wave-raw.json
+
+# Iris voice local secrets
+tools/iris-voice/.env
