@@ -1,0 +1,148 @@
+﻿{
+    "manifest":  ".\\buffer-linkedin\\queue\\2026-05-09-ortal-part5-tactical-twenty.json",
+    "channelId":  "68a17a558e37dc1a58f623c2",
+    "scheduledAt":  "2026-05-03T10:51:11.265Z",
+    "count":  20,
+    "results":  [
+                    {
+                        "slug":  "ortal-tactical-series-16",
+                        "status":  "skipped_existing",
+                        "bufferPostId":  "69f726ec766f329adc215430",
+                        "dueAt":  "2026-05-04T10:00:00.000Z",
+                        "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-16/feed-hero-v1.png"
+                    },
+                    {
+                        "slug":  "ortal-tactical-series-17",
+                        "status":  "scheduled",
+                        "bufferPostId":  "69f72891766f329adc215bd0",
+                        "dueAt":  "2026-05-05T10:00:00.000Z",
+                        "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-17/feed-hero-v1.png"
+                    },
+                    {
+                        "slug":  "ortal-tactical-series-18",
+                        "status":  "scheduled",
+                        "bufferPostId":  "69f72892766f329adc215bf6",
+                        "dueAt":  "2026-05-06T10:00:00.000Z",
+                        "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-18/feed-hero-v1.png"
+                    },
+                    {
+                        "slug":  "ortal-tactical-series-19",
+                        "status":  "scheduled",
+                        "bufferPostId":  "69f72892b2bf116e3e50c1cf",
+                        "dueAt":  "2026-05-07T10:00:00.000Z",
+                        "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-19/feed-hero-v1.png"
+                    },
+                    {
+                        "slug":  "ortal-tactical-series-20",
+                        "status":  "scheduled",
+                        "bufferPostId":  "69f72893766f329adc215c1c",
+                        "dueAt":  "2026-05-08T10:00:00.000Z",
+                        "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-20/feed-hero-v1.png"
+                    },
+                    {
+                        "slug":  "ortal-tactical-series-21",
+                        "status":  "scheduled",
+                        "bufferPostId":  "69f72894766f329adc215c42",
+                        "dueAt":  "2026-05-09T10:00:00.000Z",
+                        "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-21/feed-hero-v1.png"
+                    },
+                    {
+                        "slug":  "ortal-tactical-series-22",
+                        "status":  "scheduled",
+                        "bufferPostId":  "69f72894b2bf116e3e50c1fb",
+                        "dueAt":  "2026-05-10T10:00:00.000Z",
+                        "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-22/feed-hero-v1.png"
+                    },
+                    {
+                        "slug":  "ortal-tactical-series-23",
+                        "status":  "scheduled",
+                        "bufferPostId":  "69f72895766f329adc215c68",
+                        "dueAt":  "2026-05-11T10:00:00.000Z",
+                        "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-23/feed-hero-v1.png"
+                    },
+                    {
+                        "slug":  "ortal-tactical-series-24",
+                        "status":  "scheduled",
+                        "bufferPostId":  "69f72896766f329adc215c91",
+                        "dueAt":  "2026-05-12T10:00:00.000Z",
+                        "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-24/feed-hero-v1.png"
+                    },
+                    {
+                        "slug":  "ortal-tactical-series-25",
+                        "status":  "scheduled",
+                        "bufferPostId":  "69f72897b2bf116e3e50c221",
+                        "dueAt":  "2026-05-13T10:00:00.000Z",
+                        "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-25/feed-hero-v1.png"
+                    },
+                    {
+                        "slug":  "ortal-tactical-series-26",
+                        "status":  "scheduled",
+                        "bufferPostId":  "69f72898b2bf116e3e50c247",
+                        "dueAt":  "2026-05-14T10:00:00.000Z",
+                        "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-26/feed-hero-v1.png"
+                    },
+                    {
+                        "slug":  "ortal-tactical-series-27",
+                        "status":  "scheduled",
+                        "bufferPostId":  "69f72899766f329adc215cb7",
+                        "dueAt":  "2026-05-15T10:00:00.000Z",
+                        "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-27/feed-hero-v1.png"
+                    },
+                    {
+                        "slug":  "ortal-tactical-series-28",
+                        "status":  "scheduled",
+                        "bufferPostId":  "69f72899766f329adc215cdd",
+                        "dueAt":  "2026-05-16T10:00:00.000Z",
+                        "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-28/feed-hero-v1.png"
+                    },
+                    {
+                        "slug":  "ortal-tactical-series-29",
+                        "status":  "scheduled",
+                        "bufferPostId":  "69f7289ab2bf116e3e50c26d",
+                        "dueAt":  "2026-05-17T10:00:00.000Z",
+                        "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-29/feed-hero-v1.png"
+                    },
+                    {
+                        "slug":  "ortal-tactical-series-30",
+                        "status":  "scheduled",
+                        "bufferPostId":  "69f7289bb2bf116e3e50c293",
+                        "dueAt":  "2026-05-18T10:00:00.000Z",
+                        "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-30/feed-hero-v1.png"
+                    },
+                    {
+                        "slug":  "ortal-tactical-series-31",
+                        "status":  "scheduled",
+                        "bufferPostId":  "69f7289b766f329adc215d03",
+                        "dueAt":  "2026-05-19T10:00:00.000Z",
+                        "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-31/feed-hero-v1.png"
+                    },
+                    {
+                        "slug":  "ortal-tactical-series-32",
+                        "status":  "scheduled",
+                        "bufferPostId":  "69f7289c766f329adc215d29",
+                        "dueAt":  "2026-05-20T10:00:00.000Z",
+                        "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-32/feed-hero-v1.png"
+                    },
+                    {
+                        "slug":  "ortal-tactical-series-33",
+                        "status":  "scheduled",
+                        "bufferPostId":  "69f7289db2bf116e3e50c2b9",
+                        "dueAt":  "2026-05-21T10:00:00.000Z",
+                        "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-33/feed-hero-v1.png"
+                    },
+                    {
+                        "slug":  "ortal-tactical-series-34",
+                        "status":  "scheduled",
+                        "bufferPostId":  "69f7289eb2bf116e3e50c2df",
+                        "dueAt":  "2026-05-22T10:00:00.000Z",
+                        "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-34/feed-hero-v1.png"
+                    },
+                    {
+                        "slug":  "ortal-tactical-series-35",
+                        "status":  "scheduled",
+                        "bufferPostId":  "69f7289e766f329adc215d4f",
+                        "dueAt":  "2026-05-23T10:00:00.000Z",
+                        "imageUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/visual-hooks/ortal-tactical-series-35/feed-hero-v1.png"
+                    }
+                ]
+}
