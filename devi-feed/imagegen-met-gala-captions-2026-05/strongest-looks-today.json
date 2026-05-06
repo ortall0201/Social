@@ -1,0 +1,100 @@
+{
+  "generatedAtUtc": "2026-05-06T19:28:52.535109Z",
+  "selectionPolicy": [
+    "Use only today's strongest clean-skin Devi looks from the latest Met outputs.",
+    "Exclude stills with obvious face drift, hair lock break, or tattoo/body-art visibility.",
+    "Prioritize looks that stay readable after 4:5 feed conversion."
+  ],
+  "looks": [
+    {
+      "id": "rev-met-r06",
+      "label": "Noir crystal column",
+      "still": "devi-feed/buffer-reels-met-gala-reversed-2026-05/stills/rev-met-r06.jpg",
+      "video": "devi-feed/buffer-reels-met-gala-reversed-2026-05/rev-met-r06.mp4",
+      "face_fidelity": "Strongest direct resemblance in the clean-skin pool.",
+      "glam_impact": "High-contrast noir glamour with camera-ready sparkle.",
+      "outfit_clarity": "Full-body column gown remains readable after 4:5 conversion.",
+      "lighting_polish": "Controlled studio light keeps skin and sequins clean.",
+      "why_selected": [
+        "Closest overall match to Devi's face shape and pastel hair lock.",
+        "Black sequined silhouette reads instantly even with short feed-view attention.",
+        "Plain editorial background gives us reliable negative space for text overlays."
+      ]
+    },
+    {
+      "id": "rev-met-r07",
+      "label": "Classic champagne couture",
+      "still": "devi-feed/buffer-reels-met-gala-reversed-2026-05/stills/rev-met-r07.jpg",
+      "video": "devi-feed/buffer-reels-met-gala-reversed-2026-05/rev-met-r07.mp4",
+      "face_fidelity": "Strong and recognizable with good eye shape continuity.",
+      "glam_impact": "Elegant, understated Met-level polish.",
+      "outfit_clarity": "Architectural bodice and full skirt stay legible in feed crop.",
+      "lighting_polish": "Warm carpet lights and soft flash read beautifully.",
+      "why_selected": [
+        "Very stable face read with Devi's softer glam expression.",
+        "Champagne satin and gala aisle give prestige without visual clutter.",
+        "Works well for both wide silhouette cards and tighter phrase-led crops."
+      ]
+    },
+    {
+      "id": "rev-met-r08",
+      "label": "Floral staircase statement",
+      "still": "devi-feed/buffer-reels-met-gala-reversed-2026-05/stills/rev-met-r08.jpg",
+      "video": "devi-feed/buffer-reels-met-gala-reversed-2026-05/rev-met-r08.mp4",
+      "face_fidelity": "Strong enough to keep Devi recognizable while carrying a bigger look.",
+      "glam_impact": "Top-tier visual drama and lush couture texture.",
+      "outfit_clarity": "3D floral applique and train stay readable at first glance.",
+      "lighting_polish": "Warm staircase glow flatters both skin and fabric depth.",
+      "why_selected": [
+        "Highest glam impact in the set with unmistakable floral couture drama.",
+        "Hair still reads as Devi, while the color story feels premium and editorial.",
+        "Stair architecture supports strong top- or bottom-text compositions."
+      ]
+    },
+    {
+      "id": "rev-met-r10",
+      "label": "Grand staircase cape hero",
+      "still": "devi-feed/buffer-reels-met-gala-reversed-2026-05/stills/rev-met-r10.jpg",
+      "video": "devi-feed/buffer-reels-met-gala-reversed-2026-05/rev-met-r10.mp4",
+      "face_fidelity": "Stable and flattering with good resemblance to the identity reference.",
+      "glam_impact": "Grand but controlled, with strong luxury-finale energy.",
+      "outfit_clarity": "Cape shape and corseted bodice read immediately.",
+      "lighting_polish": "Even staircase light supports both warm and neutral card grades.",
+      "why_selected": [
+        "Stable face fidelity with prestige red-carpet posture.",
+        "The cape-and-column silhouette feels like classic Met closing-night glamour.",
+        "Symmetrical staircase layout gives us polished, luxury-safe text placement."
+      ]
+    },
+    {
+      "id": "rev-met-r02",
+      "label": "Sculptural cape architecture",
+      "still": "devi-feed/buffer-reels-met-gala-reversed-2026-05/stills/rev-met-r02.jpg",
+      "video": "devi-feed/buffer-reels-met-gala-reversed-2026-05/rev-met-r02.mp4",
+      "face_fidelity": "Good enough to use as a drama anchor in the shortlist.",
+      "glam_impact": "Strong sculptural authority and deep-carpet presence.",
+      "outfit_clarity": "Upper-shell structure and cape spread are obvious from distance.",
+      "lighting_polish": "Soft monumental light keeps the mood expensive.",
+      "why_selected": [
+        "Best of the more dramatic sculptural looks while still preserving Devi's core features.",
+        "Massive cape architecture makes this feel unmistakably Met instead of generic gala.",
+        "Dark arch framing gives built-in luxury contrast for copy-led cards."
+      ]
+    },
+    {
+      "id": "met-gala-2026-05-r07",
+      "label": "Iridescent carpet power gown",
+      "still": "devi-feed/buffer-reels-met-gala-2026-05/stills/met-gala-2026-05-r07.jpg",
+      "video": "devi-feed/buffer-reels-met-gala-2026-05/met-gala-2026-05-r07.mp4",
+      "face_fidelity": "Good face continuity with a more polished carpet finish.",
+      "glam_impact": "Rich iridescent fabric and broad shoulders feel current and expensive.",
+      "outfit_clarity": "Shoulder line, waist structure, and train stay distinct in feed.",
+      "lighting_polish": "Balanced paparazzi corridor light keeps details crisp.",
+      "why_selected": [
+        "Strong clean-skin result from the earlier Met pack with premium shoulder architecture.",
+        "The jewel-tone surface gives the set a darker, cooler fashion note.",
+        "Excellent paparazzi-lane environment for sharper editorial one-liners."
+      ]
+    }
+  ]
+}

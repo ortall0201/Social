@@ -1,0 +1,240 @@
+{
+  "defaults": {
+    "mediaBaseUrl": "https://raw.githubusercontent.com/ortall0201/Social/main/devi-feed/imagegen-met-gala-captions-2026-05",
+    "channels": [
+      "instagram",
+      "facebook"
+    ],
+    "hashtags": [
+      "#MetGala",
+      "#fashion",
+      "#devi"
+    ],
+    "slotTemplateUtc": [
+      "12:00:00Z",
+      "18:00:00Z"
+    ]
+  },
+  "posts": [
+    {
+      "id": "met-caption-01",
+      "file": "met-caption-01.png",
+      "line": "Who am I wearing? Patience.",
+      "caption": "Who am I wearing? Patience.",
+      "dueAtUtc": "2026-05-08T12:00:00Z",
+      "channels": [
+        "instagram",
+        "facebook"
+      ]
+    },
+    {
+      "id": "met-caption-02",
+      "file": "met-caption-02.png",
+      "line": "Yes, this dress has its own schedule.",
+      "caption": "Yes, this dress has its own schedule.",
+      "dueAtUtc": "2026-05-08T18:00:00Z",
+      "channels": [
+        "instagram",
+        "facebook"
+      ]
+    },
+    {
+      "id": "met-caption-03",
+      "file": "met-caption-03.png",
+      "line": "Couture first. Breathing second.",
+      "caption": "Couture first. Breathing second.",
+      "dueAtUtc": "2026-05-09T12:00:00Z",
+      "channels": [
+        "instagram",
+        "facebook"
+      ]
+    },
+    {
+      "id": "met-caption-04",
+      "file": "met-caption-04.png",
+      "line": "Fashionably late. Structurally on time.",
+      "caption": "Fashionably late. Structurally on time.",
+      "dueAtUtc": "2026-05-09T18:00:00Z",
+      "channels": [
+        "instagram",
+        "facebook"
+      ]
+    },
+    {
+      "id": "met-caption-05",
+      "file": "met-caption-05.png",
+      "line": "This train needs its own security.",
+      "caption": "This train needs its own security.",
+      "dueAtUtc": "2026-05-10T12:00:00Z",
+      "channels": [
+        "instagram",
+        "facebook"
+      ]
+    },
+    {
+      "id": "met-caption-06",
+      "file": "met-caption-06.png",
+      "line": "If it looks easy, it is custom.",
+      "caption": "If it looks easy, it is custom.",
+      "dueAtUtc": "2026-05-10T18:00:00Z",
+      "channels": [
+        "instagram",
+        "facebook"
+      ]
+    },
+    {
+      "id": "met-caption-07",
+      "file": "met-caption-07.png",
+      "line": "Tonight's theme: controlled chaos.",
+      "caption": "Tonight's theme: controlled chaos.",
+      "dueAtUtc": "2026-05-11T12:00:00Z",
+      "channels": [
+        "instagram",
+        "facebook"
+      ]
+    },
+    {
+      "id": "met-caption-08",
+      "file": "met-caption-08.png",
+      "line": "Art on body. Balance on stairs.",
+      "caption": "Art on body. Balance on stairs.",
+      "dueAtUtc": "2026-05-11T18:00:00Z",
+      "channels": [
+        "instagram",
+        "facebook"
+      ]
+    },
+    {
+      "id": "met-caption-09",
+      "file": "met-caption-09.png",
+      "line": "I planned the pose, not the weather.",
+      "caption": "I planned the pose, not the weather.",
+      "dueAtUtc": "2026-05-12T12:00:00Z",
+      "channels": [
+        "instagram",
+        "facebook"
+      ]
+    },
+    {
+      "id": "met-caption-10",
+      "file": "met-caption-10.png",
+      "line": "Serving silhouette, not small talk.",
+      "caption": "Serving silhouette, not small talk.",
+      "dueAtUtc": "2026-05-12T18:00:00Z",
+      "channels": [
+        "instagram",
+        "facebook"
+      ]
+    },
+    {
+      "id": "met-caption-11",
+      "file": "met-caption-11.png",
+      "line": "The corset said no. I said watch.",
+      "caption": "The corset said no. I said watch.",
+      "dueAtUtc": "2026-05-13T12:00:00Z",
+      "channels": [
+        "instagram",
+        "facebook"
+      ]
+    },
+    {
+      "id": "met-caption-12",
+      "file": "met-caption-12.png",
+      "line": "One look. Ten camera flashes.",
+      "caption": "One look. Ten camera flashes.",
+      "dueAtUtc": "2026-05-13T18:00:00Z",
+      "channels": [
+        "instagram",
+        "facebook"
+      ]
+    },
+    {
+      "id": "met-caption-13",
+      "file": "met-caption-13.png",
+      "line": "Red carpet physics are different.",
+      "caption": "Red carpet physics are different.",
+      "dueAtUtc": "2026-05-14T12:00:00Z",
+      "channels": [
+        "instagram",
+        "facebook"
+      ]
+    },
+    {
+      "id": "met-caption-14",
+      "file": "met-caption-14.png",
+      "line": "Wearing architecture with confidence.",
+      "caption": "Wearing architecture with confidence.",
+      "dueAtUtc": "2026-05-14T18:00:00Z",
+      "channels": [
+        "instagram",
+        "facebook"
+      ]
+    },
+    {
+      "id": "met-caption-15",
+      "file": "met-caption-15.png",
+      "line": "Glamour is a full-time operation.",
+      "caption": "Glamour is a full-time operation.",
+      "dueAtUtc": "2026-05-15T12:00:00Z",
+      "channels": [
+        "instagram",
+        "facebook"
+      ]
+    },
+    {
+      "id": "met-caption-16",
+      "file": "met-caption-16.png",
+      "line": "This is not a dress. It's strategy.",
+      "caption": "This is not a dress. It's strategy.",
+      "dueAtUtc": "2026-05-15T18:00:00Z",
+      "channels": [
+        "instagram",
+        "facebook"
+      ]
+    },
+    {
+      "id": "met-caption-17",
+      "file": "met-caption-17.png",
+      "line": "If it sparkles, it schedules itself.",
+      "caption": "If it sparkles, it schedules itself.",
+      "dueAtUtc": "2026-05-16T12:00:00Z",
+      "channels": [
+        "instagram",
+        "facebook"
+      ]
+    },
+    {
+      "id": "met-caption-18",
+      "file": "met-caption-18.png",
+      "line": "Grace under impossible tailoring.",
+      "caption": "Grace under impossible tailoring.",
+      "dueAtUtc": "2026-05-16T18:00:00Z",
+      "channels": [
+        "instagram",
+        "facebook"
+      ]
+    },
+    {
+      "id": "met-caption-19",
+      "file": "met-caption-19.png",
+      "line": "Afterparty energy, museum standards.",
+      "caption": "Afterparty energy, museum standards.",
+      "dueAtUtc": "2026-05-17T12:00:00Z",
+      "channels": [
+        "instagram",
+        "facebook"
+      ]
+    },
+    {
+      "id": "met-caption-20",
+      "file": "met-caption-20.png",
+      "line": "Fashion is art with deadlines.",
+      "caption": "Fashion is art with deadlines.",
+      "dueAtUtc": "2026-05-17T18:00:00Z",
+      "channels": [
+        "instagram",
+        "facebook"
+      ]
+    }
+  ]
+}
