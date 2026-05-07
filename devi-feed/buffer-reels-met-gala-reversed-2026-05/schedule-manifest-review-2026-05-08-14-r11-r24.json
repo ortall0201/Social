@@ -1,0 +1,258 @@
+﻿{
+    "series":  "met-gala-reversed-review-2026-05-08-14",
+    "timezone":  "UTC",
+    "defaults":  {
+                     "mediaBaseUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-delivery",
+                     "channels":  [
+                                      "instagram",
+                                      "facebook"
+                                  ],
+                     "hashtags":  [
+                                      "#MetGala",
+                                      "#fashion",
+                                      "#devi",
+                                      "#editorial",
+                                      "#AIFashion"
+                                  ]
+                 },
+    "posts":  [
+                  {
+                      "id":  "rev-met-r11",
+                      "file":  "rev-met-r11.mp4",
+                      "caption":  "Pink tailoring. Cold fire.",
+                      "hashtags":  [
+                                       "#MetGala",
+                                       "#fashion",
+                                       "#devi",
+                                       "#editorial",
+                                       "#AIFashion"
+                                   ],
+                      "channels":  [
+                                       "instagram",
+                                       "facebook"
+                                   ],
+                      "dueAtUtc":  "2026-05-08T19:00:00.000Z"
+                  },
+                  {
+                      "id":  "rev-met-r12",
+                      "file":  "rev-met-r12.mp4",
+                      "caption":  "Avant polish. Perfect timing.",
+                      "hashtags":  [
+                                       "#MetGala",
+                                       "#fashion",
+                                       "#devi",
+                                       "#editorial",
+                                       "#AIFashion"
+                                   ],
+                      "channels":  [
+                                       "instagram",
+                                       "facebook"
+                                   ],
+                      "dueAtUtc":  "2026-05-08T21:00:00.000Z"
+                  },
+                  {
+                      "id":  "rev-met-r13",
+                      "file":  "rev-met-r13.mp4",
+                      "caption":  "Minimal line. Maximum command.",
+                      "hashtags":  [
+                                       "#MetGala",
+                                       "#fashion",
+                                       "#devi",
+                                       "#editorial",
+                                       "#AIFashion"
+                                   ],
+                      "channels":  [
+                                       "instagram",
+                                       "facebook"
+                                   ],
+                      "dueAtUtc":  "2026-05-09T19:00:00.000Z"
+                  },
+                  {
+                      "id":  "rev-met-r14",
+                      "file":  "rev-met-r14.mp4",
+                      "caption":  "Layered power. Camera obeys.",
+                      "hashtags":  [
+                                       "#MetGala",
+                                       "#fashion",
+                                       "#devi",
+                                       "#editorial",
+                                       "#AIFashion"
+                                   ],
+                      "channels":  [
+                                       "instagram",
+                                       "facebook"
+                                   ],
+                      "dueAtUtc":  "2026-05-09T21:00:00.000Z"
+                  },
+                  {
+                      "id":  "rev-met-r15",
+                      "file":  "rev-met-r15.mp4",
+                      "caption":  "Crystal charm. Exact control.",
+                      "hashtags":  [
+                                       "#MetGala",
+                                       "#fashion",
+                                       "#devi",
+                                       "#editorial",
+                                       "#AIFashion"
+                                   ],
+                      "channels":  [
+                                       "instagram",
+                                       "facebook"
+                                   ],
+                      "dueAtUtc":  "2026-05-10T19:00:00.000Z"
+                  },
+                  {
+                      "id":  "rev-met-r16",
+                      "file":  "rev-met-r16.mp4",
+                      "caption":  "Grand stairs. Soft threat.",
+                      "hashtags":  [
+                                       "#MetGala",
+                                       "#fashion",
+                                       "#devi",
+                                       "#editorial",
+                                       "#AIFashion"
+                                   ],
+                      "channels":  [
+                                       "instagram",
+                                       "facebook"
+                                   ],
+                      "dueAtUtc":  "2026-05-10T21:00:00.000Z"
+                  },
+                  {
+                      "id":  "rev-met-r17",
+                      "file":  "rev-met-r17.mp4",
+                      "caption":  "Dark pop. Couture precision.",
+                      "hashtags":  [
+                                       "#MetGala",
+                                       "#fashion",
+                                       "#devi",
+                                       "#editorial",
+                                       "#AIFashion"
+                                   ],
+                      "channels":  [
+                                       "instagram",
+                                       "facebook"
+                                   ],
+                      "dueAtUtc":  "2026-05-11T19:00:00.000Z"
+                  },
+                  {
+                      "id":  "rev-met-r18",
+                      "file":  "rev-met-r18.mp4",
+                      "caption":  "Sculpted volume. Clean attitude.",
+                      "hashtags":  [
+                                       "#MetGala",
+                                       "#fashion",
+                                       "#devi",
+                                       "#editorial",
+                                       "#AIFashion"
+                                   ],
+                      "channels":  [
+                                       "instagram",
+                                       "facebook"
+                                   ],
+                      "dueAtUtc":  "2026-05-11T21:00:00.000Z"
+                  },
+                  {
+                      "id":  "rev-met-r19",
+                      "file":  "rev-met-r19.mp4",
+                      "caption":  "Late energy. Full authority.",
+                      "hashtags":  [
+                                       "#MetGala",
+                                       "#fashion",
+                                       "#devi",
+                                       "#editorial",
+                                       "#AIFashion"
+                                   ],
+                      "channels":  [
+                                       "instagram",
+                                       "facebook"
+                                   ],
+                      "dueAtUtc":  "2026-05-12T19:00:00.000Z"
+                  },
+                  {
+                      "id":  "rev-met-r20",
+                      "file":  "rev-met-r20.mp4",
+                      "caption":  "Illusion light. Controlled turn.",
+                      "hashtags":  [
+                                       "#MetGala",
+                                       "#fashion",
+                                       "#devi",
+                                       "#editorial",
+                                       "#AIFashion"
+                                   ],
+                      "channels":  [
+                                       "instagram",
+                                       "facebook"
+                                   ],
+                      "dueAtUtc":  "2026-05-12T21:00:00.000Z"
+                  },
+                  {
+                      "id":  "rev-met-r21",
+                      "file":  "rev-met-r21.mp4",
+                      "caption":  "Marble mood. Star behavior.",
+                      "hashtags":  [
+                                       "#MetGala",
+                                       "#fashion",
+                                       "#devi",
+                                       "#editorial",
+                                       "#AIFashion"
+                                   ],
+                      "channels":  [
+                                       "instagram",
+                                       "facebook"
+                                   ],
+                      "dueAtUtc":  "2026-05-13T19:00:00.000Z"
+                  },
+                  {
+                      "id":  "rev-met-r22",
+                      "file":  "rev-met-r22.mp4",
+                      "caption":  "Armor line. No hesitation.",
+                      "hashtags":  [
+                                       "#MetGala",
+                                       "#fashion",
+                                       "#devi",
+                                       "#editorial",
+                                       "#AIFashion"
+                                   ],
+                      "channels":  [
+                                       "instagram",
+                                       "facebook"
+                                   ],
+                      "dueAtUtc":  "2026-05-13T21:00:00.000Z"
+                  },
+                  {
+                      "id":  "rev-met-r23",
+                      "file":  "rev-met-r23.mp4",
+                      "caption":  "Heritage glow. Modern edge.",
+                      "hashtags":  [
+                                       "#MetGala",
+                                       "#fashion",
+                                       "#devi",
+                                       "#editorial",
+                                       "#AIFashion"
+                                   ],
+                      "channels":  [
+                                       "instagram",
+                                       "facebook"
+                                   ],
+                      "dueAtUtc":  "2026-05-14T19:00:00.000Z"
+                  },
+                  {
+                      "id":  "rev-met-r24",
+                      "file":  "rev-met-r24.mp4",
+                      "caption":  "Noir hold. Zero noise.",
+                      "hashtags":  [
+                                       "#MetGala",
+                                       "#fashion",
+                                       "#devi",
+                                       "#editorial",
+                                       "#AIFashion"
+                                   ],
+                      "channels":  [
+                                       "instagram",
+                                       "facebook"
+                                   ],
+                      "dueAtUtc":  "2026-05-14T21:00:00.000Z"
+                  }
+              ]
+}
