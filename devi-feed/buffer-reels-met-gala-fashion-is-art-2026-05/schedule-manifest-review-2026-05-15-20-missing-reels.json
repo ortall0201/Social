@@ -1,0 +1,110 @@
+{
+  "series": "met-gala-fashion-is-art-2026-05-missing-reels",
+  "timezone": "America/Los_Angeles",
+  "createdAt": "2026-05-09",
+  "notes": "Catch-up scheduling for Fashion-is-Art reels present on disk but not yet queued in Buffer. Two per day starting 2026-05-15 in Los Angeles time.",
+  "defaults": {
+    "mediaBaseUrl": "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-delivery",
+    "channels": ["instagram", "facebook"],
+    "hashtags": ["#MetGala", "#FashionIsArt", "#CostumeArt", "#DeviCouture", "#AIFashion", "#Editorial"],
+    "localSlots": ["14:00 America/Los_Angeles", "16:00 America/Los_Angeles"]
+  },
+  "posts": [
+    {
+      "id": "m-fia-r01",
+      "file": "m-fia-r01.mp4",
+      "line": "I am the specimen.",
+      "inspiredBy": "Inspired by Vesalius's De Humani Corporis Fabrica anatomy engravings - created to turn the body into a couture specimen instead of a literal skeleton.",
+      "dueAtUtc": "2026-05-15T21:00:00.000Z",
+      "channels": ["instagram", "facebook"]
+    },
+    {
+      "id": "m-fia-r07",
+      "file": "m-fia-r07.mp4",
+      "line": "Pharaoh, but Devi.",
+      "inspiredBy": "Inspired by Tutankhamun's gold death mask - created to make ancient regalia crack open into a live modern Devi reveal.",
+      "dueAtUtc": "2026-05-15T23:00:00.000Z",
+      "channels": ["instagram", "facebook"]
+    },
+    {
+      "id": "m-fia-r12",
+      "file": "m-fia-r12.mp4",
+      "line": "Marble, but make it move.",
+      "inspiredBy": "Inspired by Ingres's La Source and classical caryatid sculpture - created to make water remember the shape of a gown.",
+      "dueAtUtc": "2026-05-16T21:00:00.000Z",
+      "channels": ["instagram", "facebook"]
+    },
+    {
+      "id": "m-fia-r02",
+      "file": "m-fia-r02.mp4",
+      "line": "Ask the curator.",
+      "inspiredBy": "Inspired by broken Greek marble statues and the Hermes of Praxiteles - created to make museum damage feel alive, funny, and glamorous.",
+      "dueAtUtc": "2026-05-16T23:00:00.000Z",
+      "channels": ["instagram", "facebook"]
+    },
+    {
+      "id": "m-fia-r17",
+      "file": "m-fia-r17.mp4",
+      "line": "Pearl, but newer.",
+      "inspiredBy": "Inspired by Vermeer's Girl with a Pearl Earring - created to turn a single pearl into a whole celestial fashion moment.",
+      "dueAtUtc": "2026-05-17T21:00:00.000Z",
+      "channels": ["instagram", "facebook"]
+    },
+    {
+      "id": "m-fia-r03",
+      "file": "m-fia-r03.mp4",
+      "line": "Inside the circle.",
+      "inspiredBy": "Inspired by Leonardo da Vinci's Vitruvian Man - created to turn proportion, geometry, and anatomy into Devi's own living blueprint.",
+      "dueAtUtc": "2026-05-17T23:00:00.000Z",
+      "channels": ["instagram", "facebook"]
+    },
+    {
+      "id": "m-fia-r22",
+      "file": "m-fia-r22.mp4",
+      "line": "All eyes.",
+      "inspiredBy": "Inspired by Audubon's Birds of America - created to make embroidered plumage break free and become a living couture performance.",
+      "dueAtUtc": "2026-05-18T21:00:00.000Z",
+      "channels": ["instagram", "facebook"]
+    },
+    {
+      "id": "m-fia-r04",
+      "file": "m-fia-r04.mp4",
+      "line": "Gold-plated anatomy.",
+      "inspiredBy": "Inspired by Gustav Klimt's gilded portrait language in Adele Bloch-Bauer I - created to make ornament feel like anatomy under couture.",
+      "dueAtUtc": "2026-05-18T23:00:00.000Z",
+      "channels": ["instagram", "facebook"]
+    },
+    {
+      "id": "m-fia-r27",
+      "file": "m-fia-r27.mp4",
+      "line": "Sit. Stay. Slay.",
+      "inspiredBy": "Inspired by Whistler's Mother - created to make stillness, shadow, and restraint feel uncanny and fully alive.",
+      "dueAtUtc": "2026-05-19T21:00:00.000Z",
+      "channels": ["instagram", "facebook"]
+    },
+    {
+      "id": "m-fia-r05",
+      "file": "m-fia-r05.mp4",
+      "line": "Translucent bones.",
+      "inspiredBy": "Inspired by NASA and Smithsonian X-ray imagery - created to make the dress feel like a living scan that reveals light instead of bone.",
+      "dueAtUtc": "2026-05-19T23:00:00.000Z",
+      "channels": ["instagram", "facebook"]
+    },
+    {
+      "id": "m-fia-r32",
+      "file": "m-fia-r32.mp4",
+      "line": "Welcome to the garden.",
+      "inspiredBy": "Inspired by Bosch's Garden of Earthly Delights - created to turn surreal garden life into Devi's own high-fashion parade.",
+      "dueAtUtc": "2026-05-20T21:00:00.000Z",
+      "channels": ["instagram", "facebook"]
+    },
+    {
+      "id": "m-fia-r37",
+      "file": "m-fia-r37.mp4",
+      "line": "Cobalt hour.",
+      "inspiredBy": "Inspired by Picasso's Blue Period - created to let Devi step in and out of a painting without losing her glamour.",
+      "dueAtUtc": "2026-05-20T23:00:00.000Z",
+      "channels": ["instagram", "facebook"]
+    }
+  ]
+}
