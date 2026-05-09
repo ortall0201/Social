@@ -1,0 +1,118 @@
+{
+  "series": "met-gala-fashion-is-art-2026-05-review-la",
+  "timezone": "America/Los_Angeles",
+  "createdAt": "2026-05-09",
+  "notes": "Additional Buffer scheduling for newly generated Fashion-is-Art reels. 2/day in Los Angeles time starting 2026-05-09, appended to existing queue.",
+  "defaults": {
+    "mediaBaseUrl": "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-delivery",
+    "channels": ["instagram", "facebook"],
+    "hashtags": ["#MetGala", "#FashionIsArt", "#CostumeArt", "#DeviCouture", "#AIFashion", "#Editorial"],
+    "localSlots": ["11:30 America/Los_Angeles", "14:00 America/Los_Angeles"]
+  },
+  "posts": [
+    {
+      "id": "m-fia-r41",
+      "file": "m-fia-r41.mp4",
+      "line": "Beauty doesn't expire.",
+      "inspiredBy": "Inspired by Giovanni Boldini's Marchesa Luisa Casati portrait and Helen Dryden's vintage cover archive — created to turn glamour, time, and reinvention into a Hollywood phone-booth fantasy.",
+      "dueAtUtc": "2026-05-09T18:30:00.000Z",
+      "channels": ["instagram", "facebook"]
+    },
+    {
+      "id": "m-fia-r42",
+      "file": "m-fia-r42.mp4",
+      "line": "Movement is the art.",
+      "inspiredBy": "Inspired by Loie Fuller's serpentine-dance imagery — created to make fabric itself feel alive, cinematic, and couture.",
+      "dueAtUtc": "2026-05-09T21:00:00.000Z",
+      "channels": ["instagram", "facebook"]
+    },
+    {
+      "id": "m-fia-r43",
+      "file": "m-fia-r43.mp4",
+      "line": "Theatre, by Devi.",
+      "inspiredBy": "Inspired by Leon Bakst's Ballets Russes stage worlds — created to turn costume, curtain, and performance into one surreal fashion tableau.",
+      "dueAtUtc": "2026-05-10T18:30:00.000Z",
+      "channels": ["instagram", "facebook"]
+    },
+    {
+      "id": "m-fia-r45",
+      "file": "m-fia-r45.mp4",
+      "line": "I am the screen.",
+      "inspiredBy": "Inspired by Madeleine Vionnet's bias-cut elegance and silent-cinema projection — created to make light and memory behave like fabric.",
+      "dueAtUtc": "2026-05-10T21:00:00.000Z",
+      "channels": ["instagram", "facebook"]
+    },
+    {
+      "id": "m-fia-r46",
+      "file": "m-fia-r46.mp4",
+      "line": "Wear the room.",
+      "inspiredBy": "Inspired by Parisian surrealist object-flip fashion and Atget's shop-window mood — created to make the room itself perform couture.",
+      "dueAtUtc": "2026-05-11T18:30:00.000Z",
+      "channels": ["instagram", "facebook"]
+    },
+    {
+      "id": "m-fia-r16",
+      "file": "m-fia-r16.mp4",
+      "line": "Survives the wave.",
+      "inspiredBy": "Inspired by Hokusai's Great Wave — created to let a painting break into reality while Devi stays perfectly composed inside it.",
+      "dueAtUtc": "2026-05-11T21:00:00.000Z",
+      "channels": ["instagram", "facebook"]
+    },
+    {
+      "id": "m-fia-r06",
+      "file": "m-fia-r06.mp4",
+      "line": "All surface, all gold.",
+      "inspiredBy": "Inspired by Klimt's gold-mosaic language — created to make ornament detach, halo her, and choose her in motion.",
+      "dueAtUtc": "2026-05-12T18:30:00.000Z",
+      "channels": ["instagram", "facebook"]
+    },
+    {
+      "id": "m-fia-r21",
+      "file": "m-fia-r21.mp4",
+      "line": "She blooms loud.",
+      "inspiredBy": "Inspired by Georgia O'Keeffe's Black Iris — created to make the dress feel like a living flower opening and breathing on camera.",
+      "dueAtUtc": "2026-05-12T21:00:00.000Z",
+      "channels": ["instagram", "facebook"]
+    },
+    {
+      "id": "m-fia-r11",
+      "file": "m-fia-r11.mp4",
+      "line": "Born from the shell.",
+      "inspiredBy": "Inspired by Botticelli's Birth of Venus — created to turn arrival, pearl-dust, and shell mythology into a playful Devi reveal.",
+      "dueAtUtc": "2026-05-13T18:30:00.000Z",
+      "channels": ["instagram", "facebook"]
+    },
+    {
+      "id": "m-fia-r31",
+      "file": "m-fia-r31.mp4",
+      "line": "I brought my shadow.",
+      "inspiredBy": "Inspired by Giorgio de Chirico's empty plazas and impossible shadows — created to give Devi's silhouette a life of its own.",
+      "dueAtUtc": "2026-05-13T21:00:00.000Z",
+      "channels": ["instagram", "facebook"]
+    },
+    {
+      "id": "m-fia-r26",
+      "file": "m-fia-r26.mp4",
+      "line": "Madame Devi.",
+      "inspiredBy": "Inspired by Sargent's Madame X — created to turn the scandal of the falling strap into Devi signing the scene herself.",
+      "dueAtUtc": "2026-05-14T18:30:00.000Z",
+      "channels": ["instagram", "facebook"]
+    },
+    {
+      "id": "m-fia-r36",
+      "file": "m-fia-r36.mp4",
+      "line": "Worth its weight.",
+      "inspiredBy": "Inspired by Vermeer's Girl with a Pearl Earring and Yves-Klein-blue color drama — created to make a single drop repaint the whole look.",
+      "dueAtUtc": "2026-05-14T21:00:00.000Z",
+      "channels": ["instagram", "facebook"]
+    },
+    {
+      "id": "m-fia-r44",
+      "file": "m-fia-r44.mp4",
+      "line": "Off the page.",
+      "inspiredBy": "Inspired by Helen Dryden's early magazine-cover illustrations — created to imagine a fashion image stepping out of print and into the room.",
+      "dueAtUtc": "2026-05-15T18:30:00.000Z",
+      "channels": ["instagram", "facebook"]
+    }
+  ]
+}
