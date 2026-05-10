@@ -1,0 +1,23 @@
+{
+  "series": "iris-bts-met-gala-fashion-is-art-2026-05-review",
+  "timezone": "America/Los_Angeles",
+  "createdAt": "2026-05-10",
+  "notes": "One-off BTS add-on post for the corrected r41 reel. Schedule live only after media is public and caption is validated.",
+  "defaults": {
+    "mediaBaseUrl": "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-delivery",
+    "channels": ["instagram"],
+    "hashtags": ["#MetGala", "#FashionIsArt", "#Devi", "#IrisBTS", "#AIFashion"],
+    "localSlots": ["16:30 America/Los_Angeles"]
+  },
+  "posts": [
+    {
+      "id": "m-fia-r41-bts",
+      "file": "m-fia-r41-bts.mp4",
+      "line": "She aged. Iris panicked.",
+      "inspiredBy": "Inspired by Giovanni Boldini's Marchesa Casati glamour, Helen Dryden's vintage cover mood, and our own Fashion-is-Art r41 phone-booth time-warp reel — created to give Iris a same-scene Hollywood reaction instead of a separate backstage world.",
+      "caption": "She aged. Iris panicked.\n\nInspired by Giovanni Boldini's Marchesa Casati glamour, Helen Dryden's vintage cover mood, and our own Fashion-is-Art r41 phone-booth time-warp reel — created to give Iris a same-scene Hollywood reaction instead of a separate backstage world.\n\n#MetGala #FashionIsArt #Devi #IrisBTS #AIFashion",
+      "dueAtUtc": "2026-05-10T23:30:00.000Z",
+      "channels": ["instagram"]
+    }
+  ]
+}
