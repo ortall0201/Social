@@ -27,23 +27,31 @@ $manifest = Get-Content -LiteralPath $manifestPath -Raw | ConvertFrom-Json
 $queueScript = Join-Path $repoRoot "scripts\buffer-queue-video-post.ps1"
 if (-not (Test-Path -LiteralPath $queueScript)) { throw "Missing $queueScript" }
 
-$baseUrl = $manifest.mediaBaseUrl.TrimEnd("/")
+function ConvertTo-LinkedInBufferText {
+    param([string]$Text)
+    $t = $Text -replace '\*\*', '' -replace [char]0x2014, '-' -replace '—', '-' -replace '·', ','
+    return $t.Trim()
+}
+
+# Raw GitHub — jsDelivr returns 403 on large MP4s in this repo.
+$baseUrl = "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/reels/agentic-era"
 $v = [DateTimeOffset]::UtcNow.ToUnixTimeMilliseconds()
 $start = [DateTimeOffset]::Parse("${StartDateUtc}T00:00:00Z")
 
-# Interleave T_C_T_C_T_C_T_T — tactical 08:00Z, comic 19:00Z
-$day = 0
+# Interleave T_C_T_C_T_C_T_T — tactical 08:00Z, comic 19:00Z (last slot extra T next morning)
+$slotDay = @(0, 0, 1, 1, 2, 2, 3, 4)
+$idx = 0
 $results = @()
 
 foreach ($post in @($manifest.posts | Sort-Object { [int]$_.queueSlot })) {
     $track = "$($post.track)".ToLowerInvariant()
     $hour = if ($track -eq "blue-comic") { 19 } else { 8 }
-    $due = $start.AddDays($day).AddHours($hour).ToString("yyyy-MM-ddTHH:mm:ss.fffZ")
-    if ($track -eq "blue-comic") { $day++ }
+    $due = $start.AddDays($slotDay[$idx]).AddHours($hour).ToString("yyyy-MM-ddTHH:mm:ss.fffZ")
+    $idx++
 
     $slug = $post.slug
     $videoUrl = "{0}/{1}/{2}?v={3}" -f $baseUrl, $slug, $manifest.videoFile, $v
-    $text = [string]$post.text
+    $text = ConvertTo-LinkedInBufferText ([string]$post.text)
     if (-not $text.Trim()) { throw "Empty text for $slug" }
 
     if ($DryRun) {
@@ -58,7 +66,8 @@ foreach ($post in @($manifest.posts | Sort-Object { [int]$_.queueSlot })) {
         -Text $text `
         -VideoUrl $videoUrl `
         -DueAt $due `
-        -SkipCaptionGate
+        -SkipCaptionGate `
+        -UseStableCdnForGithub $false
     $parsed = $json | ConvertFrom-Json
     $results += [pscustomobject]@{
         slug = $slug

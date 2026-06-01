@@ -1,0 +1,58 @@
+﻿[
+    {
+        "slug":  "ortal-agentic-taste-score",
+        "queueSlot":  80,
+        "dueAt":  "2026-06-09T08:00:00.000Z",
+        "bufferPostId":  "6a1db4add698c4c36a07a1ed",
+        "videoUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/reels/agentic-era/ortal-agentic-taste-score/feed-reel-v1.mp4?v=1780331693290"
+    },
+    {
+        "slug":  "ortal-agentic-comic-creepy-gate",
+        "queueSlot":  81,
+        "dueAt":  "2026-06-09T19:00:00.000Z",
+        "bufferPostId":  "6a1db4b112cf35e18d0a878d",
+        "videoUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/reels/agentic-era/ortal-agentic-comic-creepy-gate/feed-reel-v1.mp4?v=1780331693290"
+    },
+    {
+        "slug":  "ortal-agentic-kill-mechanisms",
+        "queueSlot":  82,
+        "dueAt":  "2026-06-10T08:00:00.000Z",
+        "bufferPostId":  "6a1db4b4ada8655241abbec1",
+        "videoUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/reels/agentic-era/ortal-agentic-kill-mechanisms/feed-reel-v1.mp4?v=1780331693290"
+    },
+    {
+        "slug":  "ortal-agentic-comic-no-typography",
+        "queueSlot":  83,
+        "dueAt":  "2026-06-10T19:00:00.000Z",
+        "bufferPostId":  "6a1db4b86e4ae9412b36b913",
+        "videoUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/reels/agentic-era/ortal-agentic-comic-no-typography/feed-reel-v1.mp4?v=1780331693290"
+    },
+    {
+        "slug":  "ortal-agentic-shared-axis",
+        "queueSlot":  84,
+        "dueAt":  "2026-06-11T08:00:00.000Z",
+        "bufferPostId":  "6a1db4bcac46e13429314008",
+        "videoUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/reels/agentic-era/ortal-agentic-shared-axis/feed-reel-v1.mp4?v=1780331693290"
+    },
+    {
+        "slug":  "ortal-agentic-comic-repo-not-chat",
+        "queueSlot":  85,
+        "dueAt":  "2026-06-11T19:00:00.000Z",
+        "bufferPostId":  "6a1db4c0ada8655241abbefb",
+        "videoUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/reels/agentic-era/ortal-agentic-comic-repo-not-chat/feed-reel-v1.mp4?v=1780331693290"
+    },
+    {
+        "slug":  "ortal-agentic-one-element",
+        "queueSlot":  86,
+        "dueAt":  "2026-06-12T08:00:00.000Z",
+        "bufferPostId":  "6a1db4c3d698c4c36a07a275",
+        "videoUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/reels/agentic-era/ortal-agentic-one-element/feed-reel-v1.mp4?v=1780331693290"
+    },
+    {
+        "slug":  "ortal-agentic-no-brief-no-ship",
+        "queueSlot":  87,
+        "dueAt":  "2026-06-13T08:00:00.000Z",
+        "bufferPostId":  "6a1db4c7d698c4c36a07a29e",
+        "videoUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-linkedin/reels/agentic-era/ortal-agentic-no-brief-no-ship/feed-reel-v1.mp4?v=1780331693290"
+    }
+]
