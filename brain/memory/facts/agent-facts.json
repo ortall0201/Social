@@ -1,0 +1,103 @@
+{
+  "facts": [
+    {
+      "id": "devi-audience-consumption-mobile-reels",
+      "fact": "Devi audience discovers on phone via Reels tab first (~58-68% historical reel views). Stories retain and drive DM traffic but rarely acquire cold audience. Frame 0 must read on a 6-inch vertical scroll.",
+      "source": "brain/insights.md reel view sources; brain/devi-audience-creative-memory-canon.md",
+      "timestamp": "2026-05-31",
+      "confidence": "high",
+      "scope": "all-events",
+      "tags": ["audience-memory", "mobile-first", "reels-tab", "consumption-model"]
+    },
+    {
+      "id": "devi-audience-feedback-signals",
+      "fact": "Audience feedback is behavioral: skip badge = stop/stay; likes = star-moment/prop/motion; shares often ~0 unless social object; net followers = L1 follow conversion. Never treat account views as per-reel success.",
+      "source": "brain/insights.md; brain/devi-audience-creative-memory-canon.md",
+      "timestamp": "2026-05-31",
+      "confidence": "high",
+      "scope": "all-events",
+      "tags": ["audience-memory", "content-digestion", "layer-split", "skip-badge"]
+    },
+    {
+      "id": "devi-cross-event-no-blank-slate",
+      "fact": "New events (Cannes, Oscars, Coachella, etc.) must load past event lessons via event-lessons-index.json and library anchors (White Luxe, three-word period) before event-specific concept work. FIA lessons transfer to all editorial concept-transfer packs.",
+      "source": "brain/devi-audience-creative-memory-canon.md; brain/memory/facts/event-lessons-index.json",
+      "timestamp": "2026-05-31",
+      "confidence": "high",
+      "scope": "all-events",
+      "tags": ["audience-memory", "cross-event", "creative-memory", "interleave-proven-hooks"]
+    },
+    {
+      "id": "devi-audience-timing-window",
+      "fact": "Historical peak activity Sunday 6-9am PST (PKT evening). Operator posting default 22:00 IL ≈ 12:00 PDT is acceptable. Cadence spikes on publish day — gap hurts more than imperfect hour.",
+      "source": "brain/insights.md Audience section",
+      "timestamp": "2026-05-31",
+      "confidence": "medium",
+      "scope": "scheduling",
+      "tags": ["audience-memory", "posting-timing"]
+    },
+    {
+      "id": "iris-retention-2026-05-31-layer-split",
+      "fact": "Account-level reel views can rise 3-4x while individual reel skip badges stay 7-10/10. Distribution success does not prove retention success. Split L1 distribution from L2 stop/stay before scaling. Applies to every event pack.",
+      "source": "brain/insights.md Weekly Audit 2026-05-31",
+      "timestamp": "2026-05-31",
+      "confidence": "high",
+      "scope": "all-events",
+      "tags": ["content-digestion", "layer-split", "skip-badge", "cross-event"]
+    },
+    {
+      "id": "iris-retention-2026-05-31-caption-bloat",
+      "fact": "Feed caption = one staccato line only. Never append art-history or Inspired-by explainers on feed — mobile scroll context; move to pinned comment or Story. Proven on FIA; rule is event-agnostic.",
+      "source": "buffer-schedule-results-2026-05-15-20-missing-reels.json; brain/devi-caption-publish-gate-canon.md",
+      "timestamp": "2026-05-31",
+      "confidence": "high",
+      "scope": "all-events",
+      "tags": ["caption-bloat", "buffer-api", "mobile-first", "cross-event"]
+    },
+    {
+      "id": "iris-retention-2026-05-31-hook-wow-tension",
+      "fact": "Multi-stage WOW cannot open with classical tableau. STAGE-0 hook (frame 0-0.8s face/prop/peak motion) required on ALL editorial and viral reels before concept setup.",
+      "source": "brain/devi-wow-twist-canon.md STAGE 0; FIA case evidence",
+      "timestamp": "2026-05-31",
+      "confidence": "high",
+      "scope": "all-events",
+      "tags": ["hook-wow-tension", "hook-first-wow", "wow-multi-stage", "cross-event"]
+    },
+    {
+      "id": "iris-retention-2026-05-31-scale-gate",
+      "fact": "Do not scale batch N+1 on new archetype until batch N clears skip <=6/10 at 72h or Trial regen approved. Event-agnostic gate.",
+      "source": "brain/iris-content-digestion-canon.md",
+      "timestamp": "2026-05-31",
+      "confidence": "high",
+      "scope": "all-events",
+      "tags": ["scale-gate", "trial-candidate", "cross-event"]
+    },
+    {
+      "id": "iris-retention-2026-05-31-positive-contrast",
+      "fact": "Object/material clarity in frame 0 predicts skip better than mood tableau across editorial packs. Interleave 1 proven hook reel per ~3 experimental slots.",
+      "source": "FIA batch contrast; brain/hook-templates-devi.md",
+      "timestamp": "2026-05-31",
+      "confidence": "medium",
+      "scope": "all-events",
+      "tags": ["positive-contrast", "hook-templates", "interleave-proven-hooks", "object-lane"]
+    },
+    {
+      "id": "ortal-linkedin-agentic-era-2026-06-01-live",
+      "fact": "Ortal LinkedIn Agentic Era batch LIVE: 8 native-video posts diss-the-takeout voice; Iris as creative taste recommender for Devi; one post/day 2026-06-01 to 2026-06-08 UTC; FIA artistic reels r41,r43,r21,r45,r42,r46,r05,r06; CTA roast agent output in comments; canon brain/ortal-linkedin-agentic-era-canon.md; manifest buffer-linkedin/queue/2026-06-01-ortal-agentic-era-eight.json",
+      "source": "brain/memory/session-summaries/2026-06-01-ortal-agentic-era-diss-takeout-buffer.md",
+      "timestamp": "2026-06-01",
+      "confidence": "high",
+      "scope": "ortal-linkedin",
+      "tags": ["ortal", "linkedin", "iris", "buffer", "agentic-era", "diss-takeout"]
+    },
+    {
+      "id": "ortal-linkedin-bisociation-eleven-2026-06-02-live",
+      "fact": "Ortal LinkedIn Bisociation series LIVE: 11 native-video posts after Agentic Era; Jun 9-19 2026 one/day 19:00 UTC; parts 1-4 FIA r12,r11,r21,r32; parts 5-11 scene-morph v2 sm-02,03,04,05,07,08,10; CTA FIELD; voice Koestler+Iris reveal no em-dash; push buffer-linkedin/reels/bisociation-collisions before schedule; canon brain/ortal-linkedin-bisociation-operations-canon.md",
+      "source": "brain/memory/session-summaries/2026-06-02-ortal-bisociation-eleven-buffer.md",
+      "timestamp": "2026-06-02",
+      "confidence": "high",
+      "scope": "ortal-linkedin",
+      "tags": ["ortal", "linkedin", "iris", "buffer", "bisociation", "FIELD-cta", "scene-morph-v2"]
+    }
+  ]
+}
