@@ -1,0 +1,19 @@
+{
+  "seriesId": "ortal-bisociation-eleven",
+  "scheduledAt": "2026-06-02T12:24:00Z",
+  "cadence": "one post per day, 19:00 UTC",
+  "startsAfter": "ortal-agentic-era-eight (last dueAt 2026-06-08T08:00:00.000Z)",
+  "posts": [
+    { "seriesPart": 1, "dueAt": "2026-06-09T19:00:00.000Z", "reelId": "m-fia-r12", "slug": "ortal-bisociation-r12-marble-move", "bufferPostId": "6a1ea1349e2639e8b6388970" },
+    { "seriesPart": 2, "dueAt": "2026-06-10T19:00:00.000Z", "reelId": "m-fia-r11", "slug": "ortal-bisociation-r11-born-shell", "bufferPostId": "6a1ea1375d30126a916abc49" },
+    { "seriesPart": 3, "dueAt": "2026-06-11T19:00:00.000Z", "reelId": "m-fia-r21", "slug": "ortal-bisociation-r21-she-blooms", "bufferPostId": "6a1ea13a989845b8906b0efb" },
+    { "seriesPart": 4, "dueAt": "2026-06-12T19:00:00.000Z", "reelId": "m-fia-r32", "slug": "ortal-bisociation-r32-welcome-garden", "bufferPostId": "6a1ea13da5a91776fcc3abaf" },
+    { "seriesPart": 5, "dueAt": "2026-06-13T19:00:00.000Z", "reelId": "m-fia-sm-02-v2", "slug": "ortal-bisociation-sm02v2-lily-cube-column", "bufferPostId": "6a1ea144a5a91776fcc3abd2" },
+    { "seriesPart": 6, "dueAt": "2026-06-14T19:00:00.000Z", "reelId": "m-fia-sm-03-v2", "slug": "ortal-bisociation-sm03v2-ice-light-silver", "bufferPostId": "6a1ea1474c9b0f9a2cee42b3" },
+    { "seriesPart": 7, "dueAt": "2026-06-15T19:00:00.000Z", "reelId": "m-fia-sm-04-v2", "slug": "ortal-bisociation-sm04v2-bauhaus-opera", "bufferPostId": "6a1ea14a9e2639e8b63889f0" },
+    { "seriesPart": 8, "dueAt": "2026-06-16T19:00:00.000Z", "reelId": "m-fia-sm-05-v2", "slug": "ortal-bisociation-sm05v2-ruins-canvas-points", "bufferPostId": "6a1ea14d9e2639e8b6388a19" },
+    { "seriesPart": 9, "dueAt": "2026-06-17T19:00:00.000Z", "reelId": "m-fia-sm-07-v2", "slug": "ortal-bisociation-sm07v2-sky-rio-blue", "bufferPostId": "6a1ea14fa5a91776fcc3ac19" },
+    { "seriesPart": 10, "dueAt": "2026-06-18T19:00:00.000Z", "reelId": "m-fia-sm-08-v2", "slug": "ortal-bisociation-sm08v2-balcony-riad-bloom", "bufferPostId": "6a1ea152989845b8906b0f34" },
+    { "seriesPart": 11, "dueAt": "2026-06-19T19:00:00.000Z", "reelId": "m-fia-sm-10-v2", "slug": "ortal-bisociation-sm10v2-gallery-aurora", "bufferPostId": "6a1ea1555d30126a916abcfa" }
+  ]
+}
