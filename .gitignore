@@ -48,6 +48,12 @@ skills/
 # Temp ADB frames (local only)
 tmp_frames/
 
+# Audit-evidence reference photos downloaded for human side-by-side review.
+# These are third-party press images (Vogue / Marie Claire / Hearst / Future) used
+# under fair-use audit/criticism and must NEVER be passed as image_input to any
+# generative model (PM #4 banned-visual-input rule, brain/devi-fashion-tryon-legal-creative-guardrails.md).
+tmp/met-gala-evidence-*/
+
 # Python scripts (local only)
 *.py
 
@@ -116,6 +122,13 @@ local-secrets/*
 !devi-identity/images/devi-face-primary.png
 !docs/agents/assets/ortal-gijane-supergirl-persona-reference.png
 !tools/iris-storyteller/character/iris-character-primary.jpg
+
+# devi-identity subfolders for devisignals.com
+!devi-identity/images/**
+!devi-identity/newsletter-images/**
+!devi-identity/newsletter-video/**
+!devi-identity/blog-featured-images/**
+!devi-identity/product images for affiliates/**
 
 # Real local URL/config values should not be committed; keep examples only.
 buffer-linkedin/MEDIA_BASE_URL.txt
