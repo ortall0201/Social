@@ -8,7 +8,7 @@
 
 **Iris north-star (2026-06-01):** **`brain/iris-event-to-viral-content-agent.md`** — event-to-viral-content agent. For any event/moment/trend: cultural sentence → event grammar → shared axis → collision → Commercial Devi beats — **not** "what should Devi wear?" first.
 
-**FIA scene-morph v2 batch (10 reels — NAILED IT 2026-06-02):** **`brain/devi-repeat-mechanisms-menu.md`** ← **load for next batch** · mechanism canon **`brain/devi-scene-morph-mechanisms.md`** · brief **`contenty/briefs/fia-scene-morph-batch-10-2026-06-brief.md`** · **9/10** Buffer scheduled (slot **09** pending credit) · gen **`tools/generate-fia-scene-morph-slot.ps1`**. Keywords: **`mechanisms`** · **`repeat batch`**.
+**FIA scene-morph v2 batch (10 reels — NAILED IT 2026-06-02):** **`brain/devi-repeat-mechanisms-menu.md`** ← **load for next batch** · **`deploy-devi-compose` (#8)** ← meta/BTS compose on approved jump-land · mechanism canon **`brain/devi-deploy-devi-mechanism.md`** · **`brain/devi-scene-morph-mechanisms.md`** · brief **`contenty/briefs/fia-scene-morph-batch-10-2026-06-brief.md`** · **9/10** Buffer scheduled (slot **09** pending credit) · gen **`tools/generate-fia-scene-morph-slot.ps1`**. Keywords: **`mechanisms`** · **`repeat batch`** · **`deploy devi`**.
 
 **FIA scene-flash batch (15 reels — LIVE):** **`contenty/briefs/fia-scene-flash-batch-30-2026-06-brief.md`** · scheduled Jun 3–17 2026 · menu **#2** in repeat-mechanisms menu.
 

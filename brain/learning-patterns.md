@@ -609,6 +609,7 @@ FIA lessons apply to **all** future events — load `brain/devi-audience-creativ
 ### Confirmed patterns (keep doing)
 
 - **Compose on approved footage** — reuse operator sm-06 jump-land (fall/yacht/shore); do not regen Devi middle for contest variants.
+- **`deploy-devi-compose` mechanism** — glam + real clicks + IG crawl + Iris café BTS; canon `brain/devi-deploy-devi-mechanism.md` · menu #8.
 - **Real click inserts** — generated nail-polish trackpad clips between beats; hard cuts, no black placeholders.
 - **IG notification crawl overlays** — CapCut-style business hints (DM sent, scheduled) on yacht/shore beats.
 - **Iris BTS café + smoke payoff** — `iris-bts-persona-primary` (not cozy reader ref); operator praised this ending.

@@ -5,7 +5,7 @@
   "assetPath": "devi-feed/buffer-reels-fia-scene-morph-contest-manychat-2026-06/m-manychat-myrealjob-v5c.mp4",
   "concept": "Manychat #MyRealJob — sm-06 fall/yacht/shore + generated click inserts + IG notification crawl + Iris café BTS + smoke + 💅 sticker slide payoff",
   "experimentId": "exp-2026-manychat-myrealjob-v5c",
-  "mechanism": "compose-on-approved-footage + jump-land sm-06 + iris-bts-reveal",
+  "mechanism": "deploy-devi-compose",
   "pipeline": "contest-one-off",
   "scores": {
     "hook": 4,
