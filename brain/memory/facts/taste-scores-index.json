@@ -1,0 +1,45 @@
+{
+  "updatedAt": "2026-06-12T23:45:00Z",
+  "scores": [
+    {
+      "slug": "2026-06-12-manychat-myrealjob-v5c",
+      "asset": "m-manychat-myrealjob-v5c",
+      "path": "brain/memory/taste-scores/2026-06-12-manychat-myrealjob-v5c.taste-score.json",
+      "verdict": "repeat mechanism",
+      "experimentId": "exp-2026-manychat-myrealjob-v5c",
+      "tags": ["manychat", "contest", "compose-only", "iris-bts", "repeat-mechanism"]
+    },
+    {
+      "slug": "2026-06-12-manychat-myrealjob-v4b",
+      "asset": "m-manychat-myrealjob-v4b",
+      "path": "brain/memory/taste-scores/2026-06-12-manychat-myrealjob-v4b.taste-score.json",
+      "verdict": "kill mechanism",
+      "experimentId": "exp-2026-manychat-myrealjob-contest-v4b-pool-shift",
+      "tags": ["manychat", "contest", "pool-shift", "kill-mechanism"]
+    },
+    {
+      "slug": "2026-06-12-manychat-myrealjob-v1",
+      "asset": "m-manychat-myrealjob-v1",
+      "path": "brain/memory/taste-scores/2026-06-12-manychat-myrealjob-v1.taste-score.json",
+      "verdict": "kill mechanism",
+      "experimentId": "exp-2026-manychat-myrealjob-contest-v1",
+      "tags": ["manychat", "contest", "jump-land", "kill-mechanism", "high-cringe"]
+    },
+    {
+      "slug": "2026-06-01-fia-parody-t3-limo-flash-v8",
+      "asset": "m-fia-parody-t3-limo-flash",
+      "path": "brain/memory/taste-scores/2026-06-01-fia-parody-t3-limo-flash-v8.taste-score.json",
+      "verdict": "repeat mechanism",
+      "experimentId": "exp-2026-fia-scene-flash-batch-v1",
+      "tags": ["scene-flash", "on-the-go", "shareability-5", "batch-30"]
+    },
+    {
+      "slug": "2026-06-01-fia-parody-t3-limo-flash-v5",
+      "asset": "m-fia-parody-t3-limo-flash",
+      "path": "brain/memory/taste-scores/2026-06-01-fia-parody-t3-limo-flash-v5.taste-score.json",
+      "verdict": "repeat mechanism",
+      "experimentId": "exp-2026-fia-parody-v1",
+      "tags": ["light-is-art", "flash-swap", "t3-limo-flash"]
+    }
+  ]
+}

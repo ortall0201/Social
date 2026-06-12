@@ -1,30 +1,24 @@
 ﻿{
-    "series":  "manychat-myrealjob-contest-2026-06",
-    "experimentId":  "exp-2026-manychat-myrealjob-v5c",
-    "timezone":  "UTC",
-    "createdAt":  "2026-06-12",
-    "status":  "APPROVED ג€” contest submit v5c",
-    "brief":  "contenty/briefs/manychat-deploy-devi-v5-storyboard-2026-06.md",
-    "notes":  "Manychat Times Square contest. Reel opens IT\u0027S נ’… NOT A REAL JOB; ends sticker slide to IT\u0027S A REAL JOB. Tag @Manychat #MyRealJob. Submit reel URL at manychat.com/timessquare after publish.",
-    "defaults":  {
-                     "mediaBaseUrl":  "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-delivery",
-                     "channels":  [
-                                      "instagram"
-                                  ],
-                     "hashtags":  [
-                                      "#MyRealJob"
-                                  ]
-                 },
-    "posts":  [
-                  {
-                      "id":  "m-manychat-myrealjob-v5c",
-                      "file":  "m-manychat-myrealjob-v5c.mp4",
-                      "caption":  "IT\u0027S נ’… NOT A REAL JOBג€¦\n\nShe falls. She yachts. She lands.\nTwo clicks. Someone\u0027s still at the keyboard.\n\nDevi is the lifestyle.\nIris is the system.\n\n@Manychat",
-                      "channels":  [
-                                       "instagram"
-                                   ],
-                      "dueAtUtc":  "2026-06-12T20:41:03.233Z",
-                      "contestForm":  "https://manychat.com/timessquare"
-                  }
-              ]
+  "series": "manychat-myrealjob-contest-2026-06",
+  "experimentId": "exp-2026-manychat-myrealjob-v5c",
+  "timezone": "UTC",
+  "createdAt": "2026-06-12",
+  "status": "SUBMITTED - Buffer scheduled 2026-06-12",
+  "brief": "contenty/briefs/manychat-deploy-devi-v5-storyboard-2026-06.md",
+  "notes": "Manychat Times Square contest. Reel opens IT'S NOT A REAL JOB with nail emoji censor; ends sticker slide to IT'S A REAL JOB. Tag @Manychat #MyRealJob. Submit reel URL at manychat.com/timessquare after publish.",
+  "defaults": {
+    "mediaBaseUrl": "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-delivery",
+    "channels": ["instagram"],
+    "hashtags": ["#MyRealJob"]
+  },
+  "posts": [
+    {
+      "id": "m-manychat-myrealjob-v5c",
+      "file": "m-manychat-myrealjob-v5c.mp4",
+      "caption": "IT'S NOT A REAL JOB… Building an AI influencer with real DMs, schedules, and clicks. That's the job. @Manychat",
+      "channels": ["instagram"],
+      "dueAtUtc": "2026-06-12T20:45:00.000Z",
+      "contestForm": "https://manychat.com/timessquare"
+    }
+  ]
 }

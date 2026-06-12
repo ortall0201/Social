@@ -2,9 +2,9 @@
 
 **Living priorities:** `brain/current-focus.md`
 
-**Where we left off (2026-06-02):** **Ortal LinkedIn Bisociation eleven** LIVE in Buffer (Jun 9–19, after Agentic Era). Iris showcase: Koestler + FIELD CTA + FIA/scene-morph v2 reels. Canon: `brain/ortal-linkedin-bisociation-operations-canon.md`. **Devi IG:** scene-morph v2 batch operator-nailed; repeat via `brain/devi-repeat-mechanisms-menu.md`. **Next:** Buffer pin comments (Ortal); FIELD comment harvest for Iris briefs.
+**Where we left off (2026-06-12):** **Manychat #MyRealJob contest v5c** submitted — Buffer IG post `6a2c6c59768f4d60d56793b8` (compose on sm-06 + Iris BTS + 💅 payoff). **Ops:** confirm caption in Buffer · after live submit reel URL at manychat.com/timessquare. Session: `brain/memory/session-summaries/2026-06-12-manychat-myrealjob-contest-v5c.md`.
 
-**Last updated:** 2026-06-02
+**Last updated:** 2026-06-12
 
 ---
 

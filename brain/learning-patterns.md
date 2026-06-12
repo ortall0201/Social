@@ -600,4 +600,47 @@ FIA lessons apply to **all** future events — load `brain/devi-audience-creativ
 
 ---
 
+## 2026-06-12 — Manychat #MyRealJob contest (PERSIST)
+
+**Source:** Operator session — Times Square billboard contest · v5c approved submit.  
+**Canon asset:** `devi-feed/buffer-reels-fia-scene-morph-contest-manychat-2026-06/m-manychat-myrealjob-v5c.mp4`  
+**Taste score:** `brain/memory/taste-scores/2026-06-12-manychat-myrealjob-v5c.taste-score.json` · **repeat mechanism**
+
+### Confirmed patterns (keep doing)
+
+- **Compose on approved footage** — reuse operator sm-06 jump-land (fall/yacht/shore); do not regen Devi middle for contest variants.
+- **Real click inserts** — generated nail-polish trackpad clips between beats; hard cuts, no black placeholders.
+- **IG notification crawl overlays** — CapCut-style business hints (DM sent, scheduled) on yacht/shore beats.
+- **Iris BTS café + smoke payoff** — `iris-bts-persona-primary` (not cozy reader ref); operator praised this ending.
+- **Contest hook in video** — 💅 censor on NOT + sticker slide → IT'S A REAL JOB; caption confirms, does not re-storyboard.
+
+### Anti-patterns (stop / watch)
+
+- **`contest-typography-only`** — full-screen stacked type reels without Devi story (v1 killed).
+- **`contest-regen-approved-middle`** — regen sm-06 segments when operator reel exists (v5 wrong).
+- **`wrong-iris-persona-ref`** — `iris-character-primary.jpg` for BTS director beats.
+- **`black-click-placeholder`** — never ship black frames between scenes.
+- **`buffer-caption-gate-skip`** — multi-line caption before hashtags fails `Test-DeviFeedCaption`; contest posts still need one-line hook.
+- **`schedule-before-caption-approval`** — do not queue contest/special posts with placeholder caption; operator picks caption first.
+- **`buffer-404-no-push`** — `git push` `buffer-delivery/` mp4 before Buffer schedule; verify raw/jsDelivr 200.
+
+### Caption vocabulary (contest)
+
+- **Use:** real DMs, real schedules, real clicks, real operator, someone at the keyboard, Devi glam / Iris ops.
+- **Avoid in feed caption:** super agent, hybrid memory, stack architecture (save for LinkedIn / pinned comment if needed).
+- **Required tags:** `@Manychat` + `#MyRealJob` · open with **IT'S NOT A REAL JOB** in caption too.
+
+### Submit checklist (next contest / one-off)
+
+1. Operator approves final mp4 + **caption** (one line + hashtag block).  
+2. Copy mp4 → `buffer-delivery/` · `git add -f` · push · verify HTTPS 200.  
+3. Run `validate-manychat-contest-manifest-and-media.ps1` · `schedule-manychat-contest-buffer-reel.ps1`.  
+4. After IG live → operator submits reel URL at [manychat.com/timessquare](https://manychat.com/timessquare).
+
+### Retrieve tags
+
+`manychat` `myrealjob` `contest` `compose-only` `iris-bts` `sm-06-reuse` `click-inserts` `caption-gate` `buffer-push-preflight`
+
+---
+
 *Next refresh: run Librarian when ≥3 new case files exist or at month-end. Append new `## YYYY-MM — Pattern refresh` blocks above this line; keep operator curator rule sections intact.*

@@ -1,0 +1,42 @@
+{
+  "scoredAt": "2026-06-12T23:45:00Z",
+  "slug": "2026-06-12-manychat-myrealjob-v5c",
+  "asset": "m-manychat-myrealjob-v5c",
+  "assetPath": "devi-feed/buffer-reels-fia-scene-morph-contest-manychat-2026-06/m-manychat-myrealjob-v5c.mp4",
+  "concept": "Manychat #MyRealJob — sm-06 fall/yacht/shore + generated click inserts + IG notification crawl + Iris café BTS + smoke + 💅 sticker slide payoff",
+  "experimentId": "exp-2026-manychat-myrealjob-v5c",
+  "mechanism": "compose-on-approved-footage + jump-land sm-06 + iris-bts-reveal",
+  "pipeline": "contest-one-off",
+  "scores": {
+    "hook": 4,
+    "visualWeirdness": 4,
+    "deviPersonality": 4,
+    "shareability": 4,
+    "cringe": "low"
+  },
+  "verdict": "repeat mechanism",
+  "operatorNotes": "Approved submit. Operator praised Iris café ending ('very cool Iris !!'). Caption refined post-queue — prefer DMs/schedules/clicks/operator over stack jargon.",
+  "irisReflection": {
+    "misjudged": [
+      "v1 full-screen typography contest bookends (kill)",
+      "v5 regen Devi middle when sm-06 operator reel already approved",
+      "Wrong Iris ref (iris-character-primary cozy reader vs iris-bts-persona-primary director)",
+      "Black click placeholders instead of generated real-hand inserts",
+      "Queued Buffer with multi-line caption before checking Test-DeviFeedCaption gate",
+      "Shipped placeholder caption without operator caption sign-off on contest post"
+    ],
+    "rulesToUpdate": [
+      "Contest/special posts: operator caption approval BEFORE Buffer queue",
+      "Never regen approved scene-morph segments when compose-only path exists",
+      "Manychat contest: hook lives in video; caption = one line with IT'S NOT A REAL JOB + DMs/clicks/operator + @Manychat",
+      "Iris BTS persona lock: iris-bts-persona-primary.png for director/manager beats",
+      "Submit preflight: git push buffer-delivery → verify raw URL 200 → caption gate → then Buffer"
+    ],
+    "tryDifferently": [
+      "Propose 2–3 contest-native one-line captions at delivery; wait for pick before schedule",
+      "Build schedule manifest + validator at pack approval, not at submit minute",
+      "Avoid PowerShell special chars (em-dash) in .ps1 Write-Host strings"
+    ]
+  },
+  "tags": ["manychat", "contest", "myrealjob", "compose-only", "iris-bts", "sm-06-reuse", "repeat-mechanism", "click-inserts"]
+}

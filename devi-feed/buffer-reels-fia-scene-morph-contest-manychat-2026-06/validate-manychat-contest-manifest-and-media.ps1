@@ -36,5 +36,5 @@ foreach ($post in $manifest.posts) {
   if (($manifest.defaults.hashtags -join " ") -notmatch "#MyRealJob") { throw "Contest gate: defaults.hashtags must include #MyRealJob." }
 }
 
-Write-Host "Validation OK — contest manifest + media present."
+Write-Host "Validation OK - contest manifest + media present."
 exit 0
