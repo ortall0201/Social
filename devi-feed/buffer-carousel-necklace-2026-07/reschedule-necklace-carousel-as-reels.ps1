@@ -5,7 +5,9 @@
 
 [CmdletBinding()]
 param(
-  [switch]$DryRun
+  [switch]$DryRun,
+  [ValidateSet("", "A", "B")]
+  [string]$OnlyArm = ""
 )
 
 $ErrorActionPreference = "Stop"
@@ -29,8 +31,7 @@ $oldPostIds = @(
 )
 
 $extraDeleteIds = @(
-  "6a4d37f3986e05e29cafadae",
-  "6a4d37f590f5b1c5a5b65b33"
+  "6a4d38a90fa0fd290d59b3b5"
 )
 
 $videoFiles = @{
@@ -70,6 +71,7 @@ foreach ($oldId in ($oldPostIds + $extraDeleteIds)) {
 }
 
 foreach ($post in $manifest.posts) {
+  if ($OnlyArm -and $post.arm -ne $OnlyArm) { continue }
   $pack = $videoFiles[$post.id]
   $file = $pack.file
   $thumbFile = $pack.thumb

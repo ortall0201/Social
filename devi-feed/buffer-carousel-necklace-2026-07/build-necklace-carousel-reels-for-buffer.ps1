@@ -3,7 +3,9 @@
 
 [CmdletBinding()]
 param(
-  [string]$RepoRoot = "C:\Users\user\Desktop\Social"
+  [string]$RepoRoot = "C:\Users\user\Desktop\Social",
+  [ValidateSet("", "arm-a-hq", "arm-b-draft", "arm-b-draft-4k")]
+  [string]$ArmOnly = ""
 )
 
 $ErrorActionPreference = "Stop"
@@ -12,11 +14,16 @@ $outRoot = Join-Path $RepoRoot "buffer-delivery"
 
 $arms = @(
   @{ name = "necklace-carousel-arm-a-hq-reel.mp4"; slides = Join-Path $srcRoot "arm-a-hq" },
-  @{ name = "necklace-carousel-arm-b-draft-reel.mp4"; slides = Join-Path $srcRoot "arm-b-draft" }
+  @{ name = "necklace-carousel-arm-b-draft-reel.mp4"; slides = Join-Path $srcRoot "arm-b-draft" },
+  @{ name = "necklace-carousel-arm-b-draft-4k-reel.mp4"; slides = Join-Path $srcRoot "arm-b-draft-4k"; publishAs = "necklace-carousel-arm-b-draft-reel.mp4" }
 )
 
 $slideFrames = 60
 $vf = 'scale=1080:1920:force_original_aspect_ratio=decrease,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,zoompan=z=''min(zoom+0.0012,1.06)'':x=''iw/2-(iw/zoom/2)'':y=''ih/2-(ih/zoom/2)'':d=60:s=1080x1920:fps=30,setsar=1,format=yuv420p'
+
+if ($ArmOnly) {
+  $arms = @($arms | Where-Object { $_.slides -match [regex]::Escape($ArmOnly) })
+}
 
 foreach ($arm in $arms) {
   $work = Join-Path $env:TEMP ("necklace-build-{0}" -f ([guid]::NewGuid().ToString("N").Substring(0,8)))
@@ -36,12 +43,13 @@ foreach ($arm in $arms) {
   }
   $list = Join-Path $work "concat.txt"
   ($segPaths | ForEach-Object { "file '$($_ -replace '\\','/')'" }) | Set-Content -LiteralPath $list -Encoding ascii
-  $out = Join-Path $outRoot $arm.name
+  $outName = if ($arm.publishAs) { $arm.publishAs } else { $arm.name }
+  $out = Join-Path $outRoot $outName
   & ffmpeg -y -hide_banner -loglevel error -f concat -safe 0 -i $list -c copy -movflags +faststart $out
   if ($LASTEXITCODE -ne 0) { throw "concat failed $($arm.name)" }
   Remove-Item -LiteralPath $work -Recurse -Force
   ffprobe -v error -show_entries stream=pix_fmt,codec_type -show_entries format=duration,bit_rate,size -of default=noprint_wrappers=1 $out
-  Write-Host "Built $($arm.name)"
+  Write-Host "Built $outName"
 }
 
 Write-Host "Done. Output -> $outRoot"
