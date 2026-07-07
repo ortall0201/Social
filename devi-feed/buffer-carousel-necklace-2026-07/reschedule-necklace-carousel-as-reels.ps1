@@ -29,8 +29,8 @@ $oldPostIds = @(
 )
 
 $extraDeleteIds = @(
-  "6a4d360890f5b1c5a5b64cb7",
-  "6a4d360ae84dab11043ab2f8"
+  "6a4d37f3986e05e29cafadae",
+  "6a4d37f590f5b1c5a5b65b33"
 )
 
 $videoFiles = @{
@@ -74,7 +74,6 @@ foreach ($post in $manifest.posts) {
   $file = $pack.file
   $thumbFile = $pack.thumb
   $videoUrl = ("{0}/{1}?v={2}" -f $baseUrl, $file, $v)
-  $thumbUrl = ("{0}/{1}?v={2}" -f $baseUrl, $thumbFile, $v)
   $body = "{0}`n`n{1}" -f $post.caption.Trim(), $hashtags
   $due = ([DateTimeOffset]::Parse($post.dueAtUtc)).ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ss.fffZ")
 
@@ -104,9 +103,10 @@ foreach ($post in $manifest.posts) {
       -PostType reel `
       -Text $body `
       -VideoUrl $videoUrl `
-      -ThumbnailUrl $thumbUrl `
+      -ThumbnailOffsetMs 0 `
       -DueAt $due `
       -ShouldShareToFeed $true `
+      -UseStableCdnForGithub $false `
       -SkipCaptionGate | ConvertFrom-Json
     $row.status = "scheduled"
     $row.postId = $out.post.id

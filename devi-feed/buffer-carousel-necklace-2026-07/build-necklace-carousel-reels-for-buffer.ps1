@@ -15,8 +15,8 @@ $arms = @(
   @{ name = "necklace-carousel-arm-b-draft-reel.mp4"; slides = Join-Path $srcRoot "arm-b-draft" }
 )
 
-$vf = "scale=1080:1920:force_original_aspect_ratio=decrease,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,setsar=1,format=yuv420p,fps=30"
-$slideDur = 1.2
+$slideFrames = 60
+$vf = 'scale=1080:1920:force_original_aspect_ratio=decrease,pad=1080:1920:(ow-iw)/2:(oh-ih)/2,zoompan=z=''min(zoom+0.0012,1.06)'':x=''iw/2-(iw/zoom/2)'':y=''ih/2-(ih/zoom/2)'':d=60:s=1080x1920:fps=30,setsar=1,format=yuv420p'
 
 foreach ($arm in $arms) {
   $work = Join-Path $env:TEMP ("necklace-build-{0}" -f ([guid]::NewGuid().ToString("N").Substring(0,8)))
@@ -27,7 +27,7 @@ foreach ($arm in $arms) {
     $slide = Join-Path $arm.slides "slide-$nn.jpg"
     if (-not (Test-Path -LiteralPath $slide)) { throw "Missing $slide" }
     $seg = Join-Path $work "seg-$nn.mp4"
-    & ffmpeg -y -hide_banner -loglevel error -loop 1 -i $slide -t $slideDur `
+    & ffmpeg -y -hide_banner -loglevel error -loop 1 -i $slide -frames:v $slideFrames `
       -vf $vf -an `
       -c:v libx264 -profile:v high -pix_fmt yuv420p -color_range tv -colorspace bt709 -color_primaries bt709 -color_trc bt709 `
       -b:v 4M -maxrate 5M -bufsize 10M -g 30 -movflags +faststart $seg
