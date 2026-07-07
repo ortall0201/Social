@@ -4,7 +4,7 @@
   "experimentId": "exp-necklace-carousel-ab-2026-07",
   "notes": "A/B: Arm A = Seedream 4.5 HQ. Arm B = nano-banana 1K draft. Copywriter editorial captions.",
   "defaults": {
-    "mediaBaseUrl": "https://raw.githubusercontent.com/ortall0201/Social/main/devi-feed/buffer-carousel-necklace-2026-07",
+    "mediaBaseUrl": "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-delivery",
     "channels": ["instagram"],
     "hashtags": "#goldnecklace #quietluxury #jewelry #everydaygold #devi"
   },
