@@ -1,0 +1,19 @@
+{
+  "schema": "buffer-ai-tag-true-confidence-v1",
+  "campaignId": "2026-07-08-ai-tag-true-confidence",
+  "experimentId": "exp-true-confidence-stopmo-2026-07",
+  "notes": "AI Tag TRUE CONFIDENCE theme. Stop-motion micro-expression + gaze/angle reel. Title burn + Iris Productions signed. Distinct from necklace/product captions.",
+  "defaults": {
+    "mediaBaseUrl": "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-delivery",
+    "channels": ["instagram"],
+    "hashtags": "#trueconfidence #devi #editorial #portrait #fashion"
+  },
+  "posts": [
+    {
+      "id": "devi-true-confidence-stopmo",
+      "variant": "true-confidence-stopmo-signed-titled",
+      "dueAtUtc": "2026-07-17T14:00:00Z",
+      "caption": "TRUE CONFIDENCE.\n\nNo speech. Just the face — laugh, side-eye, wink, look up, grin.\n\nStop-motion micro-expressions. Playful. Strong. You feel it before you read it."
+    }
+  ]
+}
