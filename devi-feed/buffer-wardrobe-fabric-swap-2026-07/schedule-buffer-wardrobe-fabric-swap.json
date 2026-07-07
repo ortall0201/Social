@@ -1,0 +1,19 @@
+{
+  "schema": "buffer-wardrobe-fabric-swap-v1",
+  "campaignId": "2026-07-07-fabric-jewelry-swap-floor",
+  "experimentId": "exp-wardrobe-fabric-swap-2026-07",
+  "notes": "Pose-locked floor frame. Same gold coin pendant every beat. Only Devi clothing fabric/material changes (knit, silk, linen, wool, rib). Iris Productions signed. Distinct from necklace pose-carousel A/B captions.",
+  "defaults": {
+    "mediaBaseUrl": "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-delivery",
+    "channels": ["instagram"],
+    "hashtags": "#goldnecklace #quietluxury #jewelry #stylingtips #devi"
+  },
+  "posts": [
+    {
+      "id": "fabric-wardrobe-swap-floor",
+      "variant": "wardrobe-fabric-swap-1k-signed",
+      "dueAtUtc": "2026-07-13T14:00:00Z",
+      "caption": "Same necklace. Five different fabrics.\n\nWatch the outfit change — chunky rib knit, liquid silk, crisp linen, brushed wool, fine rib — while the gold coin pendant stays locked on her neck. Same pose. Same product. Only the cloth grammar moves.\n\nThis is how I'd actually test a piece before I buy: not one static mirror shot… five material reads on one body line.\n\nIf you've ever wondered whether your necklace reads on knit vs silk vs linen — save this."
+    }
+  ]
+}

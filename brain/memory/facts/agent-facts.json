@@ -107,6 +107,24 @@
       "confidence": "high",
       "scope": "ortal-linkedin",
       "tags": ["ortal", "linkedin", "iris", "buffer", "bisociation", "FIELD-cta", "scene-morph-v2"]
+    },
+    {
+      "id": "iris-productions-home-signature-2026-07-07",
+      "fact": "Iris Productions is the home cinematic credit: Edwardian Script Iris + tracked PRODUCTIONS center-bottom on operator-approved campaign deliverables. Canon brain/iris-productions-signature-canon.md; runner sign-iris-productions-slides.ps1. Not plain corner watermark.",
+      "source": "brain/iris-productions-signature-canon.md; brain/memory/session-summaries/2026-07-07-necklace-ab-fabric-swap-session.md",
+      "timestamp": "2026-07-07",
+      "confidence": "high",
+      "scope": "devi-product-campaign",
+      "tags": ["iris", "signature", "product-campaign", "brand", "production-credit"]
+    },
+    {
+      "id": "devi-product-campaign-pipelines-2026-07-07",
+      "fact": "Product campaign stack: pose carousel (generate-product-pose-carousel.ps1) → optional 4K draft-lock upscale (upgrade-arm-b-draft-to-4k.ps1) → xfade autoplay reel → optional Iris Productions sign → Buffer. Wardrobe fabric swap: pose-locked floor frame, same SKU, clothing material changes only (generate-fabric-jewelry-swap-floor.ps1). Codex handoff brain/codex-handoff-2026-07-07-necklace-product-campaign.md",
+      "source": "brain/codex-handoff-2026-07-07-necklace-product-campaign.md",
+      "timestamp": "2026-07-07",
+      "confidence": "high",
+      "scope": "devi-product-campaign",
+      "tags": ["product-campaign", "pose-carousel", "4k-upscale", "fabric-swap", "buffer", "codex-handoff"]
     }
   ]
 }
