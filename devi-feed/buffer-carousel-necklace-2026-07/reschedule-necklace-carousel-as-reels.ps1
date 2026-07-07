@@ -28,9 +28,11 @@ $oldPostIds = @(
   "6a4d301e81f8953d53497930"
 )
 
+$skipDelete = $true
+
 $videoFiles = @{
-  "necklace-carousel-arm-a-hq" = "arm-a-hq-carousel-preview.mp4"
-  "necklace-carousel-arm-b-draft" = "arm-b-draft-carousel-preview.mp4"
+  "necklace-carousel-arm-a-hq" = "arm-a-hq-carousel-reel-916.mp4"
+  "necklace-carousel-arm-b-draft" = "arm-b-draft-carousel-reel-916.mp4"
 }
 
 $mutDel = @'
@@ -46,6 +48,7 @@ mutation DeletePost($input: DeletePostInput!) {
 
 $results = @()
 foreach ($oldId in $oldPostIds) {
+  if ($skipDelete) { continue }
   if ($DryRun) {
     Write-Host "[DRY] delete old carousel post $oldId"
     continue
