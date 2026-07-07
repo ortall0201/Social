@@ -31,7 +31,9 @@ $oldPostIds = @(
 )
 
 $extraDeleteIds = @(
-  "6a4d38a90fa0fd290d59b3b5"
+  "6a4d38a90fa0fd290d59b3b5",
+  "6a4d38a7b61c8b0fcf0a2d65",
+  "6a4d55df2dad114360181300"
 )
 
 $videoFiles = @{
