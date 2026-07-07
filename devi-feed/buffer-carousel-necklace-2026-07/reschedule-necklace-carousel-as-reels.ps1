@@ -29,13 +29,19 @@ $oldPostIds = @(
 )
 
 $extraDeleteIds = @(
-  "6a4d339c90f5b1c5a5b63bb9",
-  "6a4d33a3986e05e29caf89de"
+  "6a4d360890f5b1c5a5b64cb7",
+  "6a4d360ae84dab11043ab2f8"
 )
 
 $videoFiles = @{
-  "necklace-carousel-arm-a-hq" = "necklace-carousel-arm-a-hq-reel.mp4"
-  "necklace-carousel-arm-b-draft" = "necklace-carousel-arm-b-draft-reel.mp4"
+  "necklace-carousel-arm-a-hq" = @{
+    file = "necklace-carousel-arm-a-hq-reel.mp4"
+    thumb = "necklace-carousel-arm-a-hq-thumb.jpg"
+  }
+  "necklace-carousel-arm-b-draft" = @{
+    file = "necklace-carousel-arm-b-draft-reel.mp4"
+    thumb = "necklace-carousel-arm-b-draft-thumb.jpg"
+  }
 }
 
 $mutDel = @'
@@ -64,8 +70,11 @@ foreach ($oldId in ($oldPostIds + $extraDeleteIds)) {
 }
 
 foreach ($post in $manifest.posts) {
-  $file = $videoFiles[$post.id]
+  $pack = $videoFiles[$post.id]
+  $file = $pack.file
+  $thumbFile = $pack.thumb
   $videoUrl = ("{0}/{1}?v={2}" -f $baseUrl, $file, $v)
+  $thumbUrl = ("{0}/{1}?v={2}" -f $baseUrl, $thumbFile, $v)
   $body = "{0}`n`n{1}" -f $post.caption.Trim(), $hashtags
   $due = ([DateTimeOffset]::Parse($post.dueAtUtc)).ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ss.fffZ")
 
@@ -95,6 +104,7 @@ foreach ($post in $manifest.posts) {
       -PostType reel `
       -Text $body `
       -VideoUrl $videoUrl `
+      -ThumbnailUrl $thumbUrl `
       -DueAt $due `
       -ShouldShareToFeed $true `
       -SkipCaptionGate | ConvertFrom-Json
