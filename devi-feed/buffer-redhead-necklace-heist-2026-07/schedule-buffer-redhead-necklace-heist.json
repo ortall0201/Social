@@ -1,0 +1,19 @@
+{
+  "schema": "buffer-redhead-necklace-heist-v1",
+  "campaignId": "2026-07-07-fia-stop-motion-necklace-thief",
+  "experimentId": "exp-redhead-necklace-heist-stopmo-2026-07",
+  "notes": "FIA stop-motion duo pose heist. Devi frozen floor pose. Photoreal redhead co-model steals gold coin pendant frame by frame. Iris Productions signed. Distinct from necklace carousel A/B and fabric-swap captions.",
+  "defaults": {
+    "mediaBaseUrl": "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-delivery",
+    "channels": ["instagram"],
+    "hashtags": "#goldnecklace #quietluxury #jewelry #fashionisart #devi"
+  },
+  "posts": [
+    {
+      "id": "fia-redhead-necklace-heist",
+      "variant": "redhead-co-pose-stopmo-signed",
+      "dueAtUtc": "2026-07-15T14:00:00Z",
+      "caption": "Wait… did she just take my necklace?\n\nI was literally posing. Same floor frame. Same dreamy smile. I didn't even blink.\n\nThen this redhead shows up — freckles, chin mole, editorial energy — and we start shooting together. Frame by frame. Only she moves. Only she gets closer.\n\nRewatch it. By the last pose the gold coin pendant is on her neck. She's smiling at me. She knows.\n\nI still haven't moved."
+    }
+  ]
+}
