@@ -1,0 +1,112 @@
+# Swap necklace Buffer image carousels -> autoplay MP4 reels (same captions/slots).
+#
+# powershell -ExecutionPolicy Bypass -File devi-feed/buffer-carousel-necklace-2026-07/reschedule-necklace-carousel-as-reels.ps1
+# powershell -ExecutionPolicy Bypass -File devi-feed/buffer-carousel-necklace-2026-07/reschedule-necklace-carousel-as-reels.ps1 -DryRun
+
+[CmdletBinding()]
+param(
+  [switch]$DryRun
+)
+
+$ErrorActionPreference = "Stop"
+$repoRoot = (Resolve-Path (Join-Path $PSScriptRoot "..\..")).Path
+$idsPath = Join-Path $repoRoot "local-secrets\buffer_ids.ps1"
+. $idsPath
+if ([string]::IsNullOrWhiteSpace($env:BUFFER_PROFILE_IG_DEVI)) { throw "BUFFER_PROFILE_IG_DEVI missing" }
+
+$ig = $env:BUFFER_PROFILE_IG_DEVI.Trim()
+. (Join-Path $repoRoot "scripts\buffer-common.ps1")
+$queueScript = Join-Path $repoRoot "scripts\buffer-queue-video-post.ps1"
+$manifestPath = Join-Path $PSScriptRoot "schedule-buffer-carousel-ab.json"
+$manifest = Get-Content -LiteralPath $manifestPath -Raw -Encoding utf8 | ConvertFrom-Json
+$baseUrl = $manifest.defaults.mediaBaseUrl.TrimEnd("/")
+$hashtags = $manifest.defaults.hashtags
+$v = [DateTimeOffset]::UtcNow.ToUnixTimeMilliseconds()
+
+$oldPostIds = @(
+  "6a4d301ce84dab11043a7a0f",
+  "6a4d301e81f8953d53497930"
+)
+
+$videoFiles = @{
+  "necklace-carousel-arm-a-hq" = "arm-a-hq-carousel-preview.mp4"
+  "necklace-carousel-arm-b-draft" = "arm-b-draft-carousel-preview.mp4"
+}
+
+$mutDel = @'
+mutation DeletePost($input: DeletePostInput!) {
+  deletePost(input: $input) {
+    __typename
+    ... on DeletePostSuccess { id }
+    ... on VoidMutationError { message }
+    ... on MutationError { message }
+  }
+}
+'@
+
+$results = @()
+foreach ($oldId in $oldPostIds) {
+  if ($DryRun) {
+    Write-Host "[DRY] delete old carousel post $oldId"
+    continue
+  }
+  Write-Host "Delete old carousel post $oldId"
+  $del = (Invoke-BufferGraphQl -Query $mutDel -Variables @{ input = @{ id = $oldId } }).deletePost
+  if ($del.__typename -ne "DeletePostSuccess") {
+    throw "deletePost failed for $oldId : $($del | ConvertTo-Json -Compress)"
+  }
+  Start-Sleep -Milliseconds 600
+}
+
+foreach ($post in $manifest.posts) {
+  $file = $videoFiles[$post.id]
+  $videoUrl = ("{0}/{1}?v={2}" -f $baseUrl, $file, $v)
+  $body = "{0}`n`n{1}" -f $post.caption.Trim(), $hashtags
+  $due = ([DateTimeOffset]::Parse($post.dueAtUtc)).ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ss.fffZ")
+
+  $row = [ordered]@{
+    id = $post.id
+    arm = $post.arm
+    format = "reel-mp4"
+    file = $file
+    dueAtUtc = $due
+    status = "pending"
+    postId = $null
+    error = $null
+  }
+
+  if ($DryRun) {
+    Write-Host "[DRY] $($post.id) reel due $due -> $file"
+    $row.status = "dry_run"
+    $results += [pscustomobject]$row
+    continue
+  }
+
+  try {
+    Write-Host "Queue $($post.id) reel due $due"
+    $out = & $queueScript `
+      -ChannelId $ig `
+      -Service instagram `
+      -PostType reel `
+      -Text $body `
+      -VideoUrl $videoUrl `
+      -DueAt $due `
+      -ShouldShareToFeed $true `
+      -SkipCaptionGate | ConvertFrom-Json
+    $row.status = "scheduled"
+    $row.postId = $out.post.id
+    Write-Host "  -> postId $($out.post.id)"
+  }
+  catch {
+    $row.status = "failed"
+    $row.error = $_.Exception.Message
+    Write-Warning $row.error
+  }
+
+  $results += [pscustomobject]$row
+  Start-Sleep -Milliseconds 900
+}
+
+$outPath = Join-Path $PSScriptRoot ("buffer-reel-reschedule-results-{0}.json" -f (Get-Date -Format "yyyyMMdd-HHmmss"))
+$results | ConvertTo-Json -Depth 6 | Set-Content -LiteralPath $outPath -Encoding utf8
+Write-Host "Wrote $outPath"
