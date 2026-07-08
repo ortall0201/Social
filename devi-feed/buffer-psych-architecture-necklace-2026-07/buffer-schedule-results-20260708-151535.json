@@ -1,0 +1,9 @@
+﻿{
+    "id":  "necklace-psych-architecture-gold-stays",
+    "format":  "reel-mp4",
+    "file":  "necklace-psych-architecture-gold-stays-reel.mp4",
+    "dueAtUtc":  "2026-07-16T14:00:00.000Z",
+    "status":  "failed",
+    "postId":  null,
+    "error":  "Buffer createPost returned UnexpectedError: Video URL is not accessible: HTTP 404 Not Found. Please verify the URL points to a publicly accessible video file."
+}

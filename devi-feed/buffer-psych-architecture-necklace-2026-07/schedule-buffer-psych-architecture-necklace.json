@@ -1,0 +1,20 @@
+{
+  "schema": "buffer-psych-architecture-necklace-v1",
+  "campaignId": "2026-07-08-psych-architecture-necklace-4k",
+  "experimentId": "exp-psych-architecture-gold-stays-2026-07",
+  "mechanismId": "psych-architecture-icon-reveal",
+  "notes": "Gold Stays campaign v2 — Kelly psyche-as-architecture on 4K necklace boudoir. Signed Iris Productions. Operator approved 2026-07-08.",
+  "defaults": {
+    "mediaBaseUrl": "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-delivery",
+    "channels": ["instagram"],
+    "hashtags": "#goldnecklace #quietluxury #jewelry #everydaygold #devi"
+  },
+  "posts": [
+    {
+      "id": "necklace-psych-architecture-gold-stays",
+      "variant": "psych-architecture-campaign-v2-signed",
+      "dueAtUtc": "2026-07-16T14:00:00Z",
+      "caption": "Gold stays.\n\nSame getting-ready boudoir. Same cream silk. Same coin pendant on my neck.\n\nThen the room starts rearranging — mirror shifts, silk drifts, vanity props slide — like the set forgot I was the campaign.\n\nLight crushes. The gold glints anyway.\n\nQuiet luxury isn't quiet because nothing moves."
+    }
+  ]
+}
