@@ -1,0 +1,121 @@
+{
+  "series": "emotional-devi-session-carousels-2026-07",
+  "pack": "buffer-emotional-devi-session-carousels-2026-07",
+  "timezone": "UTC",
+  "createdAt": "2026-07-13",
+  "startDateUtc": "2026-07-14T15:00:00.000Z",
+  "postHourUtc": 15,
+  "notes": "All Emotional Devi carousels from 2026-07-13 session. One reel per day IG+FB. Operator approved Buffer publish.",
+  "defaults": {
+    "mediaBaseUrl": "https://raw.githubusercontent.com/ortall0201/Social/main/buffer-delivery",
+    "channels": ["instagram", "facebook"],
+    "hashtags": ["#EmotionalDevi", "#Editorial", "#AIfashion", "#Devi"]
+  },
+  "posts": [
+    {
+      "id": "emotional-devi-matrix-glitch",
+      "masterFile": "emotional-devi-matrix-glitch-carousel-reel.mp4",
+      "ig916File": "emotional-devi-matrix-glitch-carousel-ig916-reel.mp4",
+      "caption": "Seven lights. Seven scenes. One face.",
+      "dayOffset": 0
+    },
+    {
+      "id": "emotional-devi-art-v5",
+      "masterFile": "emotional-devi-art-v5-carousel-reel.mp4",
+      "ig916File": "emotional-devi-art-v5-carousel-ig916-reel.mp4",
+      "caption": "Emotion through art collision.",
+      "dayOffset": 1
+    },
+    {
+      "id": "emotional-devi-art-v6",
+      "masterFile": "emotional-devi-art-v6-carousel-reel.mp4",
+      "ig916File": "emotional-devi-art-v6-carousel-ig916-reel.mp4",
+      "caption": "Couture only. She acts the feeling.",
+      "dayOffset": 2
+    },
+    {
+      "id": "emotional-devi-art-v7-acting",
+      "masterFile": "emotional-devi-art-v7-acting-carousel-reel.mp4",
+      "ig916File": "emotional-devi-art-v7-acting-carousel-ig916-reel.mp4",
+      "caption": "Exaggerated acting. No default smile.",
+      "dayOffset": 3
+    },
+    {
+      "id": "emotional-devi-art-v8-hybrid",
+      "masterFile": "emotional-devi-art-v8-hybrid-carousel-reel.mp4",
+      "ig916File": "emotional-devi-art-v8-hybrid-carousel-ig916-reel.mp4",
+      "caption": "Hybrid frame. Real eyes. Real arc.",
+      "dayOffset": 4
+    },
+    {
+      "id": "emotional-devi-operator-pick",
+      "masterFile": "emotional-devi-operator-pick-carousel-reel.mp4",
+      "ig916File": "emotional-devi-operator-pick-carousel-ig916-reel.mp4",
+      "caption": "Operator pick. Seven beats locked.",
+      "dayOffset": 5
+    },
+    {
+      "id": "emotional-devi-food-fight-v9",
+      "masterFile": "emotional-devi-food-fight-v9-carousel-reel.mp4",
+      "ig916File": "emotional-devi-food-fight-v9-carousel-ig916-reel.mp4",
+      "caption": "Food fight. Feeling first.",
+      "dayOffset": 6
+    },
+    {
+      "id": "emotional-devi-food-fight-v10",
+      "masterFile": "emotional-devi-food-fight-v10-carousel-reel.mp4",
+      "ig916File": "emotional-devi-food-fight-v10-carousel-ig916-reel.mp4",
+      "caption": "Seven beats. All mess.",
+      "dayOffset": 7
+    },
+    {
+      "id": "emotional-devi-food-fight-v11",
+      "masterFile": "emotional-devi-food-fight-v11-cinematic-carousel-reel.mp4",
+      "ig916File": "emotional-devi-food-fight-v11-cinematic-carousel-ig916-reel.mp4",
+      "caption": "Movie stills. Actor energy.",
+      "dayOffset": 8
+    },
+    {
+      "id": "emotional-devi-food-fight-v12",
+      "masterFile": "emotional-devi-food-fight-v12-carousel-reel.mp4",
+      "ig916File": "emotional-devi-food-fight-v12-carousel-ig916-reel.mp4",
+      "caption": "Bold cuts. Bridge hits.",
+      "dayOffset": 9
+    },
+    {
+      "id": "emotional-devi-food-fight-v13",
+      "masterFile": "emotional-devi-food-fight-v13-carousel-reel.mp4",
+      "ig916File": "emotional-devi-food-fight-v13-carousel-ig916-reel.mp4",
+      "caption": "Frame by frame. Felt harder.",
+      "dayOffset": 10
+    },
+    {
+      "id": "emotional-devi-food-fight-v14",
+      "masterFile": "emotional-devi-food-fight-v14-matrix-alien-reel.mp4",
+      "ig916File": "emotional-devi-food-fight-v14-matrix-alien-ig916-reel.mp4",
+      "caption": "Matrix alien lane. Same gut.",
+      "dayOffset": 11
+    },
+    {
+      "id": "emotional-devi-food-fight-v15",
+      "masterFile": "emotional-devi-food-fight-v15-carousel-reel.mp4",
+      "ig916File": "emotional-devi-food-fight-v15-carousel-ig916-reel.mp4",
+      "caption": "Kitchen rage. Stair terror.",
+      "dayOffset": 12
+    },
+    {
+      "id": "emotional-devi-food-fight-v16",
+      "masterFile": "emotional-devi-food-fight-v16-dj-romance-reel.mp4",
+      "ig916File": "emotional-devi-food-fight-v16-ig916-reel.mp4",
+      "caption": "Seven beats. All felt.",
+      "dayOffset": 13
+    },
+    {
+      "id": "emotional-devi-food-fight-v17",
+      "masterFile": "emotional-devi-food-fight-v17-acting-carousel-reel-sfx.mp4",
+      "ig916File": "emotional-devi-food-fight-v17-acting-ig916-reel.mp4",
+      "caption": "Acting pass. AI reality frame.",
+      "dayOffset": 14
+    }
+  ]
+}
